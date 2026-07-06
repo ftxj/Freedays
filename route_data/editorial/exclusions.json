@@ -1,0 +1,5584 @@
+{
+  "schema_version": 1,
+  "automatic_points": [
+    {
+      "source_id": "gpx:86848",
+      "lonlat": [
+        90.972337,
+        29.519938
+      ],
+      "time": "2024-12-22T11:47:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86849",
+      "lonlat": [
+        90.971585,
+        29.519194
+      ],
+      "time": "2024-12-22T11:47:52+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86850",
+      "lonlat": [
+        90.970973,
+        29.518624
+      ],
+      "time": "2024-12-22T11:47:54+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86851",
+      "lonlat": [
+        90.970366,
+        29.51804
+      ],
+      "time": "2024-12-22T11:47:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86852",
+      "lonlat": [
+        90.969718,
+        29.517439
+      ],
+      "time": "2024-12-22T11:48:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86853",
+      "lonlat": [
+        90.969063,
+        29.516815
+      ],
+      "time": "2024-12-22T11:48:03+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86930",
+      "lonlat": [
+        90.665612,
+        29.331302
+      ],
+      "time": "2024-12-22T12:43:04+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86992",
+      "lonlat": [
+        90.868122,
+        29.300414
+      ],
+      "time": "2024-12-22T12:59:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:86993",
+      "lonlat": [
+        90.868143,
+        29.299337
+      ],
+      "time": "2024-12-22T12:59:50+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87022",
+      "lonlat": [
+        90.811626,
+        29.185547
+      ],
+      "time": "2024-12-22T13:41:52+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87050",
+      "lonlat": [
+        90.812103,
+        29.029083
+      ],
+      "time": "2024-12-22T15:07:17+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87051",
+      "lonlat": [
+        90.81226,
+        29.028277
+      ],
+      "time": "2024-12-22T15:07:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87067",
+      "lonlat": [
+        91.052812,
+        28.952192
+      ],
+      "time": "2024-12-22T15:41:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87100",
+      "lonlat": [
+        91.078043,
+        28.854357
+      ],
+      "time": "2024-12-22T16:08:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87101",
+      "lonlat": [
+        91.077363,
+        28.853923
+      ],
+      "time": "2024-12-22T16:08:30+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87102",
+      "lonlat": [
+        91.076815,
+        28.853223
+      ],
+      "time": "2024-12-22T16:08:36+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87103",
+      "lonlat": [
+        91.076194,
+        28.852366
+      ],
+      "time": "2024-12-22T16:08:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87104",
+      "lonlat": [
+        91.075513,
+        28.851759
+      ],
+      "time": "2024-12-22T16:08:49+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87105",
+      "lonlat": [
+        91.074646,
+        28.851361
+      ],
+      "time": "2024-12-22T16:08:55+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87106",
+      "lonlat": [
+        91.074096,
+        28.850801
+      ],
+      "time": "2024-12-22T16:08:59+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87107",
+      "lonlat": [
+        91.073425,
+        28.850142
+      ],
+      "time": "2024-12-22T16:09:05+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87121",
+      "lonlat": [
+        90.930488,
+        28.910509
+      ],
+      "time": "2024-12-22T16:27:39+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87122",
+      "lonlat": [
+        90.92965,
+        28.910491
+      ],
+      "time": "2024-12-22T16:27:44+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87123",
+      "lonlat": [
+        90.928606,
+        28.910298
+      ],
+      "time": "2024-12-22T16:27:49+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87124",
+      "lonlat": [
+        90.927517,
+        28.910156
+      ],
+      "time": "2024-12-22T16:27:54+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87146",
+      "lonlat": [
+        90.937639,
+        28.939356
+      ],
+      "time": "2024-12-22T16:35:30+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:87147",
+      "lonlat": [
+        90.897109,
+        28.903918
+      ],
+      "time": "2024-12-22T16:35:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88071",
+      "lonlat": [
+        90.770961,
+        28.381938
+      ],
+      "time": "2024-12-23T15:30:20+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88214",
+      "lonlat": [
+        90.642936,
+        28.348727
+      ],
+      "time": "2024-12-23T15:50:19+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88215",
+      "lonlat": [
+        90.642678,
+        28.347931
+      ],
+      "time": "2024-12-23T15:50:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88254",
+      "lonlat": [
+        90.520997,
+        28.56119
+      ],
+      "time": "2024-12-23T17:10:50+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88256",
+      "lonlat": [
+        90.546383,
+        28.530164
+      ],
+      "time": "2024-12-23T17:12:07+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88257",
+      "lonlat": [
+        90.546329,
+        28.531165
+      ],
+      "time": "2024-12-23T17:12:11+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88258",
+      "lonlat": [
+        90.546228,
+        28.532116
+      ],
+      "time": "2024-12-23T17:12:15+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88259",
+      "lonlat": [
+        90.546001,
+        28.532967
+      ],
+      "time": "2024-12-23T17:12:19+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88260",
+      "lonlat": [
+        90.545772,
+        28.533799
+      ],
+      "time": "2024-12-23T17:12:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88261",
+      "lonlat": [
+        90.545439,
+        28.53458
+      ],
+      "time": "2024-12-23T17:12:27+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88262",
+      "lonlat": [
+        90.544876,
+        28.535429
+      ],
+      "time": "2024-12-23T17:12:32+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88263",
+      "lonlat": [
+        90.544294,
+        28.536286
+      ],
+      "time": "2024-12-23T17:12:37+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88264",
+      "lonlat": [
+        90.543825,
+        28.536893
+      ],
+      "time": "2024-12-23T17:12:41+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88265",
+      "lonlat": [
+        90.543765,
+        28.53772
+      ],
+      "time": "2024-12-23T17:12:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88295",
+      "lonlat": [
+        90.38372,
+        28.615864
+      ],
+      "time": "2024-12-23T18:03:49+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88296",
+      "lonlat": [
+        90.383315,
+        28.616762
+      ],
+      "time": "2024-12-23T18:03:54+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88308",
+      "lonlat": [
+        90.184656,
+        28.676266
+      ],
+      "time": "2024-12-23T18:37:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88338",
+      "lonlat": [
+        89.945718,
+        28.710825
+      ],
+      "time": "2024-12-23T19:10:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88346",
+      "lonlat": [
+        89.863701,
+        28.619897
+      ],
+      "time": "2024-12-23T19:19:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88352",
+      "lonlat": [
+        89.855789,
+        28.565554
+      ],
+      "time": "2024-12-23T19:22:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88354",
+      "lonlat": [
+        89.829914,
+        28.528534
+      ],
+      "time": "2024-12-23T19:23:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88365",
+      "lonlat": [
+        89.822709,
+        28.534073
+      ],
+      "time": "2024-12-23T19:27:16+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88589",
+      "lonlat": [
+        89.603754,
+        28.277834
+      ],
+      "time": "2024-12-24T10:39:35+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88590",
+      "lonlat": [
+        89.604629,
+        28.277332
+      ],
+      "time": "2024-12-24T10:39:40+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88617",
+      "lonlat": [
+        89.653171,
+        28.212585
+      ],
+      "time": "2024-12-24T11:23:27+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88636",
+      "lonlat": [
+        89.558426,
+        28.30986
+      ],
+      "time": "2024-12-24T11:41:50+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88637",
+      "lonlat": [
+        89.557882,
+        28.310792
+      ],
+      "time": "2024-12-24T11:41:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88638",
+      "lonlat": [
+        89.557414,
+        28.311911
+      ],
+      "time": "2024-12-24T11:41:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88639",
+      "lonlat": [
+        89.556846,
+        28.31275
+      ],
+      "time": "2024-12-24T11:42:01+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88646",
+      "lonlat": [
+        89.5234,
+        28.348462
+      ],
+      "time": "2024-12-24T11:48:56+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88651",
+      "lonlat": [
+        89.482894,
+        28.319418
+      ],
+      "time": "2024-12-24T11:51:25+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88653",
+      "lonlat": [
+        89.416709,
+        28.284152
+      ],
+      "time": "2024-12-24T11:53:10+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88654",
+      "lonlat": [
+        89.406321,
+        28.279163
+      ],
+      "time": "2024-12-24T11:53:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88655",
+      "lonlat": [
+        89.465178,
+        28.307759
+      ],
+      "time": "2024-12-24T11:54:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88656",
+      "lonlat": [
+        89.471495,
+        28.311263
+      ],
+      "time": "2024-12-24T11:54:33+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88668",
+      "lonlat": [
+        89.387983,
+        28.213823
+      ],
+      "time": "2024-12-24T12:07:58+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88716",
+      "lonlat": [
+        89.288718,
+        28.066187
+      ],
+      "time": "2024-12-24T12:23:17+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88800",
+      "lonlat": [
+        89.348116,
+        28.037931
+      ],
+      "time": "2024-12-24T13:37:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88806",
+      "lonlat": [
+        89.250423,
+        27.973474
+      ],
+      "time": "2024-12-24T13:40:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88814",
+      "lonlat": [
+        89.248976,
+        27.980525
+      ],
+      "time": "2024-12-24T13:44:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88815",
+      "lonlat": [
+        89.247929,
+        27.980636
+      ],
+      "time": "2024-12-24T13:45:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88816",
+      "lonlat": [
+        89.247015,
+        27.980744
+      ],
+      "time": "2024-12-24T13:45:08+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88867",
+      "lonlat": [
+        89.092979,
+        28.080627
+      ],
+      "time": "2024-12-24T14:07:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88868",
+      "lonlat": [
+        89.092975,
+        28.081348
+      ],
+      "time": "2024-12-24T14:07:05+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88908",
+      "lonlat": [
+        88.97872,
+        28.268404
+      ],
+      "time": "2024-12-24T14:27:14+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88909",
+      "lonlat": [
+        88.977762,
+        28.268708
+      ],
+      "time": "2024-12-24T14:27:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:88910",
+      "lonlat": [
+        88.976897,
+        28.268851
+      ],
+      "time": "2024-12-24T14:27:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89576",
+      "lonlat": [
+        88.241694,
+        28.144817
+      ],
+      "time": "2024-12-24T17:59:01+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89577",
+      "lonlat": [
+        88.241727,
+        28.145592
+      ],
+      "time": "2024-12-24T17:59:17+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89581",
+      "lonlat": [
+        88.246383,
+        28.146589
+      ],
+      "time": "2024-12-24T18:04:15+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89582",
+      "lonlat": [
+        88.247151,
+        28.146218
+      ],
+      "time": "2024-12-24T18:04:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89583",
+      "lonlat": [
+        88.247828,
+        28.145816
+      ],
+      "time": "2024-12-24T18:04:30+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89584",
+      "lonlat": [
+        88.24854,
+        28.145387
+      ],
+      "time": "2024-12-24T18:04:37+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89585",
+      "lonlat": [
+        88.24937,
+        28.144849
+      ],
+      "time": "2024-12-24T18:04:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89586",
+      "lonlat": [
+        88.250092,
+        28.144346
+      ],
+      "time": "2024-12-24T18:04:54+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89595",
+      "lonlat": [
+        88.308193,
+        28.156252
+      ],
+      "time": "2024-12-24T18:14:28+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89596",
+      "lonlat": [
+        88.30846,
+        28.157134
+      ],
+      "time": "2024-12-24T18:14:34+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89597",
+      "lonlat": [
+        88.308526,
+        28.158016
+      ],
+      "time": "2024-12-24T18:14:38+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89598",
+      "lonlat": [
+        88.308545,
+        28.159097
+      ],
+      "time": "2024-12-24T18:14:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89607",
+      "lonlat": [
+        88.280518,
+        28.215816
+      ],
+      "time": "2024-12-24T18:24:59+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89608",
+      "lonlat": [
+        88.279552,
+        28.215372
+      ],
+      "time": "2024-12-24T18:25:03+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89609",
+      "lonlat": [
+        88.278791,
+        28.215098
+      ],
+      "time": "2024-12-24T18:25:06+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89610",
+      "lonlat": [
+        88.277991,
+        28.214838
+      ],
+      "time": "2024-12-24T18:25:09+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:89611",
+      "lonlat": [
+        88.276879,
+        28.214509
+      ],
+      "time": "2024-12-24T18:25:13+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90162",
+      "lonlat": [
+        87.807807,
+        28.342948
+      ],
+      "time": "2024-12-24T20:08:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90674",
+      "lonlat": [
+        87.139509,
+        28.373468
+      ],
+      "time": "2024-12-25T13:11:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90675",
+      "lonlat": [
+        87.164885,
+        28.362463
+      ],
+      "time": "2024-12-25T13:12:24+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90677",
+      "lonlat": [
+        87.133991,
+        28.390783
+      ],
+      "time": "2024-12-25T13:13:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90678",
+      "lonlat": [
+        87.054721,
+        28.411143
+      ],
+      "time": "2024-12-25T13:13:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90679",
+      "lonlat": [
+        87.053803,
+        28.411593
+      ],
+      "time": "2024-12-25T13:13:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90680",
+      "lonlat": [
+        87.052691,
+        28.412011
+      ],
+      "time": "2024-12-25T13:13:51+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90681",
+      "lonlat": [
+        87.051456,
+        28.412038
+      ],
+      "time": "2024-12-25T13:13:56+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90682",
+      "lonlat": [
+        87.050433,
+        28.412056
+      ],
+      "time": "2024-12-25T13:14:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90683",
+      "lonlat": [
+        87.049377,
+        28.412044
+      ],
+      "time": "2024-12-25T13:14:04+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90684",
+      "lonlat": [
+        87.048422,
+        28.412128
+      ],
+      "time": "2024-12-25T13:14:08+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90685",
+      "lonlat": [
+        87.047853,
+        28.412775
+      ],
+      "time": "2024-12-25T13:14:13+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90686",
+      "lonlat": [
+        87.047198,
+        28.413463
+      ],
+      "time": "2024-12-25T13:14:20+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90687",
+      "lonlat": [
+        87.046131,
+        28.413902
+      ],
+      "time": "2024-12-25T13:14:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90688",
+      "lonlat": [
+        87.045306,
+        28.414112
+      ],
+      "time": "2024-12-25T13:14:30+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90689",
+      "lonlat": [
+        87.04413,
+        28.4141
+      ],
+      "time": "2024-12-25T13:14:36+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90690",
+      "lonlat": [
+        87.043077,
+        28.414137
+      ],
+      "time": "2024-12-25T13:14:40+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90691",
+      "lonlat": [
+        87.042077,
+        28.414396
+      ],
+      "time": "2024-12-25T13:14:44+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90692",
+      "lonlat": [
+        87.041205,
+        28.414884
+      ],
+      "time": "2024-12-25T13:14:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90693",
+      "lonlat": [
+        87.040114,
+        28.415554
+      ],
+      "time": "2024-12-25T13:14:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90694",
+      "lonlat": [
+        87.039188,
+        28.416008
+      ],
+      "time": "2024-12-25T13:14:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90695",
+      "lonlat": [
+        87.037872,
+        28.416146
+      ],
+      "time": "2024-12-25T13:15:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90696",
+      "lonlat": [
+        87.036544,
+        28.416285
+      ],
+      "time": "2024-12-25T13:15:07+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90697",
+      "lonlat": [
+        87.035543,
+        28.416547
+      ],
+      "time": "2024-12-25T13:15:11+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90698",
+      "lonlat": [
+        87.034536,
+        28.416898
+      ],
+      "time": "2024-12-25T13:15:15+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90699",
+      "lonlat": [
+        87.033713,
+        28.41708
+      ],
+      "time": "2024-12-25T13:15:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90700",
+      "lonlat": [
+        87.032857,
+        28.417221
+      ],
+      "time": "2024-12-25T13:15:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90701",
+      "lonlat": [
+        87.031969,
+        28.417422
+      ],
+      "time": "2024-12-25T13:15:24+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90812",
+      "lonlat": [
+        86.863716,
+        28.31123
+      ],
+      "time": "2024-12-25T19:59:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90813",
+      "lonlat": [
+        86.864526,
+        28.31132
+      ],
+      "time": "2024-12-25T20:00:01+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90827",
+      "lonlat": [
+        86.946799,
+        28.353169
+      ],
+      "time": "2024-12-25T20:09:59+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:90828",
+      "lonlat": [
+        86.952915,
+        28.37234
+      ],
+      "time": "2024-12-25T20:10:27+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91082",
+      "lonlat": [
+        87.053002,
+        28.487007
+      ],
+      "time": "2024-12-26T10:26:03+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91128",
+      "lonlat": [
+        86.699566,
+        28.602326
+      ],
+      "time": "2024-12-26T12:14:35+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91856",
+      "lonlat": [
+        85.646175,
+        28.714664
+      ],
+      "time": "2024-12-26T14:43:16+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91858",
+      "lonlat": [
+        85.571078,
+        28.786521
+      ],
+      "time": "2024-12-26T14:46:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91859",
+      "lonlat": [
+        85.64624,
+        28.714654
+      ],
+      "time": "2024-12-26T14:46:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91861",
+      "lonlat": [
+        85.607154,
+        28.818685
+      ],
+      "time": "2024-12-26T14:49:50+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91863",
+      "lonlat": [
+        85.616525,
+        28.796459
+      ],
+      "time": "2024-12-26T14:51:25+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91866",
+      "lonlat": [
+        85.622052,
+        28.830675
+      ],
+      "time": "2024-12-26T14:54:16+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91867",
+      "lonlat": [
+        85.593406,
+        28.824766
+      ],
+      "time": "2024-12-26T14:55:17+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91868",
+      "lonlat": [
+        85.578708,
+        28.817867
+      ],
+      "time": "2024-12-26T14:55:34+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91870",
+      "lonlat": [
+        85.559748,
+        28.792706
+      ],
+      "time": "2024-12-26T14:56:38+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91872",
+      "lonlat": [
+        85.64628,
+        28.714535
+      ],
+      "time": "2024-12-26T14:58:58+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:91874",
+      "lonlat": [
+        85.646272,
+        28.714765
+      ],
+      "time": "2024-12-26T15:03:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:92155",
+      "lonlat": [
+        85.32844,
+        28.388852
+      ],
+      "time": "2024-12-26T21:51:25+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:92184",
+      "lonlat": [
+        85.330515,
+        28.398924
+      ],
+      "time": "2024-12-27T09:20:04+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:92185",
+      "lonlat": [
+        85.420449,
+        28.373435
+      ],
+      "time": "2024-12-27T09:21:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:92191",
+      "lonlat": [
+        85.348026,
+        28.390354
+      ],
+      "time": "2024-12-27T10:41:37+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:92192",
+      "lonlat": [
+        85.404308,
+        28.357825
+      ],
+      "time": "2024-12-27T10:41:41+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:93646",
+      "lonlat": [
+        86.607121,
+        28.582391
+      ],
+      "time": "2024-12-27T19:30:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:93993",
+      "lonlat": [
+        86.430655,
+        28.151866
+      ],
+      "time": "2024-12-28T13:46:29+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:94108",
+      "lonlat": [
+        86.594047,
+        28.479843
+      ],
+      "time": "2024-12-28T14:51:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:94135",
+      "lonlat": [
+        86.636623,
+        28.590792
+      ],
+      "time": "2024-12-28T15:47:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:94157",
+      "lonlat": [
+        86.72779,
+        28.603244
+      ],
+      "time": "2024-12-28T15:53:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:95909",
+      "lonlat": [
+        88.830262,
+        29.195747
+      ],
+      "time": "2024-12-28T19:20:05+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:95911",
+      "lonlat": [
+        88.83301,
+        29.172455
+      ],
+      "time": "2024-12-28T19:21:32+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:95950",
+      "lonlat": [
+        89.339993,
+        29.303919
+      ],
+      "time": "2024-12-28T19:55:25+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:95986",
+      "lonlat": [
+        89.770755,
+        29.293508
+      ],
+      "time": "2024-12-28T20:18:45+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96033",
+      "lonlat": [
+        90.725798,
+        29.367273
+      ],
+      "time": "2024-12-28T21:26:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96053",
+      "lonlat": [
+        90.957596,
+        29.498639
+      ],
+      "time": "2024-12-28T21:43:24+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96099",
+      "lonlat": [
+        91.13579,
+        29.65324
+      ],
+      "time": "2024-12-29T09:44:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96160",
+      "lonlat": [
+        91.113304,
+        29.661938
+      ],
+      "time": "2024-12-29T12:15:40+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96161",
+      "lonlat": [
+        91.114071,
+        29.661095
+      ],
+      "time": "2024-12-29T12:15:41+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96383",
+      "lonlat": [
+        90.910992,
+        29.301688
+      ],
+      "time": "2024-12-29T20:24:09+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96384",
+      "lonlat": [
+        90.907527,
+        29.301504
+      ],
+      "time": "2024-12-29T20:24:13+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96385",
+      "lonlat": [
+        90.904523,
+        29.301703
+      ],
+      "time": "2024-12-29T20:24:16+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96386",
+      "lonlat": [
+        90.902706,
+        29.301626
+      ],
+      "time": "2024-12-29T20:24:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96387",
+      "lonlat": [
+        90.901834,
+        29.301629
+      ],
+      "time": "2024-12-29T20:24:19+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96388",
+      "lonlat": [
+        90.899731,
+        29.301776
+      ],
+      "time": "2024-12-29T20:24:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96389",
+      "lonlat": [
+        90.89871,
+        29.301808
+      ],
+      "time": "2024-12-29T20:24:22+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96390",
+      "lonlat": [
+        90.895891,
+        29.302086
+      ],
+      "time": "2024-12-29T20:24:25+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96391",
+      "lonlat": [
+        90.893985,
+        29.302246
+      ],
+      "time": "2024-12-29T20:24:27+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96392",
+      "lonlat": [
+        90.893096,
+        29.30234
+      ],
+      "time": "2024-12-29T20:24:28+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96393",
+      "lonlat": [
+        90.890309,
+        29.3027
+      ],
+      "time": "2024-12-29T20:24:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96394",
+      "lonlat": [
+        90.888306,
+        29.302977
+      ],
+      "time": "2024-12-29T20:24:32+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96395",
+      "lonlat": [
+        90.887341,
+        29.303138
+      ],
+      "time": "2024-12-29T20:24:33+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96396",
+      "lonlat": [
+        90.88456,
+        29.303663
+      ],
+      "time": "2024-12-29T20:24:36+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96397",
+      "lonlat": [
+        90.882729,
+        29.304056
+      ],
+      "time": "2024-12-29T20:24:38+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96398",
+      "lonlat": [
+        90.881804,
+        29.304178
+      ],
+      "time": "2024-12-29T20:24:39+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96399",
+      "lonlat": [
+        90.879037,
+        29.304744
+      ],
+      "time": "2024-12-29T20:24:42+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96400",
+      "lonlat": [
+        90.877093,
+        29.305171
+      ],
+      "time": "2024-12-29T20:24:44+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96401",
+      "lonlat": [
+        90.876096,
+        29.305337
+      ],
+      "time": "2024-12-29T20:24:45+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96402",
+      "lonlat": [
+        90.873298,
+        29.306363
+      ],
+      "time": "2024-12-29T20:24:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96403",
+      "lonlat": [
+        90.87308,
+        29.306007
+      ],
+      "time": "2024-12-29T20:24:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96404",
+      "lonlat": [
+        90.870341,
+        29.306278
+      ],
+      "time": "2024-12-29T20:24:52+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96405",
+      "lonlat": [
+        90.869775,
+        29.30615
+      ],
+      "time": "2024-12-29T20:24:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96406",
+      "lonlat": [
+        90.866165,
+        29.306569
+      ],
+      "time": "2024-12-29T20:24:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96407",
+      "lonlat": [
+        90.863444,
+        29.306856
+      ],
+      "time": "2024-12-29T20:25:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96408",
+      "lonlat": [
+        90.861636,
+        29.307045
+      ],
+      "time": "2024-12-29T20:25:02+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96409",
+      "lonlat": [
+        90.858153,
+        29.306589
+      ],
+      "time": "2024-12-29T20:25:06+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96410",
+      "lonlat": [
+        90.857585,
+        29.306267
+      ],
+      "time": "2024-12-29T20:25:07+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96411",
+      "lonlat": [
+        90.85606,
+        29.306232
+      ],
+      "time": "2024-12-29T20:25:09+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96412",
+      "lonlat": [
+        90.854527,
+        29.300196
+      ],
+      "time": "2024-12-29T20:25:10+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96413",
+      "lonlat": [
+        90.853463,
+        29.305517
+      ],
+      "time": "2024-12-29T20:25:13+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96414",
+      "lonlat": [
+        90.851735,
+        29.303394
+      ],
+      "time": "2024-12-29T20:25:15+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96415",
+      "lonlat": [
+        90.849924,
+        29.302777
+      ],
+      "time": "2024-12-29T20:25:17+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96416",
+      "lonlat": [
+        90.84649,
+        29.302264
+      ],
+      "time": "2024-12-29T20:25:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96417",
+      "lonlat": [
+        90.828744,
+        29.297325
+      ],
+      "time": "2024-12-29T20:25:42+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96418",
+      "lonlat": [
+        90.824155,
+        29.295955
+      ],
+      "time": "2024-12-29T20:25:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96419",
+      "lonlat": [
+        90.819521,
+        29.294859
+      ],
+      "time": "2024-12-29T20:25:52+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96420",
+      "lonlat": [
+        90.813661,
+        29.294194
+      ],
+      "time": "2024-12-29T20:25:58+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96421",
+      "lonlat": [
+        90.812684,
+        29.294175
+      ],
+      "time": "2024-12-29T20:25:59+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96422",
+      "lonlat": [
+        90.811658,
+        29.294084
+      ],
+      "time": "2024-12-29T20:26:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96423",
+      "lonlat": [
+        90.807776,
+        29.294066
+      ],
+      "time": "2024-12-29T20:26:04+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96424",
+      "lonlat": [
+        90.792462,
+        29.297267
+      ],
+      "time": "2024-12-29T20:26:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96425",
+      "lonlat": [
+        90.789406,
+        29.298723
+      ],
+      "time": "2024-12-29T20:26:21+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96426",
+      "lonlat": [
+        90.787236,
+        29.299451
+      ],
+      "time": "2024-12-29T20:26:23+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96427",
+      "lonlat": [
+        90.786137,
+        29.29984
+      ],
+      "time": "2024-12-29T20:26:24+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96428",
+      "lonlat": [
+        90.783104,
+        29.301311
+      ],
+      "time": "2024-12-29T20:26:27+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96429",
+      "lonlat": [
+        90.779991,
+        29.302719
+      ],
+      "time": "2024-12-29T20:26:30+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96430",
+      "lonlat": [
+        90.777329,
+        29.304887
+      ],
+      "time": "2024-12-29T20:26:33+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96431",
+      "lonlat": [
+        90.772684,
+        29.307943
+      ],
+      "time": "2024-12-29T20:26:38+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96432",
+      "lonlat": [
+        90.76965,
+        29.311759
+      ],
+      "time": "2024-12-29T20:26:42+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96433",
+      "lonlat": [
+        90.768746,
+        29.31261
+      ],
+      "time": "2024-12-29T20:26:43+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96434",
+      "lonlat": [
+        90.765929,
+        29.31658
+      ],
+      "time": "2024-12-29T20:26:47+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96435",
+      "lonlat": [
+        90.765335,
+        29.31763
+      ],
+      "time": "2024-12-29T20:26:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96436",
+      "lonlat": [
+        90.762291,
+        29.322499
+      ],
+      "time": "2024-12-29T20:26:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96440",
+      "lonlat": [
+        108.759248,
+        34.435959
+      ],
+      "time": "2024-12-29T22:44:18+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96441",
+      "lonlat": [
+        108.75942,
+        34.435993
+      ],
+      "time": "2024-12-29T22:47:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96442",
+      "lonlat": [
+        108.757167,
+        34.435892
+      ],
+      "time": "2024-12-29T22:54:59+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96443",
+      "lonlat": [
+        108.75824,
+        34.436615
+      ],
+      "time": "2024-12-29T23:16:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96444",
+      "lonlat": [
+        108.760518,
+        34.438473
+      ],
+      "time": "2024-12-29T23:17:09+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96445",
+      "lonlat": [
+        108.761964,
+        34.440514
+      ],
+      "time": "2024-12-29T23:17:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96446",
+      "lonlat": [
+        108.762256,
+        34.440688
+      ],
+      "time": "2024-12-29T23:17:28+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96447",
+      "lonlat": [
+        108.764025,
+        34.440856
+      ],
+      "time": "2024-12-29T23:17:38+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96448",
+      "lonlat": [
+        108.764017,
+        34.442154
+      ],
+      "time": "2024-12-29T23:17:50+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96449",
+      "lonlat": [
+        108.76294,
+        34.441917
+      ],
+      "time": "2024-12-29T23:17:57+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96450",
+      "lonlat": [
+        108.762432,
+        34.441655
+      ],
+      "time": "2024-12-29T23:18:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96451",
+      "lonlat": [
+        108.760453,
+        34.441344
+      ],
+      "time": "2024-12-29T23:18:11+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96452",
+      "lonlat": [
+        108.758892,
+        34.442202
+      ],
+      "time": "2024-12-29T23:18:33+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96453",
+      "lonlat": [
+        108.758794,
+        34.442283
+      ],
+      "time": "2024-12-29T23:18:34+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96454",
+      "lonlat": [
+        108.757303,
+        34.441879
+      ],
+      "time": "2024-12-29T23:18:48+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96455",
+      "lonlat": [
+        108.75718,
+        34.441792
+      ],
+      "time": "2024-12-29T23:18:49+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96456",
+      "lonlat": [
+        108.75579,
+        34.440763
+      ],
+      "time": "2024-12-29T23:19:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96457",
+      "lonlat": [
+        108.755303,
+        34.439889
+      ],
+      "time": "2024-12-29T23:19:07+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96458",
+      "lonlat": [
+        108.755159,
+        34.439362
+      ],
+      "time": "2024-12-29T23:19:11+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96459",
+      "lonlat": [
+        108.753916,
+        34.438029
+      ],
+      "time": "2024-12-29T23:19:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96460",
+      "lonlat": [
+        108.752433,
+        34.436988
+      ],
+      "time": "2024-12-29T23:19:37+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96461",
+      "lonlat": [
+        108.750888,
+        34.435891
+      ],
+      "time": "2024-12-29T23:19:46+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96462",
+      "lonlat": [
+        108.749919,
+        34.435186
+      ],
+      "time": "2024-12-29T23:19:51+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96463",
+      "lonlat": [
+        108.749507,
+        34.434888
+      ],
+      "time": "2024-12-29T23:19:53+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96464",
+      "lonlat": [
+        108.74851,
+        34.434154
+      ],
+      "time": "2024-12-29T23:19:58+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96465",
+      "lonlat": [
+        108.748113,
+        34.433872
+      ],
+      "time": "2024-12-29T23:20:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96466",
+      "lonlat": [
+        108.746598,
+        34.43264
+      ],
+      "time": "2024-12-29T23:20:09+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96467",
+      "lonlat": [
+        108.745794,
+        34.431357
+      ],
+      "time": "2024-12-29T23:20:20+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96468",
+      "lonlat": [
+        108.745119,
+        34.430829
+      ],
+      "time": "2024-12-29T23:20:26+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96469",
+      "lonlat": [
+        108.744433,
+        34.430439
+      ],
+      "time": "2024-12-29T23:20:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96470",
+      "lonlat": [
+        108.742924,
+        34.430299
+      ],
+      "time": "2024-12-29T23:21:04+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96471",
+      "lonlat": [
+        108.742784,
+        34.430209
+      ],
+      "time": "2024-12-29T23:21:06+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96472",
+      "lonlat": [
+        108.742088,
+        34.429725
+      ],
+      "time": "2024-12-29T23:21:15+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96473",
+      "lonlat": [
+        108.741451,
+        34.429266
+      ],
+      "time": "2024-12-29T23:21:22+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96474",
+      "lonlat": [
+        108.74075,
+        34.428782
+      ],
+      "time": "2024-12-29T23:21:31+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96475",
+      "lonlat": [
+        108.740173,
+        34.428382
+      ],
+      "time": "2024-12-29T23:21:37+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96476",
+      "lonlat": [
+        108.738722,
+        34.427398
+      ],
+      "time": "2024-12-29T23:22:00+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96477",
+      "lonlat": [
+        108.738202,
+        34.427988
+      ],
+      "time": "2024-12-29T23:22:19+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96478",
+      "lonlat": [
+        108.738071,
+        34.428547
+      ],
+      "time": "2024-12-29T23:22:29+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96479",
+      "lonlat": [
+        108.739145,
+        34.429429
+      ],
+      "time": "2024-12-29T23:23:28+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    },
+    {
+      "source_id": "gpx:96480",
+      "lonlat": [
+        108.739316,
+        34.429467
+      ],
+      "time": "2024-12-29T23:23:32+08:00",
+      "reason": "automatic_invalid_jump_or_isolated_spike"
+    }
+  ],
+  "editorial_ranges": [
+    {
+      "id": "geometry-edit:0",
+      "name": "拉萨市区开场路口顺直化",
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86749",
+        "gpx:86750",
+        "gpx:86751",
+        "gpx:86752",
+        "gpx:86753",
+        "gpx:86754",
+        "gpx:86755",
+        "gpx:86756",
+        "gpx:86757",
+        "gpx:86758",
+        "gpx:86759",
+        "gpx:86760",
+        "gpx:86761",
+        "gpx:86762"
+      ]
+    },
+    {
+      "id": "geometry-edit:1",
+      "name": "拉萨市区十点前后直接北上",
+      "start": "2024-12-22T09:57:51+08:00",
+      "end": "2024-12-22T10:27:37+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86763",
+        "gpx:86764",
+        "gpx:86765",
+        "gpx:86766",
+        "gpx:86767",
+        "gpx:86768",
+        "gpx:86769",
+        "gpx:86770",
+        "gpx:86771"
+      ]
+    },
+    {
+      "id": "geometry-edit:2",
+      "name": "保护晨哥车队中心物资点",
+      "start": "2024-12-22T10:38:55+08:00",
+      "end": "2024-12-22T11:05:50+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86794",
+        "gpx:86795",
+        "gpx:86796",
+        "gpx:86797"
+      ]
+    },
+    {
+      "id": "geometry-edit:3",
+      "name": "晨哥车队中心补给后局部折返移除",
+      "start": "2024-12-22T11:13:56+08:00",
+      "end": "2024-12-22T11:21:07+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86803",
+        "gpx:86804",
+        "gpx:86805",
+        "gpx:86806",
+        "gpx:86807",
+        "gpx:86808",
+        "gpx:86809",
+        "gpx:86810",
+        "gpx:86811"
+      ]
+    },
+    {
+      "id": "geometry-edit:4",
+      "name": "库拉岗日徒步抵达用户确认点",
+      "start": "2024-12-23T09:51:39+08:00",
+      "end": "2024-12-23T11:34:31+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87972",
+        "gpx:87973",
+        "gpx:87974"
+      ]
+    },
+    {
+      "id": "geometry-edit:5",
+      "name": "12月22日15点04折返移除",
+      "start": "2024-12-22T15:02:26+08:00",
+      "end": "2024-12-22T15:07:14+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87046",
+        "gpx:87047",
+        "gpx:87048"
+      ]
+    },
+    {
+      "id": "geometry-edit:6",
+      "name": "12月22日15点多多次折返与离路重建",
+      "start": "2024-12-22T15:36:53+08:00",
+      "end": "2024-12-22T16:23:57+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87066",
+        "gpx:87067",
+        "gpx:87068",
+        "gpx:87069",
+        "gpx:87070",
+        "gpx:87071",
+        "gpx:87072",
+        "gpx:87073",
+        "gpx:87074",
+        "gpx:87075",
+        "gpx:87076",
+        "gpx:87077",
+        "gpx:87078",
+        "gpx:87079",
+        "gpx:87080",
+        "gpx:87081",
+        "gpx:87082",
+        "gpx:87083",
+        "gpx:87084",
+        "gpx:87085",
+        "gpx:87086",
+        "gpx:87087",
+        "gpx:87088",
+        "gpx:87089",
+        "gpx:87090",
+        "gpx:87091",
+        "gpx:87092",
+        "gpx:87093",
+        "gpx:87094",
+        "gpx:87095",
+        "gpx:87096",
+        "gpx:87097",
+        "gpx:87098",
+        "gpx:87099",
+        "gpx:87100",
+        "gpx:87101",
+        "gpx:87102",
+        "gpx:87103",
+        "gpx:87104",
+        "gpx:87105",
+        "gpx:87106",
+        "gpx:87107",
+        "gpx:87108",
+        "gpx:87109",
+        "gpx:87110",
+        "gpx:87111",
+        "gpx:87112",
+        "gpx:87113",
+        "gpx:87114",
+        "gpx:87115"
+      ]
+    },
+    {
+      "id": "geometry-edit:7",
+      "name": "12月22日16点25至16点45道路重建",
+      "start": "2024-12-22T16:23:57+08:00",
+      "end": "2024-12-22T16:47:14+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87117",
+        "gpx:87118",
+        "gpx:87119",
+        "gpx:87120",
+        "gpx:87121",
+        "gpx:87122",
+        "gpx:87123",
+        "gpx:87124",
+        "gpx:87125",
+        "gpx:87126",
+        "gpx:87127",
+        "gpx:87128",
+        "gpx:87129",
+        "gpx:87130",
+        "gpx:87131",
+        "gpx:87132",
+        "gpx:87133",
+        "gpx:87134",
+        "gpx:87135",
+        "gpx:87136",
+        "gpx:87137",
+        "gpx:87138",
+        "gpx:87139",
+        "gpx:87140",
+        "gpx:87141",
+        "gpx:87142",
+        "gpx:87143",
+        "gpx:87144",
+        "gpx:87145",
+        "gpx:87146",
+        "gpx:87147"
+      ]
+    },
+    {
+      "id": "geometry-edit:8",
+      "name": "12月22日18点37道路重建",
+      "start": "2024-12-22T18:30:03+08:00",
+      "end": "2024-12-22T18:41:04+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87863",
+        "gpx:87864",
+        "gpx:87865",
+        "gpx:87866",
+        "gpx:87867",
+        "gpx:87868",
+        "gpx:87869",
+        "gpx:87870",
+        "gpx:87871",
+        "gpx:87872",
+        "gpx:87873",
+        "gpx:87874",
+        "gpx:87875",
+        "gpx:87876",
+        "gpx:87877",
+        "gpx:87878",
+        "gpx:87879",
+        "gpx:87880",
+        "gpx:87881",
+        "gpx:87882",
+        "gpx:87883",
+        "gpx:87884",
+        "gpx:87885",
+        "gpx:87886"
+      ]
+    },
+    {
+      "id": "geometry-edit:9",
+      "name": "12月23日15点52至16点10道路重建",
+      "start": "2024-12-23T15:50:31+08:00",
+      "end": "2024-12-23T16:11:30+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88216"
+      ]
+    },
+    {
+      "id": "geometry-edit:10",
+      "name": "12月23日17点09至17点12道路重建",
+      "start": "2024-12-23T17:06:57+08:00",
+      "end": "2024-12-23T17:12:04+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88253",
+        "gpx:88254"
+      ]
+    },
+    {
+      "id": "geometry-edit:11",
+      "name": "12月24日11点21至11点25道路重建",
+      "start": "2024-12-24T11:19:20+08:00",
+      "end": "2024-12-24T11:28:40+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88616",
+        "gpx:88617",
+        "gpx:88618",
+        "gpx:88619",
+        "gpx:88620"
+      ]
+    },
+    {
+      "id": "geometry-edit:12",
+      "name": "12月24日12点50道路重建",
+      "start": "2024-12-24T12:44:17+08:00",
+      "end": "2024-12-24T13:00:17+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88741",
+        "gpx:88742",
+        "gpx:88743",
+        "gpx:88744",
+        "gpx:88745",
+        "gpx:88746",
+        "gpx:88747",
+        "gpx:88748",
+        "gpx:88749",
+        "gpx:88750",
+        "gpx:88751",
+        "gpx:88752",
+        "gpx:88753",
+        "gpx:88754",
+        "gpx:88755",
+        "gpx:88756",
+        "gpx:88757",
+        "gpx:88758",
+        "gpx:88759",
+        "gpx:88760",
+        "gpx:88761",
+        "gpx:88762",
+        "gpx:88763",
+        "gpx:88764",
+        "gpx:88765",
+        "gpx:88766",
+        "gpx:88767",
+        "gpx:88768"
+      ]
+    },
+    {
+      "id": "geometry-edit:13",
+      "name": "曲登尼玛步行抵达用户确认点",
+      "start": "2024-12-24T16:43:12+08:00",
+      "end": "2024-12-24T17:20:38+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:89558"
+      ]
+    },
+    {
+      "id": "geometry-edit:14",
+      "name": "12月24日18点04折返移除",
+      "start": "2024-12-24T17:48:39+08:00",
+      "end": "2024-12-24T18:10:09+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:89564",
+        "gpx:89565",
+        "gpx:89566",
+        "gpx:89567",
+        "gpx:89568",
+        "gpx:89569",
+        "gpx:89570",
+        "gpx:89571",
+        "gpx:89572",
+        "gpx:89573",
+        "gpx:89574",
+        "gpx:89575",
+        "gpx:89576",
+        "gpx:89577",
+        "gpx:89578",
+        "gpx:89579",
+        "gpx:89580",
+        "gpx:89581",
+        "gpx:89582",
+        "gpx:89583",
+        "gpx:89584",
+        "gpx:89585",
+        "gpx:89586",
+        "gpx:89587",
+        "gpx:89588",
+        "gpx:89589",
+        "gpx:89590",
+        "gpx:89591",
+        "gpx:89592"
+      ]
+    },
+    {
+      "id": "geometry-edit:15",
+      "name": "12月25日13点15折返移除",
+      "start": "2024-12-25T13:03:00+08:00",
+      "end": "2024-12-25T13:18:27+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90673",
+        "gpx:90674",
+        "gpx:90675",
+        "gpx:90676",
+        "gpx:90677",
+        "gpx:90678",
+        "gpx:90679",
+        "gpx:90680",
+        "gpx:90681",
+        "gpx:90682",
+        "gpx:90683",
+        "gpx:90684",
+        "gpx:90685",
+        "gpx:90686",
+        "gpx:90687",
+        "gpx:90688",
+        "gpx:90689",
+        "gpx:90690",
+        "gpx:90691",
+        "gpx:90692",
+        "gpx:90693",
+        "gpx:90694",
+        "gpx:90695",
+        "gpx:90696",
+        "gpx:90697",
+        "gpx:90698",
+        "gpx:90699",
+        "gpx:90700",
+        "gpx:90701"
+      ]
+    },
+    {
+      "id": "geometry-edit:16",
+      "name": "12月25日17点50折返移除",
+      "start": "2024-12-25T17:50:50+08:00",
+      "end": "2024-12-25T17:58:44+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90764",
+        "gpx:90765",
+        "gpx:90766",
+        "gpx:90767"
+      ]
+    },
+    {
+      "id": "geometry-edit:17",
+      "name": "12月26日10点26道路重建",
+      "start": "2024-12-26T10:24:27+08:00",
+      "end": "2024-12-26T10:32:21+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91081",
+        "gpx:91082",
+        "gpx:91083",
+        "gpx:91084",
+        "gpx:91085"
+      ]
+    },
+    {
+      "id": "geometry-edit:18",
+      "name": "佩枯措主路与希夏邦马南向越野支线重建",
+      "start": "2024-12-26T14:28:02+08:00",
+      "end": "2024-12-26T15:52:18+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91832",
+        "gpx:91833",
+        "gpx:91834",
+        "gpx:91835",
+        "gpx:91836",
+        "gpx:91837",
+        "gpx:91838",
+        "gpx:91839",
+        "gpx:91840",
+        "gpx:91841",
+        "gpx:91842",
+        "gpx:91843",
+        "gpx:91844",
+        "gpx:91845",
+        "gpx:91846",
+        "gpx:91847",
+        "gpx:91848",
+        "gpx:91849",
+        "gpx:91850",
+        "gpx:91851",
+        "gpx:91852",
+        "gpx:91853",
+        "gpx:91854",
+        "gpx:91855",
+        "gpx:91856",
+        "gpx:91857",
+        "gpx:91858",
+        "gpx:91859",
+        "gpx:91860",
+        "gpx:91861",
+        "gpx:91862",
+        "gpx:91863",
+        "gpx:91864",
+        "gpx:91865",
+        "gpx:91866",
+        "gpx:91867",
+        "gpx:91868",
+        "gpx:91869",
+        "gpx:91870",
+        "gpx:91871",
+        "gpx:91872",
+        "gpx:91873",
+        "gpx:91874",
+        "gpx:91875",
+        "gpx:91876",
+        "gpx:91877",
+        "gpx:91878",
+        "gpx:91879",
+        "gpx:91880",
+        "gpx:91881",
+        "gpx:91882",
+        "gpx:91883",
+        "gpx:91884",
+        "gpx:91885"
+      ]
+    },
+    {
+      "id": "geometry-edit:19",
+      "name": "12月26日16点10道路重建",
+      "start": "2024-12-26T16:04:44+08:00",
+      "end": "2024-12-26T16:15:04+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91932",
+        "gpx:91933",
+        "gpx:91934",
+        "gpx:91935",
+        "gpx:91936",
+        "gpx:91937",
+        "gpx:91938",
+        "gpx:91939",
+        "gpx:91940",
+        "gpx:91941",
+        "gpx:91942",
+        "gpx:91943"
+      ]
+    },
+    {
+      "id": "geometry-edit:20",
+      "name": "12月27日前往亚洲第一观景台道路重建",
+      "start": "2024-12-27T07:34:54+08:00",
+      "end": "2024-12-27T08:44:16+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:92159",
+        "gpx:92160",
+        "gpx:92161",
+        "gpx:92162",
+        "gpx:92163",
+        "gpx:92164",
+        "gpx:92165",
+        "gpx:92166",
+        "gpx:92167",
+        "gpx:92168",
+        "gpx:92169",
+        "gpx:92170",
+        "gpx:92171",
+        "gpx:92172",
+        "gpx:92173",
+        "gpx:92174",
+        "gpx:92175",
+        "gpx:92176",
+        "gpx:92177",
+        "gpx:92178",
+        "gpx:92179",
+        "gpx:92180"
+      ]
+    },
+    {
+      "id": "geometry-edit:21",
+      "name": "12月22日15点36折返复核修正",
+      "start": "2024-12-22T15:31:58+08:00",
+      "end": "2024-12-22T15:42:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87064",
+        "gpx:87065",
+        "gpx:87066",
+        "gpx:87067",
+        "gpx:87068",
+        "gpx:87069",
+        "gpx:87070"
+      ]
+    },
+    {
+      "id": "geometry-edit:22",
+      "name": "12月22日17点33道路复核修正",
+      "start": "2024-12-22T17:27:59+08:00",
+      "end": "2024-12-22T17:39:58+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87433",
+        "gpx:87434",
+        "gpx:87435",
+        "gpx:87436",
+        "gpx:87437",
+        "gpx:87438",
+        "gpx:87439",
+        "gpx:87440",
+        "gpx:87441",
+        "gpx:87442",
+        "gpx:87443",
+        "gpx:87444",
+        "gpx:87445",
+        "gpx:87446",
+        "gpx:87447",
+        "gpx:87448",
+        "gpx:87449",
+        "gpx:87450",
+        "gpx:87451",
+        "gpx:87452",
+        "gpx:87453",
+        "gpx:87454",
+        "gpx:87455",
+        "gpx:87456",
+        "gpx:87457",
+        "gpx:87458",
+        "gpx:87459",
+        "gpx:87460",
+        "gpx:87461",
+        "gpx:87462",
+        "gpx:87463",
+        "gpx:87464",
+        "gpx:87465",
+        "gpx:87466",
+        "gpx:87467",
+        "gpx:87468",
+        "gpx:87469",
+        "gpx:87470",
+        "gpx:87471",
+        "gpx:87472",
+        "gpx:87473",
+        "gpx:87474",
+        "gpx:87475",
+        "gpx:87476",
+        "gpx:87477",
+        "gpx:87478",
+        "gpx:87479",
+        "gpx:87480",
+        "gpx:87481",
+        "gpx:87482",
+        "gpx:87483",
+        "gpx:87484",
+        "gpx:87485",
+        "gpx:87486",
+        "gpx:87487",
+        "gpx:87488",
+        "gpx:87489",
+        "gpx:87490",
+        "gpx:87491",
+        "gpx:87492",
+        "gpx:87493",
+        "gpx:87494",
+        "gpx:87495",
+        "gpx:87496",
+        "gpx:87497",
+        "gpx:87498",
+        "gpx:87499",
+        "gpx:87500",
+        "gpx:87501",
+        "gpx:87502",
+        "gpx:87503",
+        "gpx:87504",
+        "gpx:87505",
+        "gpx:87506",
+        "gpx:87507",
+        "gpx:87508",
+        "gpx:87509",
+        "gpx:87510",
+        "gpx:87511",
+        "gpx:87512"
+      ]
+    },
+    {
+      "id": "geometry-edit:23",
+      "name": "12月22日11点45至11点55道路吸附复核",
+      "start": "2024-12-22T11:43:44+08:00",
+      "end": "2024-12-22T12:00:02+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86842",
+        "gpx:86843",
+        "gpx:86844",
+        "gpx:86845",
+        "gpx:86846",
+        "gpx:86847",
+        "gpx:86848",
+        "gpx:86849",
+        "gpx:86850",
+        "gpx:86851",
+        "gpx:86852",
+        "gpx:86853",
+        "gpx:86854",
+        "gpx:86855",
+        "gpx:86856",
+        "gpx:86857",
+        "gpx:86858",
+        "gpx:86859",
+        "gpx:86860",
+        "gpx:86861",
+        "gpx:86862",
+        "gpx:86863",
+        "gpx:86864",
+        "gpx:86865",
+        "gpx:86866",
+        "gpx:86867",
+        "gpx:86868",
+        "gpx:86869",
+        "gpx:86870",
+        "gpx:86871",
+        "gpx:86872",
+        "gpx:86873",
+        "gpx:86874",
+        "gpx:86875",
+        "gpx:86876",
+        "gpx:86877",
+        "gpx:86878",
+        "gpx:86879",
+        "gpx:86880",
+        "gpx:86881",
+        "gpx:86882",
+        "gpx:86883",
+        "gpx:86884",
+        "gpx:86885",
+        "gpx:86886",
+        "gpx:86887",
+        "gpx:86888",
+        "gpx:86889",
+        "gpx:86890",
+        "gpx:86891",
+        "gpx:86892",
+        "gpx:86893",
+        "gpx:86894",
+        "gpx:86895",
+        "gpx:86896"
+      ]
+    },
+    {
+      "id": "geometry-edit:24",
+      "name": "12月22日12点03道路吸附复核",
+      "start": "2024-12-22T12:00:02+08:00",
+      "end": "2024-12-22T12:08:16+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86898",
+        "gpx:86899",
+        "gpx:86900",
+        "gpx:86901",
+        "gpx:86902",
+        "gpx:86903",
+        "gpx:86904",
+        "gpx:86905",
+        "gpx:86906"
+      ]
+    },
+    {
+      "id": "geometry-edit:25",
+      "name": "12月22日12点22机场方向道路吸附复核",
+      "start": "2024-12-22T12:08:16+08:00",
+      "end": "2024-12-22T12:26:09+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86908",
+        "gpx:86909"
+      ]
+    },
+    {
+      "id": "geometry-edit:26",
+      "name": "12月22日12点26至12点32午餐停靠点去折返",
+      "start": "2024-12-22T12:26:09+08:00",
+      "end": "2024-12-22T12:32:30+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86911"
+      ]
+    },
+    {
+      "id": "geometry-edit:27",
+      "name": "12月22日12点32至12点44离开机场道路吸附复核",
+      "start": "2024-12-22T12:32:30+08:00",
+      "end": "2024-12-22T12:44:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:86913",
+        "gpx:86914",
+        "gpx:86915",
+        "gpx:86916",
+        "gpx:86917",
+        "gpx:86918",
+        "gpx:86919",
+        "gpx:86920",
+        "gpx:86921",
+        "gpx:86922",
+        "gpx:86923",
+        "gpx:86924",
+        "gpx:86925",
+        "gpx:86926",
+        "gpx:86927",
+        "gpx:86928",
+        "gpx:86929",
+        "gpx:86930",
+        "gpx:86931",
+        "gpx:86932",
+        "gpx:86933",
+        "gpx:86934",
+        "gpx:86935",
+        "gpx:86936",
+        "gpx:86937",
+        "gpx:86938",
+        "gpx:86939",
+        "gpx:86940",
+        "gpx:86941",
+        "gpx:86942",
+        "gpx:86943",
+        "gpx:86944",
+        "gpx:86945",
+        "gpx:86946",
+        "gpx:86947",
+        "gpx:86948",
+        "gpx:86949"
+      ]
+    },
+    {
+      "id": "geometry-edit:28",
+      "name": "12月23日15点40折返及15点48至16点10道路复核",
+      "start": "2024-12-23T15:37:45+08:00",
+      "end": "2024-12-23T16:11:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88172",
+        "gpx:88173",
+        "gpx:88174",
+        "gpx:88175",
+        "gpx:88176",
+        "gpx:88177",
+        "gpx:88178",
+        "gpx:88179",
+        "gpx:88180",
+        "gpx:88181",
+        "gpx:88182",
+        "gpx:88183",
+        "gpx:88184",
+        "gpx:88185",
+        "gpx:88186",
+        "gpx:88187",
+        "gpx:88188",
+        "gpx:88189",
+        "gpx:88190",
+        "gpx:88191",
+        "gpx:88192",
+        "gpx:88193",
+        "gpx:88194",
+        "gpx:88195",
+        "gpx:88196",
+        "gpx:88197",
+        "gpx:88198",
+        "gpx:88199",
+        "gpx:88200",
+        "gpx:88201",
+        "gpx:88202",
+        "gpx:88203",
+        "gpx:88204",
+        "gpx:88205",
+        "gpx:88206",
+        "gpx:88207",
+        "gpx:88208",
+        "gpx:88209",
+        "gpx:88210",
+        "gpx:88211",
+        "gpx:88212",
+        "gpx:88213",
+        "gpx:88214",
+        "gpx:88215",
+        "gpx:88216",
+        "gpx:88217",
+        "gpx:88218"
+      ]
+    },
+    {
+      "id": "geometry-edit:29",
+      "name": "12月23日17点16道路复核",
+      "start": "2024-12-23T17:11:59+08:00",
+      "end": "2024-12-23T17:21:56+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88255",
+        "gpx:88256",
+        "gpx:88257",
+        "gpx:88258",
+        "gpx:88259",
+        "gpx:88260",
+        "gpx:88261",
+        "gpx:88262",
+        "gpx:88263",
+        "gpx:88264",
+        "gpx:88265"
+      ]
+    },
+    {
+      "id": "geometry-edit:30",
+      "name": "12月23日17点35离路及GPS稀疏区间道路重建",
+      "start": "2024-12-23T17:21:55+08:00",
+      "end": "2024-12-23T17:58:39+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88266",
+        "gpx:88267",
+        "gpx:88268",
+        "gpx:88269",
+        "gpx:88270",
+        "gpx:88271",
+        "gpx:88272",
+        "gpx:88273",
+        "gpx:88274"
+      ]
+    },
+    {
+      "id": "geometry-edit:31",
+      "name": "12月23日18点02至18点15离路与GPS空档道路重建",
+      "start": "2024-12-23T17:59:05+08:00",
+      "end": "2024-12-23T18:15:58+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88282",
+        "gpx:88283",
+        "gpx:88284",
+        "gpx:88285",
+        "gpx:88286",
+        "gpx:88287",
+        "gpx:88288",
+        "gpx:88289",
+        "gpx:88290",
+        "gpx:88291",
+        "gpx:88292",
+        "gpx:88293",
+        "gpx:88294",
+        "gpx:88295",
+        "gpx:88296",
+        "gpx:88297",
+        "gpx:88298"
+      ]
+    },
+    {
+      "id": "geometry-edit:32",
+      "name": "12月23日18点37道路复核",
+      "start": "2024-12-23T18:29:55+08:00",
+      "end": "2024-12-23T18:45:01+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88299",
+        "gpx:88300",
+        "gpx:88301",
+        "gpx:88302",
+        "gpx:88303",
+        "gpx:88304",
+        "gpx:88305",
+        "gpx:88306",
+        "gpx:88307",
+        "gpx:88308",
+        "gpx:88309",
+        "gpx:88310",
+        "gpx:88311",
+        "gpx:88312",
+        "gpx:88313",
+        "gpx:88314",
+        "gpx:88315",
+        "gpx:88316",
+        "gpx:88317",
+        "gpx:88318",
+        "gpx:88319",
+        "gpx:88320",
+        "gpx:88321",
+        "gpx:88322",
+        "gpx:88323",
+        "gpx:88324",
+        "gpx:88325",
+        "gpx:88326"
+      ]
+    },
+    {
+      "id": "geometry-edit:33",
+      "name": "12月23日18点55道路复核",
+      "start": "2024-12-23T18:45:01+08:00",
+      "end": "2024-12-23T19:01:58+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88327",
+        "gpx:88328",
+        "gpx:88329",
+        "gpx:88330",
+        "gpx:88331",
+        "gpx:88332"
+      ]
+    },
+    {
+      "id": "geometry-edit:34",
+      "name": "12月23日19点15至19点30道路复核",
+      "start": "2024-12-23T19:11:59+08:00",
+      "end": "2024-12-23T19:31:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88339",
+        "gpx:88340",
+        "gpx:88341",
+        "gpx:88342",
+        "gpx:88343",
+        "gpx:88344",
+        "gpx:88345",
+        "gpx:88346",
+        "gpx:88347",
+        "gpx:88348",
+        "gpx:88349",
+        "gpx:88350",
+        "gpx:88351",
+        "gpx:88352",
+        "gpx:88353",
+        "gpx:88354",
+        "gpx:88355",
+        "gpx:88356",
+        "gpx:88357",
+        "gpx:88358",
+        "gpx:88359",
+        "gpx:88360",
+        "gpx:88361",
+        "gpx:88362",
+        "gpx:88363",
+        "gpx:88364",
+        "gpx:88365",
+        "gpx:88366",
+        "gpx:88367",
+        "gpx:88368",
+        "gpx:88369",
+        "gpx:88370"
+      ]
+    },
+    {
+      "id": "geometry-edit:35",
+      "name": "12月24日10点20至10点35 G219 主路复核",
+      "start": "2024-12-24T10:15:59+08:00",
+      "end": "2024-12-24T10:35:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88505",
+        "gpx:88506",
+        "gpx:88507",
+        "gpx:88508",
+        "gpx:88509",
+        "gpx:88510",
+        "gpx:88511",
+        "gpx:88512",
+        "gpx:88513",
+        "gpx:88514",
+        "gpx:88515",
+        "gpx:88516",
+        "gpx:88517",
+        "gpx:88518",
+        "gpx:88519",
+        "gpx:88520",
+        "gpx:88521",
+        "gpx:88522",
+        "gpx:88523",
+        "gpx:88524",
+        "gpx:88525",
+        "gpx:88526",
+        "gpx:88527",
+        "gpx:88528",
+        "gpx:88529",
+        "gpx:88530",
+        "gpx:88531",
+        "gpx:88532",
+        "gpx:88533",
+        "gpx:88534",
+        "gpx:88535",
+        "gpx:88536",
+        "gpx:88537",
+        "gpx:88538",
+        "gpx:88539",
+        "gpx:88540",
+        "gpx:88541",
+        "gpx:88542",
+        "gpx:88543",
+        "gpx:88544",
+        "gpx:88545",
+        "gpx:88546",
+        "gpx:88547",
+        "gpx:88548",
+        "gpx:88549",
+        "gpx:88550",
+        "gpx:88551",
+        "gpx:88552",
+        "gpx:88553",
+        "gpx:88554",
+        "gpx:88555",
+        "gpx:88556",
+        "gpx:88557",
+        "gpx:88558",
+        "gpx:88559",
+        "gpx:88560",
+        "gpx:88561",
+        "gpx:88562",
+        "gpx:88563",
+        "gpx:88564",
+        "gpx:88565"
+      ]
+    },
+    {
+      "id": "geometry-edit:36",
+      "name": "12月24日10点39道路复核",
+      "start": "2024-12-24T10:35:00+08:00",
+      "end": "2024-12-24T10:43:49+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88567",
+        "gpx:88568",
+        "gpx:88569",
+        "gpx:88570",
+        "gpx:88571",
+        "gpx:88572",
+        "gpx:88573",
+        "gpx:88574",
+        "gpx:88575",
+        "gpx:88576",
+        "gpx:88577",
+        "gpx:88578",
+        "gpx:88579",
+        "gpx:88580",
+        "gpx:88581",
+        "gpx:88582",
+        "gpx:88583",
+        "gpx:88584",
+        "gpx:88585",
+        "gpx:88586",
+        "gpx:88587",
+        "gpx:88588",
+        "gpx:88589",
+        "gpx:88590",
+        "gpx:88591",
+        "gpx:88592",
+        "gpx:88593",
+        "gpx:88594"
+      ]
+    },
+    {
+      "id": "geometry-edit:37",
+      "name": "12月24日11点30至11点42道路复核",
+      "start": "2024-12-24T11:28:02+08:00",
+      "end": "2024-12-24T11:43:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88621",
+        "gpx:88622",
+        "gpx:88623",
+        "gpx:88624",
+        "gpx:88625",
+        "gpx:88626",
+        "gpx:88627",
+        "gpx:88628",
+        "gpx:88629",
+        "gpx:88630",
+        "gpx:88631",
+        "gpx:88632",
+        "gpx:88633",
+        "gpx:88634",
+        "gpx:88635",
+        "gpx:88636",
+        "gpx:88637",
+        "gpx:88638",
+        "gpx:88639",
+        "gpx:88640"
+      ]
+    },
+    {
+      "id": "geometry-edit:38",
+      "name": "12月24日12点16至12点31道路复核",
+      "start": "2024-12-24T12:11:58+08:00",
+      "end": "2024-12-24T12:34:02+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88701",
+        "gpx:88702",
+        "gpx:88703",
+        "gpx:88704",
+        "gpx:88705",
+        "gpx:88706",
+        "gpx:88707",
+        "gpx:88708",
+        "gpx:88709",
+        "gpx:88710",
+        "gpx:88711",
+        "gpx:88712",
+        "gpx:88713",
+        "gpx:88714",
+        "gpx:88715",
+        "gpx:88716",
+        "gpx:88717",
+        "gpx:88718",
+        "gpx:88719",
+        "gpx:88720",
+        "gpx:88721",
+        "gpx:88722",
+        "gpx:88723",
+        "gpx:88724",
+        "gpx:88725",
+        "gpx:88726",
+        "gpx:88727",
+        "gpx:88728",
+        "gpx:88729",
+        "gpx:88730",
+        "gpx:88731",
+        "gpx:88732",
+        "gpx:88733",
+        "gpx:88734"
+      ]
+    },
+    {
+      "id": "geometry-edit:39",
+      "name": "12月24日堆纳乡湖群停留后离开",
+      "start": "2024-12-24T13:00:11+08:00",
+      "end": "2024-12-24T13:49:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88769",
+        "gpx:88770",
+        "gpx:88771",
+        "gpx:88772",
+        "gpx:88773",
+        "gpx:88774",
+        "gpx:88775",
+        "gpx:88776",
+        "gpx:88777",
+        "gpx:88778",
+        "gpx:88779",
+        "gpx:88780",
+        "gpx:88781",
+        "gpx:88782",
+        "gpx:88783",
+        "gpx:88784",
+        "gpx:88785",
+        "gpx:88786",
+        "gpx:88787",
+        "gpx:88788",
+        "gpx:88789",
+        "gpx:88790",
+        "gpx:88791",
+        "gpx:88792",
+        "gpx:88793",
+        "gpx:88794",
+        "gpx:88795",
+        "gpx:88796",
+        "gpx:88797",
+        "gpx:88798",
+        "gpx:88799",
+        "gpx:88800",
+        "gpx:88801",
+        "gpx:88802",
+        "gpx:88803",
+        "gpx:88804",
+        "gpx:88805",
+        "gpx:88806",
+        "gpx:88807",
+        "gpx:88808",
+        "gpx:88809",
+        "gpx:88810",
+        "gpx:88811",
+        "gpx:88812",
+        "gpx:88813",
+        "gpx:88814",
+        "gpx:88815",
+        "gpx:88816",
+        "gpx:88817",
+        "gpx:88818",
+        "gpx:88819",
+        "gpx:88820",
+        "gpx:88821",
+        "gpx:88822",
+        "gpx:88823",
+        "gpx:88824",
+        "gpx:88825",
+        "gpx:88826",
+        "gpx:88827",
+        "gpx:88828",
+        "gpx:88829"
+      ]
+    },
+    {
+      "id": "geometry-edit:40",
+      "name": "12月24日13点56道路复核",
+      "start": "2024-12-24T13:49:00+08:00",
+      "end": "2024-12-24T14:04:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88830",
+        "gpx:88831",
+        "gpx:88832",
+        "gpx:88833",
+        "gpx:88834",
+        "gpx:88835",
+        "gpx:88836",
+        "gpx:88837",
+        "gpx:88838",
+        "gpx:88839",
+        "gpx:88840",
+        "gpx:88841",
+        "gpx:88842",
+        "gpx:88843",
+        "gpx:88844",
+        "gpx:88845",
+        "gpx:88846",
+        "gpx:88847",
+        "gpx:88848"
+      ]
+    },
+    {
+      "id": "geometry-edit:41",
+      "name": "12月24日14点18原始 GPS 跳点与离路修正",
+      "start": "2024-12-24T14:12:59+08:00",
+      "end": "2024-12-24T14:28:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:88876",
+        "gpx:88877",
+        "gpx:88878",
+        "gpx:88879",
+        "gpx:88880",
+        "gpx:88881",
+        "gpx:88882",
+        "gpx:88883",
+        "gpx:88884",
+        "gpx:88885",
+        "gpx:88886",
+        "gpx:88887",
+        "gpx:88888",
+        "gpx:88889",
+        "gpx:88890",
+        "gpx:88891",
+        "gpx:88892",
+        "gpx:88893",
+        "gpx:88894",
+        "gpx:88895",
+        "gpx:88896",
+        "gpx:88897",
+        "gpx:88898",
+        "gpx:88899",
+        "gpx:88900",
+        "gpx:88901",
+        "gpx:88902",
+        "gpx:88903",
+        "gpx:88904",
+        "gpx:88905",
+        "gpx:88906",
+        "gpx:88907",
+        "gpx:88908",
+        "gpx:88909",
+        "gpx:88910",
+        "gpx:88911",
+        "gpx:88912",
+        "gpx:88913"
+      ]
+    },
+    {
+      "id": "geometry-edit:42",
+      "name": "12月24日16点05道路复核",
+      "start": "2024-12-24T15:56:01+08:00",
+      "end": "2024-12-24T16:07:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:89445",
+        "gpx:89446",
+        "gpx:89447",
+        "gpx:89448",
+        "gpx:89449",
+        "gpx:89450",
+        "gpx:89451",
+        "gpx:89452",
+        "gpx:89453",
+        "gpx:89454",
+        "gpx:89455",
+        "gpx:89456",
+        "gpx:89457",
+        "gpx:89458",
+        "gpx:89459",
+        "gpx:89460",
+        "gpx:89461",
+        "gpx:89462",
+        "gpx:89463",
+        "gpx:89464",
+        "gpx:89465",
+        "gpx:89466",
+        "gpx:89467",
+        "gpx:89468",
+        "gpx:89469",
+        "gpx:89470",
+        "gpx:89471",
+        "gpx:89472",
+        "gpx:89473",
+        "gpx:89474",
+        "gpx:89475",
+        "gpx:89476",
+        "gpx:89477",
+        "gpx:89478",
+        "gpx:89479",
+        "gpx:89480",
+        "gpx:89481",
+        "gpx:89482",
+        "gpx:89483",
+        "gpx:89484",
+        "gpx:89485",
+        "gpx:89486",
+        "gpx:89487",
+        "gpx:89488",
+        "gpx:89489",
+        "gpx:89490",
+        "gpx:89491",
+        "gpx:89492",
+        "gpx:89493",
+        "gpx:89494",
+        "gpx:89495",
+        "gpx:89496",
+        "gpx:89497",
+        "gpx:89498",
+        "gpx:89499",
+        "gpx:89500",
+        "gpx:89501",
+        "gpx:89502",
+        "gpx:89503",
+        "gpx:89504",
+        "gpx:89505",
+        "gpx:89506",
+        "gpx:89507",
+        "gpx:89508",
+        "gpx:89509",
+        "gpx:89510",
+        "gpx:89511",
+        "gpx:89512",
+        "gpx:89513",
+        "gpx:89514",
+        "gpx:89515",
+        "gpx:89516",
+        "gpx:89517",
+        "gpx:89518",
+        "gpx:89519",
+        "gpx:89520",
+        "gpx:89521",
+        "gpx:89522",
+        "gpx:89523",
+        "gpx:89524",
+        "gpx:89525",
+        "gpx:89526",
+        "gpx:89527",
+        "gpx:89528",
+        "gpx:89529"
+      ]
+    },
+    {
+      "id": "geometry-edit:43",
+      "name": "12月24日18点15至18点28道路复核",
+      "start": "2024-12-24T18:10:09+08:00",
+      "end": "2024-12-24T18:30:01+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:89594",
+        "gpx:89595",
+        "gpx:89596",
+        "gpx:89597",
+        "gpx:89598",
+        "gpx:89599",
+        "gpx:89600",
+        "gpx:89601",
+        "gpx:89602",
+        "gpx:89603",
+        "gpx:89604",
+        "gpx:89605",
+        "gpx:89606",
+        "gpx:89607",
+        "gpx:89608",
+        "gpx:89609",
+        "gpx:89610",
+        "gpx:89611",
+        "gpx:89612",
+        "gpx:89613",
+        "gpx:89614"
+      ]
+    },
+    {
+      "id": "geometry-edit:44",
+      "name": "12月24日18点40异常点与道路修正",
+      "start": "2024-12-24T18:33:59+08:00",
+      "end": "2024-12-24T18:48:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:89659",
+        "gpx:89660",
+        "gpx:89661",
+        "gpx:89662",
+        "gpx:89663",
+        "gpx:89664",
+        "gpx:89665",
+        "gpx:89666",
+        "gpx:89667",
+        "gpx:89668",
+        "gpx:89669",
+        "gpx:89670",
+        "gpx:89671",
+        "gpx:89672",
+        "gpx:89673",
+        "gpx:89674",
+        "gpx:89675",
+        "gpx:89676",
+        "gpx:89677",
+        "gpx:89678",
+        "gpx:89679",
+        "gpx:89680",
+        "gpx:89681",
+        "gpx:89682",
+        "gpx:89683",
+        "gpx:89684",
+        "gpx:89685",
+        "gpx:89686",
+        "gpx:89687",
+        "gpx:89688",
+        "gpx:89689",
+        "gpx:89690",
+        "gpx:89691",
+        "gpx:89692",
+        "gpx:89693",
+        "gpx:89694",
+        "gpx:89695",
+        "gpx:89696",
+        "gpx:89697",
+        "gpx:89698",
+        "gpx:89699",
+        "gpx:89700",
+        "gpx:89701",
+        "gpx:89702",
+        "gpx:89703",
+        "gpx:89704",
+        "gpx:89705",
+        "gpx:89706",
+        "gpx:89707",
+        "gpx:89708",
+        "gpx:89709",
+        "gpx:89710",
+        "gpx:89711",
+        "gpx:89712",
+        "gpx:89713",
+        "gpx:89714",
+        "gpx:89715",
+        "gpx:89716",
+        "gpx:89717",
+        "gpx:89718",
+        "gpx:89719",
+        "gpx:89720",
+        "gpx:89721",
+        "gpx:89722",
+        "gpx:89723",
+        "gpx:89724",
+        "gpx:89725",
+        "gpx:89726",
+        "gpx:89727",
+        "gpx:89728",
+        "gpx:89729",
+        "gpx:89730",
+        "gpx:89731",
+        "gpx:89732",
+        "gpx:89733",
+        "gpx:89734",
+        "gpx:89735",
+        "gpx:89736",
+        "gpx:89737",
+        "gpx:89738",
+        "gpx:89739",
+        "gpx:89740",
+        "gpx:89741",
+        "gpx:89742",
+        "gpx:89743",
+        "gpx:89744",
+        "gpx:89745",
+        "gpx:89746",
+        "gpx:89747",
+        "gpx:89748",
+        "gpx:89749",
+        "gpx:89750",
+        "gpx:89751",
+        "gpx:89752",
+        "gpx:89753",
+        "gpx:89754",
+        "gpx:89755",
+        "gpx:89756",
+        "gpx:89757",
+        "gpx:89758",
+        "gpx:89759",
+        "gpx:89760",
+        "gpx:89761",
+        "gpx:89762",
+        "gpx:89763",
+        "gpx:89764",
+        "gpx:89765",
+        "gpx:89766",
+        "gpx:89767",
+        "gpx:89768",
+        "gpx:89769",
+        "gpx:89770",
+        "gpx:89771",
+        "gpx:89772",
+        "gpx:89773",
+        "gpx:89774",
+        "gpx:89775",
+        "gpx:89776",
+        "gpx:89777",
+        "gpx:89778",
+        "gpx:89779",
+        "gpx:89780",
+        "gpx:89781",
+        "gpx:89782",
+        "gpx:89783",
+        "gpx:89784",
+        "gpx:89785",
+        "gpx:89786",
+        "gpx:89787",
+        "gpx:89788",
+        "gpx:89789",
+        "gpx:89790",
+        "gpx:89791",
+        "gpx:89792",
+        "gpx:89793",
+        "gpx:89794",
+        "gpx:89795",
+        "gpx:89796",
+        "gpx:89797",
+        "gpx:89798",
+        "gpx:89799",
+        "gpx:89800",
+        "gpx:89801",
+        "gpx:89802",
+        "gpx:89803",
+        "gpx:89804",
+        "gpx:89805",
+        "gpx:89806",
+        "gpx:89807",
+        "gpx:89808",
+        "gpx:89809",
+        "gpx:89810",
+        "gpx:89811",
+        "gpx:89812",
+        "gpx:89813",
+        "gpx:89814",
+        "gpx:89815",
+        "gpx:89816",
+        "gpx:89817",
+        "gpx:89818",
+        "gpx:89819",
+        "gpx:89820",
+        "gpx:89821",
+        "gpx:89822",
+        "gpx:89823",
+        "gpx:89824",
+        "gpx:89825",
+        "gpx:89826"
+      ]
+    },
+    {
+      "id": "geometry-edit:45",
+      "name": "12月24日19点10道路复核",
+      "start": "2024-12-24T19:03:59+08:00",
+      "end": "2024-12-24T19:19:45+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90016",
+        "gpx:90017",
+        "gpx:90018",
+        "gpx:90019",
+        "gpx:90020",
+        "gpx:90021",
+        "gpx:90022",
+        "gpx:90023",
+        "gpx:90024",
+        "gpx:90025",
+        "gpx:90026",
+        "gpx:90027",
+        "gpx:90028",
+        "gpx:90029"
+      ]
+    },
+    {
+      "id": "geometry-edit:46",
+      "name": "12月25日13点道路复核",
+      "start": "2024-12-25T12:53:59+08:00",
+      "end": "2024-12-25T13:20:00+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90656",
+        "gpx:90657",
+        "gpx:90658",
+        "gpx:90659",
+        "gpx:90660",
+        "gpx:90661",
+        "gpx:90662",
+        "gpx:90663",
+        "gpx:90664",
+        "gpx:90665",
+        "gpx:90666",
+        "gpx:90667",
+        "gpx:90668",
+        "gpx:90669",
+        "gpx:90670",
+        "gpx:90671",
+        "gpx:90672",
+        "gpx:90673",
+        "gpx:90674",
+        "gpx:90675",
+        "gpx:90676",
+        "gpx:90677",
+        "gpx:90678",
+        "gpx:90679",
+        "gpx:90680",
+        "gpx:90681",
+        "gpx:90682",
+        "gpx:90683",
+        "gpx:90684",
+        "gpx:90685",
+        "gpx:90686",
+        "gpx:90687",
+        "gpx:90688",
+        "gpx:90689",
+        "gpx:90690",
+        "gpx:90691",
+        "gpx:90692",
+        "gpx:90693",
+        "gpx:90694",
+        "gpx:90695",
+        "gpx:90696",
+        "gpx:90697",
+        "gpx:90698",
+        "gpx:90699",
+        "gpx:90700",
+        "gpx:90701",
+        "gpx:90702",
+        "gpx:90703",
+        "gpx:90704",
+        "gpx:90705",
+        "gpx:90706",
+        "gpx:90707",
+        "gpx:90708",
+        "gpx:90709",
+        "gpx:90710",
+        "gpx:90711",
+        "gpx:90712",
+        "gpx:90713",
+        "gpx:90714",
+        "gpx:90715",
+        "gpx:90716",
+        "gpx:90717",
+        "gpx:90718",
+        "gpx:90719",
+        "gpx:90720",
+        "gpx:90721",
+        "gpx:90722",
+        "gpx:90723",
+        "gpx:90724"
+      ]
+    },
+    {
+      "id": "geometry-edit:47",
+      "name": "12月25日17点50折返与道路复核",
+      "start": "2024-12-25T17:50:50+08:00",
+      "end": "2024-12-25T18:10:43+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90764",
+        "gpx:90765",
+        "gpx:90766",
+        "gpx:90767",
+        "gpx:90768",
+        "gpx:90769",
+        "gpx:90770",
+        "gpx:90771",
+        "gpx:90772"
+      ]
+    },
+    {
+      "id": "geometry-edit:48",
+      "name": "珠峰大本营徒步轨迹顺直化",
+      "start": "2024-12-25T18:30:05+08:00",
+      "end": "2024-12-25T19:43:47+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90804",
+        "gpx:90805",
+        "gpx:90806"
+      ]
+    },
+    {
+      "id": "geometry-edit:49",
+      "name": "12月25日19点59至20点13返程道路复核",
+      "start": "2024-12-25T19:56:03+08:00",
+      "end": "2024-12-25T20:16:24+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90809",
+        "gpx:90810",
+        "gpx:90811",
+        "gpx:90812",
+        "gpx:90813",
+        "gpx:90814",
+        "gpx:90815",
+        "gpx:90816",
+        "gpx:90817",
+        "gpx:90818",
+        "gpx:90819",
+        "gpx:90820",
+        "gpx:90821",
+        "gpx:90822",
+        "gpx:90823",
+        "gpx:90824",
+        "gpx:90825",
+        "gpx:90826",
+        "gpx:90827",
+        "gpx:90828",
+        "gpx:90829",
+        "gpx:90830",
+        "gpx:90831",
+        "gpx:90832",
+        "gpx:90833",
+        "gpx:90834"
+      ]
+    },
+    {
+      "id": "geometry-edit:50",
+      "name": "12月26日10点03至10点32道路吸附",
+      "start": "2024-12-26T10:03:04+08:00",
+      "end": "2024-12-26T10:32:15+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:90885",
+        "gpx:90886",
+        "gpx:90887",
+        "gpx:90888",
+        "gpx:90889",
+        "gpx:90890",
+        "gpx:90891",
+        "gpx:90892",
+        "gpx:90893",
+        "gpx:90894",
+        "gpx:90895",
+        "gpx:90896",
+        "gpx:90897",
+        "gpx:90898",
+        "gpx:90899",
+        "gpx:90900",
+        "gpx:90901",
+        "gpx:90902",
+        "gpx:90903",
+        "gpx:90904",
+        "gpx:90905",
+        "gpx:90906",
+        "gpx:90907",
+        "gpx:90908",
+        "gpx:90909",
+        "gpx:90910",
+        "gpx:90911",
+        "gpx:90912",
+        "gpx:90913",
+        "gpx:90914",
+        "gpx:90915",
+        "gpx:90916",
+        "gpx:90917",
+        "gpx:90918",
+        "gpx:90919",
+        "gpx:90920",
+        "gpx:90921",
+        "gpx:90922",
+        "gpx:90923",
+        "gpx:90924",
+        "gpx:90925",
+        "gpx:90926",
+        "gpx:90927",
+        "gpx:90928",
+        "gpx:90929",
+        "gpx:90930",
+        "gpx:90931",
+        "gpx:90932",
+        "gpx:90933",
+        "gpx:90934",
+        "gpx:90935",
+        "gpx:90936",
+        "gpx:90937",
+        "gpx:90938",
+        "gpx:90939",
+        "gpx:90940",
+        "gpx:90941",
+        "gpx:90942",
+        "gpx:90943",
+        "gpx:90944",
+        "gpx:90945",
+        "gpx:90946",
+        "gpx:90947",
+        "gpx:90948",
+        "gpx:90949",
+        "gpx:90950",
+        "gpx:90951",
+        "gpx:90952",
+        "gpx:90953",
+        "gpx:90954",
+        "gpx:90955",
+        "gpx:90956",
+        "gpx:90957",
+        "gpx:90958",
+        "gpx:90959",
+        "gpx:90960",
+        "gpx:90961",
+        "gpx:90962",
+        "gpx:90963",
+        "gpx:90964",
+        "gpx:90965",
+        "gpx:90966",
+        "gpx:90967",
+        "gpx:90968",
+        "gpx:90969",
+        "gpx:90970",
+        "gpx:90971",
+        "gpx:90972",
+        "gpx:90973",
+        "gpx:90974",
+        "gpx:90975",
+        "gpx:90976",
+        "gpx:90977",
+        "gpx:90978",
+        "gpx:90979",
+        "gpx:90980",
+        "gpx:90981",
+        "gpx:90982",
+        "gpx:90983",
+        "gpx:90984",
+        "gpx:90985",
+        "gpx:90986",
+        "gpx:90987",
+        "gpx:90988",
+        "gpx:90989",
+        "gpx:90990",
+        "gpx:90991",
+        "gpx:90992",
+        "gpx:90993",
+        "gpx:90994",
+        "gpx:90995",
+        "gpx:90996",
+        "gpx:90997",
+        "gpx:90998",
+        "gpx:90999",
+        "gpx:91000",
+        "gpx:91001",
+        "gpx:91002",
+        "gpx:91003",
+        "gpx:91004",
+        "gpx:91005",
+        "gpx:91006",
+        "gpx:91007",
+        "gpx:91008",
+        "gpx:91009",
+        "gpx:91010",
+        "gpx:91011",
+        "gpx:91012",
+        "gpx:91013",
+        "gpx:91014",
+        "gpx:91015",
+        "gpx:91016",
+        "gpx:91017",
+        "gpx:91018",
+        "gpx:91019",
+        "gpx:91020",
+        "gpx:91021",
+        "gpx:91022",
+        "gpx:91023",
+        "gpx:91024",
+        "gpx:91025",
+        "gpx:91026",
+        "gpx:91027",
+        "gpx:91028",
+        "gpx:91029",
+        "gpx:91030",
+        "gpx:91031",
+        "gpx:91032",
+        "gpx:91033",
+        "gpx:91034",
+        "gpx:91035",
+        "gpx:91036",
+        "gpx:91037",
+        "gpx:91038",
+        "gpx:91039",
+        "gpx:91040",
+        "gpx:91041",
+        "gpx:91042",
+        "gpx:91043",
+        "gpx:91044",
+        "gpx:91045",
+        "gpx:91046",
+        "gpx:91047",
+        "gpx:91048",
+        "gpx:91049",
+        "gpx:91050",
+        "gpx:91051",
+        "gpx:91052",
+        "gpx:91053",
+        "gpx:91054",
+        "gpx:91055",
+        "gpx:91056",
+        "gpx:91057",
+        "gpx:91058",
+        "gpx:91059",
+        "gpx:91060",
+        "gpx:91061",
+        "gpx:91062",
+        "gpx:91063",
+        "gpx:91064",
+        "gpx:91065",
+        "gpx:91066",
+        "gpx:91067",
+        "gpx:91068",
+        "gpx:91069",
+        "gpx:91070",
+        "gpx:91071",
+        "gpx:91072",
+        "gpx:91073",
+        "gpx:91074",
+        "gpx:91075",
+        "gpx:91076",
+        "gpx:91077",
+        "gpx:91078",
+        "gpx:91079",
+        "gpx:91080",
+        "gpx:91081",
+        "gpx:91082",
+        "gpx:91083",
+        "gpx:91084"
+      ]
+    },
+    {
+      "id": "geometry-edit:51",
+      "name": "12月26日10点32至11点17盘山公路漂移修正",
+      "start": "2024-12-26T10:32:15+08:00",
+      "end": "2024-12-26T11:17:48+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91086"
+      ]
+    },
+    {
+      "id": "geometry-edit:52",
+      "name": "12月26日11点20至13点道路吸附",
+      "start": "2024-12-26T11:17:48+08:00",
+      "end": "2024-12-26T13:01:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91088",
+        "gpx:91089",
+        "gpx:91090",
+        "gpx:91091",
+        "gpx:91092",
+        "gpx:91093",
+        "gpx:91094",
+        "gpx:91095",
+        "gpx:91096",
+        "gpx:91097",
+        "gpx:91098",
+        "gpx:91099",
+        "gpx:91100",
+        "gpx:91101",
+        "gpx:91102",
+        "gpx:91103",
+        "gpx:91104",
+        "gpx:91105",
+        "gpx:91106",
+        "gpx:91107",
+        "gpx:91108",
+        "gpx:91109",
+        "gpx:91110",
+        "gpx:91111",
+        "gpx:91112",
+        "gpx:91113",
+        "gpx:91114",
+        "gpx:91115",
+        "gpx:91116",
+        "gpx:91117",
+        "gpx:91118",
+        "gpx:91119",
+        "gpx:91120",
+        "gpx:91121",
+        "gpx:91122",
+        "gpx:91123",
+        "gpx:91124",
+        "gpx:91125",
+        "gpx:91126",
+        "gpx:91127",
+        "gpx:91128",
+        "gpx:91129",
+        "gpx:91130",
+        "gpx:91131",
+        "gpx:91132",
+        "gpx:91133",
+        "gpx:91134",
+        "gpx:91135",
+        "gpx:91136",
+        "gpx:91137",
+        "gpx:91138",
+        "gpx:91139",
+        "gpx:91140",
+        "gpx:91141",
+        "gpx:91142",
+        "gpx:91143",
+        "gpx:91144",
+        "gpx:91145",
+        "gpx:91146",
+        "gpx:91147",
+        "gpx:91148",
+        "gpx:91149",
+        "gpx:91150",
+        "gpx:91151",
+        "gpx:91152",
+        "gpx:91153",
+        "gpx:91154",
+        "gpx:91155",
+        "gpx:91156",
+        "gpx:91157",
+        "gpx:91158",
+        "gpx:91159",
+        "gpx:91160",
+        "gpx:91161",
+        "gpx:91162",
+        "gpx:91163",
+        "gpx:91164",
+        "gpx:91165",
+        "gpx:91166",
+        "gpx:91167",
+        "gpx:91168",
+        "gpx:91169",
+        "gpx:91170",
+        "gpx:91171",
+        "gpx:91172",
+        "gpx:91173",
+        "gpx:91174",
+        "gpx:91175",
+        "gpx:91176",
+        "gpx:91177",
+        "gpx:91178",
+        "gpx:91179",
+        "gpx:91180",
+        "gpx:91181",
+        "gpx:91182",
+        "gpx:91183",
+        "gpx:91184",
+        "gpx:91185",
+        "gpx:91186",
+        "gpx:91187",
+        "gpx:91188",
+        "gpx:91189",
+        "gpx:91190",
+        "gpx:91191",
+        "gpx:91192",
+        "gpx:91193",
+        "gpx:91194",
+        "gpx:91195",
+        "gpx:91196",
+        "gpx:91197",
+        "gpx:91198",
+        "gpx:91199",
+        "gpx:91200",
+        "gpx:91201",
+        "gpx:91202",
+        "gpx:91203",
+        "gpx:91204",
+        "gpx:91205",
+        "gpx:91206",
+        "gpx:91207",
+        "gpx:91208",
+        "gpx:91209",
+        "gpx:91210",
+        "gpx:91211",
+        "gpx:91212",
+        "gpx:91213",
+        "gpx:91214",
+        "gpx:91215",
+        "gpx:91216",
+        "gpx:91217",
+        "gpx:91218",
+        "gpx:91219",
+        "gpx:91220",
+        "gpx:91221",
+        "gpx:91222",
+        "gpx:91223",
+        "gpx:91224",
+        "gpx:91225",
+        "gpx:91226",
+        "gpx:91227",
+        "gpx:91228",
+        "gpx:91229",
+        "gpx:91230",
+        "gpx:91231",
+        "gpx:91232",
+        "gpx:91233",
+        "gpx:91234",
+        "gpx:91235",
+        "gpx:91236",
+        "gpx:91237",
+        "gpx:91238",
+        "gpx:91239",
+        "gpx:91240",
+        "gpx:91241",
+        "gpx:91242",
+        "gpx:91243",
+        "gpx:91244",
+        "gpx:91245",
+        "gpx:91246",
+        "gpx:91247",
+        "gpx:91248",
+        "gpx:91249",
+        "gpx:91250",
+        "gpx:91251",
+        "gpx:91252",
+        "gpx:91253",
+        "gpx:91254",
+        "gpx:91255",
+        "gpx:91256",
+        "gpx:91257",
+        "gpx:91258",
+        "gpx:91259",
+        "gpx:91260",
+        "gpx:91261",
+        "gpx:91262",
+        "gpx:91263",
+        "gpx:91264",
+        "gpx:91265",
+        "gpx:91266",
+        "gpx:91267",
+        "gpx:91268",
+        "gpx:91269",
+        "gpx:91270",
+        "gpx:91271",
+        "gpx:91272",
+        "gpx:91273",
+        "gpx:91274",
+        "gpx:91275",
+        "gpx:91276",
+        "gpx:91277",
+        "gpx:91278",
+        "gpx:91279",
+        "gpx:91280"
+      ]
+    },
+    {
+      "id": "geometry-edit:53",
+      "name": "12月26日13点01至13点11道路吸附与时间锚点修正",
+      "start": "2024-12-26T13:01:59+08:00",
+      "end": "2024-12-26T13:10:59+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91282",
+        "gpx:91283",
+        "gpx:91284",
+        "gpx:91285",
+        "gpx:91286",
+        "gpx:91287",
+        "gpx:91288",
+        "gpx:91289",
+        "gpx:91290",
+        "gpx:91291",
+        "gpx:91292",
+        "gpx:91293",
+        "gpx:91294",
+        "gpx:91295",
+        "gpx:91296",
+        "gpx:91297",
+        "gpx:91298",
+        "gpx:91299",
+        "gpx:91300",
+        "gpx:91301",
+        "gpx:91302",
+        "gpx:91303",
+        "gpx:91304",
+        "gpx:91305",
+        "gpx:91306",
+        "gpx:91307",
+        "gpx:91308",
+        "gpx:91309",
+        "gpx:91310",
+        "gpx:91311",
+        "gpx:91312",
+        "gpx:91313",
+        "gpx:91314",
+        "gpx:91315",
+        "gpx:91316",
+        "gpx:91317",
+        "gpx:91318",
+        "gpx:91319",
+        "gpx:91320",
+        "gpx:91321",
+        "gpx:91322",
+        "gpx:91323",
+        "gpx:91324",
+        "gpx:91325",
+        "gpx:91326",
+        "gpx:91327",
+        "gpx:91328",
+        "gpx:91329",
+        "gpx:91330",
+        "gpx:91331",
+        "gpx:91332",
+        "gpx:91333",
+        "gpx:91334",
+        "gpx:91335",
+        "gpx:91336",
+        "gpx:91337",
+        "gpx:91338",
+        "gpx:91339",
+        "gpx:91340",
+        "gpx:91341",
+        "gpx:91342",
+        "gpx:91343",
+        "gpx:91344",
+        "gpx:91345",
+        "gpx:91346",
+        "gpx:91347",
+        "gpx:91348",
+        "gpx:91349",
+        "gpx:91350",
+        "gpx:91351",
+        "gpx:91352",
+        "gpx:91353",
+        "gpx:91354",
+        "gpx:91355",
+        "gpx:91356",
+        "gpx:91357",
+        "gpx:91358",
+        "gpx:91359",
+        "gpx:91360",
+        "gpx:91361",
+        "gpx:91362",
+        "gpx:91363",
+        "gpx:91364",
+        "gpx:91365",
+        "gpx:91366",
+        "gpx:91367",
+        "gpx:91368",
+        "gpx:91369",
+        "gpx:91370",
+        "gpx:91371",
+        "gpx:91372",
+        "gpx:91373",
+        "gpx:91374",
+        "gpx:91375",
+        "gpx:91376",
+        "gpx:91377",
+        "gpx:91378",
+        "gpx:91379",
+        "gpx:91380",
+        "gpx:91381",
+        "gpx:91382",
+        "gpx:91383",
+        "gpx:91384",
+        "gpx:91385",
+        "gpx:91386",
+        "gpx:91387",
+        "gpx:91388",
+        "gpx:91389",
+        "gpx:91390",
+        "gpx:91391",
+        "gpx:91392",
+        "gpx:91393",
+        "gpx:91394",
+        "gpx:91395",
+        "gpx:91396",
+        "gpx:91397",
+        "gpx:91398",
+        "gpx:91399",
+        "gpx:91400",
+        "gpx:91401",
+        "gpx:91402",
+        "gpx:91403",
+        "gpx:91404",
+        "gpx:91405",
+        "gpx:91406",
+        "gpx:91407",
+        "gpx:91408",
+        "gpx:91409",
+        "gpx:91410",
+        "gpx:91411",
+        "gpx:91412",
+        "gpx:91413",
+        "gpx:91414",
+        "gpx:91415",
+        "gpx:91416",
+        "gpx:91417",
+        "gpx:91418",
+        "gpx:91419",
+        "gpx:91420",
+        "gpx:91421",
+        "gpx:91422",
+        "gpx:91423",
+        "gpx:91424",
+        "gpx:91425",
+        "gpx:91426",
+        "gpx:91427"
+      ]
+    },
+    {
+      "id": "geometry-edit:54",
+      "name": "12月26日13点11至佩枯错前道路吸附",
+      "start": "2024-12-26T13:10:59+08:00",
+      "end": "2024-12-26T14:28:02+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91429",
+        "gpx:91430",
+        "gpx:91431",
+        "gpx:91432",
+        "gpx:91433",
+        "gpx:91434",
+        "gpx:91435",
+        "gpx:91436",
+        "gpx:91437",
+        "gpx:91438",
+        "gpx:91439",
+        "gpx:91440",
+        "gpx:91441",
+        "gpx:91442",
+        "gpx:91443",
+        "gpx:91444",
+        "gpx:91445",
+        "gpx:91446",
+        "gpx:91447",
+        "gpx:91448",
+        "gpx:91449",
+        "gpx:91450",
+        "gpx:91451",
+        "gpx:91452",
+        "gpx:91453",
+        "gpx:91454",
+        "gpx:91455",
+        "gpx:91456",
+        "gpx:91457",
+        "gpx:91458",
+        "gpx:91459",
+        "gpx:91460",
+        "gpx:91461",
+        "gpx:91462",
+        "gpx:91463",
+        "gpx:91464",
+        "gpx:91465",
+        "gpx:91466",
+        "gpx:91467",
+        "gpx:91468",
+        "gpx:91469",
+        "gpx:91470",
+        "gpx:91471",
+        "gpx:91472",
+        "gpx:91473",
+        "gpx:91474",
+        "gpx:91475",
+        "gpx:91476",
+        "gpx:91477",
+        "gpx:91478",
+        "gpx:91479",
+        "gpx:91480",
+        "gpx:91481",
+        "gpx:91482",
+        "gpx:91483",
+        "gpx:91484",
+        "gpx:91485",
+        "gpx:91486",
+        "gpx:91487",
+        "gpx:91488",
+        "gpx:91489",
+        "gpx:91490",
+        "gpx:91491",
+        "gpx:91492",
+        "gpx:91493",
+        "gpx:91494",
+        "gpx:91495",
+        "gpx:91496",
+        "gpx:91497",
+        "gpx:91498",
+        "gpx:91499",
+        "gpx:91500",
+        "gpx:91501",
+        "gpx:91502",
+        "gpx:91503",
+        "gpx:91504",
+        "gpx:91505",
+        "gpx:91506",
+        "gpx:91507",
+        "gpx:91508",
+        "gpx:91509",
+        "gpx:91510",
+        "gpx:91511",
+        "gpx:91512",
+        "gpx:91513",
+        "gpx:91514",
+        "gpx:91515",
+        "gpx:91516",
+        "gpx:91517",
+        "gpx:91518",
+        "gpx:91519",
+        "gpx:91520",
+        "gpx:91521",
+        "gpx:91522",
+        "gpx:91523",
+        "gpx:91524",
+        "gpx:91525",
+        "gpx:91526",
+        "gpx:91527",
+        "gpx:91528",
+        "gpx:91529",
+        "gpx:91530",
+        "gpx:91531",
+        "gpx:91532",
+        "gpx:91533",
+        "gpx:91534",
+        "gpx:91535",
+        "gpx:91536",
+        "gpx:91537",
+        "gpx:91538",
+        "gpx:91539",
+        "gpx:91540",
+        "gpx:91541",
+        "gpx:91542",
+        "gpx:91543",
+        "gpx:91544",
+        "gpx:91545",
+        "gpx:91546",
+        "gpx:91547",
+        "gpx:91548",
+        "gpx:91549",
+        "gpx:91550",
+        "gpx:91551",
+        "gpx:91552",
+        "gpx:91553",
+        "gpx:91554",
+        "gpx:91555",
+        "gpx:91556",
+        "gpx:91557",
+        "gpx:91558",
+        "gpx:91559",
+        "gpx:91560",
+        "gpx:91561",
+        "gpx:91562",
+        "gpx:91563",
+        "gpx:91564",
+        "gpx:91565",
+        "gpx:91566",
+        "gpx:91567",
+        "gpx:91568",
+        "gpx:91569",
+        "gpx:91570",
+        "gpx:91571",
+        "gpx:91572",
+        "gpx:91573",
+        "gpx:91574",
+        "gpx:91575",
+        "gpx:91576",
+        "gpx:91577",
+        "gpx:91578",
+        "gpx:91579",
+        "gpx:91580",
+        "gpx:91581",
+        "gpx:91582",
+        "gpx:91583",
+        "gpx:91584",
+        "gpx:91585",
+        "gpx:91586",
+        "gpx:91587",
+        "gpx:91588",
+        "gpx:91589",
+        "gpx:91590",
+        "gpx:91591",
+        "gpx:91592",
+        "gpx:91593",
+        "gpx:91594",
+        "gpx:91595",
+        "gpx:91596",
+        "gpx:91597",
+        "gpx:91598",
+        "gpx:91599",
+        "gpx:91600",
+        "gpx:91601",
+        "gpx:91602",
+        "gpx:91603",
+        "gpx:91604",
+        "gpx:91605",
+        "gpx:91606",
+        "gpx:91607",
+        "gpx:91608",
+        "gpx:91609",
+        "gpx:91610",
+        "gpx:91611",
+        "gpx:91612",
+        "gpx:91613",
+        "gpx:91614",
+        "gpx:91615",
+        "gpx:91616",
+        "gpx:91617",
+        "gpx:91618",
+        "gpx:91619",
+        "gpx:91620",
+        "gpx:91621",
+        "gpx:91622",
+        "gpx:91623",
+        "gpx:91624",
+        "gpx:91625",
+        "gpx:91626",
+        "gpx:91627",
+        "gpx:91628",
+        "gpx:91629",
+        "gpx:91630",
+        "gpx:91631",
+        "gpx:91632",
+        "gpx:91633",
+        "gpx:91634",
+        "gpx:91635",
+        "gpx:91636",
+        "gpx:91637",
+        "gpx:91638",
+        "gpx:91639",
+        "gpx:91640",
+        "gpx:91641",
+        "gpx:91642",
+        "gpx:91643",
+        "gpx:91644",
+        "gpx:91645",
+        "gpx:91646",
+        "gpx:91647",
+        "gpx:91648",
+        "gpx:91649",
+        "gpx:91650",
+        "gpx:91651",
+        "gpx:91652",
+        "gpx:91653",
+        "gpx:91654",
+        "gpx:91655",
+        "gpx:91656",
+        "gpx:91657",
+        "gpx:91658",
+        "gpx:91659",
+        "gpx:91660",
+        "gpx:91661",
+        "gpx:91662",
+        "gpx:91663",
+        "gpx:91664",
+        "gpx:91665",
+        "gpx:91666",
+        "gpx:91667",
+        "gpx:91668",
+        "gpx:91669",
+        "gpx:91670",
+        "gpx:91671",
+        "gpx:91672",
+        "gpx:91673",
+        "gpx:91674",
+        "gpx:91675",
+        "gpx:91676",
+        "gpx:91677",
+        "gpx:91678",
+        "gpx:91679",
+        "gpx:91680",
+        "gpx:91681",
+        "gpx:91682",
+        "gpx:91683",
+        "gpx:91684",
+        "gpx:91685",
+        "gpx:91686",
+        "gpx:91687",
+        "gpx:91688",
+        "gpx:91689",
+        "gpx:91690",
+        "gpx:91691",
+        "gpx:91692",
+        "gpx:91693",
+        "gpx:91694",
+        "gpx:91695",
+        "gpx:91696",
+        "gpx:91697",
+        "gpx:91698",
+        "gpx:91699",
+        "gpx:91700",
+        "gpx:91701",
+        "gpx:91702",
+        "gpx:91703",
+        "gpx:91704",
+        "gpx:91705",
+        "gpx:91706",
+        "gpx:91707",
+        "gpx:91708",
+        "gpx:91709",
+        "gpx:91710",
+        "gpx:91711",
+        "gpx:91712",
+        "gpx:91713",
+        "gpx:91714",
+        "gpx:91715",
+        "gpx:91716",
+        "gpx:91717",
+        "gpx:91718",
+        "gpx:91719",
+        "gpx:91720",
+        "gpx:91721",
+        "gpx:91722",
+        "gpx:91723",
+        "gpx:91724",
+        "gpx:91725",
+        "gpx:91726",
+        "gpx:91727",
+        "gpx:91728",
+        "gpx:91729",
+        "gpx:91730",
+        "gpx:91731",
+        "gpx:91732",
+        "gpx:91733",
+        "gpx:91734",
+        "gpx:91735",
+        "gpx:91736",
+        "gpx:91737",
+        "gpx:91738",
+        "gpx:91739",
+        "gpx:91740",
+        "gpx:91741",
+        "gpx:91742",
+        "gpx:91743",
+        "gpx:91744",
+        "gpx:91745",
+        "gpx:91746",
+        "gpx:91747",
+        "gpx:91748",
+        "gpx:91749",
+        "gpx:91750",
+        "gpx:91751",
+        "gpx:91752",
+        "gpx:91753",
+        "gpx:91754",
+        "gpx:91755",
+        "gpx:91756",
+        "gpx:91757",
+        "gpx:91758",
+        "gpx:91759",
+        "gpx:91760",
+        "gpx:91761",
+        "gpx:91762",
+        "gpx:91763",
+        "gpx:91764",
+        "gpx:91765",
+        "gpx:91766",
+        "gpx:91767",
+        "gpx:91768",
+        "gpx:91769",
+        "gpx:91770",
+        "gpx:91771",
+        "gpx:91772",
+        "gpx:91773",
+        "gpx:91774",
+        "gpx:91775",
+        "gpx:91776",
+        "gpx:91777",
+        "gpx:91778",
+        "gpx:91779",
+        "gpx:91780",
+        "gpx:91781",
+        "gpx:91782",
+        "gpx:91783",
+        "gpx:91784",
+        "gpx:91785",
+        "gpx:91786",
+        "gpx:91787",
+        "gpx:91788",
+        "gpx:91789",
+        "gpx:91790",
+        "gpx:91791",
+        "gpx:91792",
+        "gpx:91793",
+        "gpx:91794",
+        "gpx:91795",
+        "gpx:91796",
+        "gpx:91797",
+        "gpx:91798",
+        "gpx:91799",
+        "gpx:91800",
+        "gpx:91801",
+        "gpx:91802",
+        "gpx:91803",
+        "gpx:91804",
+        "gpx:91805",
+        "gpx:91806",
+        "gpx:91807",
+        "gpx:91808",
+        "gpx:91809",
+        "gpx:91810",
+        "gpx:91811",
+        "gpx:91812",
+        "gpx:91813",
+        "gpx:91814",
+        "gpx:91815",
+        "gpx:91816",
+        "gpx:91817",
+        "gpx:91818",
+        "gpx:91819",
+        "gpx:91820",
+        "gpx:91821",
+        "gpx:91822",
+        "gpx:91823",
+        "gpx:91824",
+        "gpx:91825",
+        "gpx:91826",
+        "gpx:91827",
+        "gpx:91828",
+        "gpx:91829",
+        "gpx:91830"
+      ]
+    },
+    {
+      "id": "geometry-edit:55",
+      "name": "12月26日佩枯错后至16点04道路吸附",
+      "start": "2024-12-26T15:52:18+08:00",
+      "end": "2024-12-26T16:04:43+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91887",
+        "gpx:91888",
+        "gpx:91889",
+        "gpx:91890",
+        "gpx:91891",
+        "gpx:91892",
+        "gpx:91893",
+        "gpx:91894",
+        "gpx:91895",
+        "gpx:91896",
+        "gpx:91897",
+        "gpx:91898",
+        "gpx:91899",
+        "gpx:91900",
+        "gpx:91901",
+        "gpx:91902",
+        "gpx:91903",
+        "gpx:91904",
+        "gpx:91905",
+        "gpx:91906",
+        "gpx:91907",
+        "gpx:91908",
+        "gpx:91909",
+        "gpx:91910",
+        "gpx:91911",
+        "gpx:91912",
+        "gpx:91913",
+        "gpx:91914",
+        "gpx:91915",
+        "gpx:91916",
+        "gpx:91917",
+        "gpx:91918",
+        "gpx:91919",
+        "gpx:91920",
+        "gpx:91921",
+        "gpx:91922",
+        "gpx:91923",
+        "gpx:91924",
+        "gpx:91925",
+        "gpx:91926",
+        "gpx:91927",
+        "gpx:91928",
+        "gpx:91929",
+        "gpx:91930"
+      ]
+    },
+    {
+      "id": "geometry-edit:56",
+      "name": "12月26日16点15至吉隆道路吸附",
+      "start": "2024-12-26T16:15:22+08:00",
+      "end": "2024-12-26T18:11:16+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:91947",
+        "gpx:91948",
+        "gpx:91949",
+        "gpx:91950",
+        "gpx:91951",
+        "gpx:91952",
+        "gpx:91953",
+        "gpx:91954",
+        "gpx:91955",
+        "gpx:91956",
+        "gpx:91957",
+        "gpx:91958",
+        "gpx:91959",
+        "gpx:91960",
+        "gpx:91961",
+        "gpx:91962",
+        "gpx:91963",
+        "gpx:91964",
+        "gpx:91965",
+        "gpx:91966",
+        "gpx:91967",
+        "gpx:91968",
+        "gpx:91969",
+        "gpx:91970",
+        "gpx:91971",
+        "gpx:91972",
+        "gpx:91973",
+        "gpx:91974",
+        "gpx:91975",
+        "gpx:91976",
+        "gpx:91977",
+        "gpx:91978",
+        "gpx:91979",
+        "gpx:91980",
+        "gpx:91981",
+        "gpx:91982",
+        "gpx:91983",
+        "gpx:91984",
+        "gpx:91985",
+        "gpx:91986",
+        "gpx:91987",
+        "gpx:91988",
+        "gpx:91989",
+        "gpx:91990",
+        "gpx:91991",
+        "gpx:91992",
+        "gpx:91993",
+        "gpx:91994",
+        "gpx:91995",
+        "gpx:91996",
+        "gpx:91997",
+        "gpx:91998",
+        "gpx:91999",
+        "gpx:92000",
+        "gpx:92001",
+        "gpx:92002",
+        "gpx:92003",
+        "gpx:92004",
+        "gpx:92005",
+        "gpx:92006",
+        "gpx:92007",
+        "gpx:92008",
+        "gpx:92009",
+        "gpx:92010",
+        "gpx:92011",
+        "gpx:92012",
+        "gpx:92013",
+        "gpx:92014",
+        "gpx:92015",
+        "gpx:92016",
+        "gpx:92017",
+        "gpx:92018",
+        "gpx:92019",
+        "gpx:92020",
+        "gpx:92021",
+        "gpx:92022",
+        "gpx:92023",
+        "gpx:92024",
+        "gpx:92025",
+        "gpx:92026",
+        "gpx:92027",
+        "gpx:92028",
+        "gpx:92029",
+        "gpx:92030",
+        "gpx:92031",
+        "gpx:92032",
+        "gpx:92033",
+        "gpx:92034",
+        "gpx:92035",
+        "gpx:92036",
+        "gpx:92037",
+        "gpx:92038",
+        "gpx:92039",
+        "gpx:92040",
+        "gpx:92041",
+        "gpx:92042",
+        "gpx:92043",
+        "gpx:92044",
+        "gpx:92045",
+        "gpx:92046",
+        "gpx:92047",
+        "gpx:92048",
+        "gpx:92049",
+        "gpx:92050",
+        "gpx:92051",
+        "gpx:92052",
+        "gpx:92053",
+        "gpx:92054",
+        "gpx:92055",
+        "gpx:92056",
+        "gpx:92057",
+        "gpx:92058",
+        "gpx:92059",
+        "gpx:92060",
+        "gpx:92061",
+        "gpx:92062",
+        "gpx:92063",
+        "gpx:92064",
+        "gpx:92065",
+        "gpx:92066",
+        "gpx:92067",
+        "gpx:92068",
+        "gpx:92069",
+        "gpx:92070",
+        "gpx:92071",
+        "gpx:92072",
+        "gpx:92073",
+        "gpx:92074",
+        "gpx:92075",
+        "gpx:92076",
+        "gpx:92077",
+        "gpx:92078",
+        "gpx:92079",
+        "gpx:92080",
+        "gpx:92081",
+        "gpx:92082",
+        "gpx:92083",
+        "gpx:92084",
+        "gpx:92085",
+        "gpx:92086",
+        "gpx:92087",
+        "gpx:92088",
+        "gpx:92089",
+        "gpx:92090",
+        "gpx:92091",
+        "gpx:92092",
+        "gpx:92093"
+      ]
+    },
+    {
+      "id": "geometry-edit:57",
+      "name": "12月26日吉隆至乃村进村道路连接",
+      "start": "2024-12-26T18:11:16+08:00",
+      "end": "2024-12-26T18:20:18+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": []
+    },
+    {
+      "id": "geometry-edit:58",
+      "name": "12月26日吉隆镇晚间短途道路吸附",
+      "start": "2024-12-26T19:26:33+08:00",
+      "end": "2024-12-26T20:52:07+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:92101",
+        "gpx:92102",
+        "gpx:92103",
+        "gpx:92104",
+        "gpx:92105",
+        "gpx:92106",
+        "gpx:92107",
+        "gpx:92108",
+        "gpx:92109",
+        "gpx:92110",
+        "gpx:92111",
+        "gpx:92112",
+        "gpx:92113",
+        "gpx:92114",
+        "gpx:92115",
+        "gpx:92116",
+        "gpx:92117",
+        "gpx:92118",
+        "gpx:92119",
+        "gpx:92120",
+        "gpx:92121",
+        "gpx:92122",
+        "gpx:92123",
+        "gpx:92124",
+        "gpx:92125",
+        "gpx:92126",
+        "gpx:92127",
+        "gpx:92128",
+        "gpx:92129",
+        "gpx:92130",
+        "gpx:92131",
+        "gpx:92132",
+        "gpx:92133",
+        "gpx:92134",
+        "gpx:92135",
+        "gpx:92136",
+        "gpx:92137",
+        "gpx:92138",
+        "gpx:92139",
+        "gpx:92140",
+        "gpx:92141",
+        "gpx:92142",
+        "gpx:92143",
+        "gpx:92144",
+        "gpx:92145",
+        "gpx:92146",
+        "gpx:92147"
+      ]
+    },
+    {
+      "id": "geometry-edit:59",
+      "name": "12月27日10点41至11点03道路吸附",
+      "start": "2024-12-27T10:41:16+08:00",
+      "end": "2024-12-27T11:03:04+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:92191",
+        "gpx:92192"
+      ]
+    },
+    {
+      "id": "geometry-edit:60",
+      "name": "12月27日前往亚洲第一观景台全段吸附复核",
+      "start": "2024-12-27T07:28:25+08:00",
+      "end": "2024-12-27T08:44:16+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:92158",
+        "gpx:92159",
+        "gpx:92160",
+        "gpx:92161",
+        "gpx:92162",
+        "gpx:92163",
+        "gpx:92164",
+        "gpx:92165",
+        "gpx:92166",
+        "gpx:92167",
+        "gpx:92168",
+        "gpx:92169",
+        "gpx:92170",
+        "gpx:92171",
+        "gpx:92172",
+        "gpx:92173",
+        "gpx:92174",
+        "gpx:92175",
+        "gpx:92176",
+        "gpx:92177",
+        "gpx:92178",
+        "gpx:92179",
+        "gpx:92180"
+      ]
+    },
+    {
+      "id": "geometry-edit:61",
+      "name": "12月28日15点50短段道路吸附",
+      "start": "2024-12-28T15:50:11+08:00",
+      "end": "2024-12-28T15:56:17+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:94149",
+        "gpx:94150",
+        "gpx:94151",
+        "gpx:94152",
+        "gpx:94153",
+        "gpx:94154",
+        "gpx:94155",
+        "gpx:94156",
+        "gpx:94157"
+      ]
+    },
+    {
+      "id": "geometry-edit:62",
+      "name": "12月28日20点18至20点35长距离重复折返移除",
+      "start": "2024-12-28T20:18:37+08:00",
+      "end": "2024-12-28T20:35:15+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:95986",
+        "gpx:95987",
+        "gpx:95988"
+      ]
+    },
+    {
+      "id": "geometry-edit:63",
+      "name": "12月28日20点45至20点48局部双环折返移除",
+      "start": "2024-12-28T20:45:10+08:00",
+      "end": "2024-12-28T20:48:25+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:96007"
+      ]
+    },
+    {
+      "id": "geometry-edit:64",
+      "name": "12月29日17点41至18点02道路吸附",
+      "start": "2024-12-29T17:41:52+08:00",
+      "end": "2024-12-29T18:02:50+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:96331",
+        "gpx:96332",
+        "gpx:96333",
+        "gpx:96334",
+        "gpx:96335",
+        "gpx:96336",
+        "gpx:96337",
+        "gpx:96338",
+        "gpx:96339",
+        "gpx:96340",
+        "gpx:96341",
+        "gpx:96342",
+        "gpx:96343",
+        "gpx:96344",
+        "gpx:96345",
+        "gpx:96346",
+        "gpx:96347",
+        "gpx:96348",
+        "gpx:96349"
+      ]
+    },
+    {
+      "id": "geometry-edit:65",
+      "name": "12月29日20点22至20点35道路吸附",
+      "start": "2024-12-29T20:22:28+08:00",
+      "end": "2024-12-29T20:35:58+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:96369",
+        "gpx:96370",
+        "gpx:96371",
+        "gpx:96372",
+        "gpx:96373",
+        "gpx:96374",
+        "gpx:96375",
+        "gpx:96376",
+        "gpx:96377",
+        "gpx:96378",
+        "gpx:96379",
+        "gpx:96380",
+        "gpx:96381",
+        "gpx:96382",
+        "gpx:96383",
+        "gpx:96384",
+        "gpx:96385",
+        "gpx:96386",
+        "gpx:96387",
+        "gpx:96388",
+        "gpx:96389",
+        "gpx:96390",
+        "gpx:96391",
+        "gpx:96392",
+        "gpx:96393",
+        "gpx:96394",
+        "gpx:96395",
+        "gpx:96396",
+        "gpx:96397",
+        "gpx:96398",
+        "gpx:96399",
+        "gpx:96400",
+        "gpx:96401",
+        "gpx:96402",
+        "gpx:96403",
+        "gpx:96404",
+        "gpx:96405",
+        "gpx:96406",
+        "gpx:96407",
+        "gpx:96408",
+        "gpx:96409",
+        "gpx:96410",
+        "gpx:96411",
+        "gpx:96412",
+        "gpx:96413",
+        "gpx:96414",
+        "gpx:96415",
+        "gpx:96416",
+        "gpx:96417",
+        "gpx:96418",
+        "gpx:96419",
+        "gpx:96420",
+        "gpx:96421",
+        "gpx:96422",
+        "gpx:96423",
+        "gpx:96424",
+        "gpx:96425",
+        "gpx:96426",
+        "gpx:96427",
+        "gpx:96428",
+        "gpx:96429",
+        "gpx:96430",
+        "gpx:96431",
+        "gpx:96432",
+        "gpx:96433",
+        "gpx:96434",
+        "gpx:96435",
+        "gpx:96436",
+        "gpx:96437",
+        "gpx:96438"
+      ]
+    },
+    {
+      "id": "geometry-edit:66",
+      "name": "12月22日15点02折返完整窗口复核",
+      "start": "2024-12-22T14:56:57+08:00",
+      "end": "2024-12-22T15:09:54+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:87043",
+        "gpx:87044",
+        "gpx:87045",
+        "gpx:87046",
+        "gpx:87047",
+        "gpx:87048",
+        "gpx:87049",
+        "gpx:87050",
+        "gpx:87051"
+      ]
+    },
+    {
+      "id": "geometry-edit:67",
+      "name": "12月29日宗角禄康公园步行噪点去折返",
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:96175",
+        "gpx:96176",
+        "gpx:96177",
+        "gpx:96178",
+        "gpx:96179",
+        "gpx:96180",
+        "gpx:96181",
+        "gpx:96182",
+        "gpx:96183",
+        "gpx:96184",
+        "gpx:96185",
+        "gpx:96186",
+        "gpx:96187",
+        "gpx:96188",
+        "gpx:96189",
+        "gpx:96190",
+        "gpx:96191",
+        "gpx:96192",
+        "gpx:96193",
+        "gpx:96194",
+        "gpx:96195",
+        "gpx:96196",
+        "gpx:96197",
+        "gpx:96198",
+        "gpx:96199",
+        "gpx:96200",
+        "gpx:96201",
+        "gpx:96202",
+        "gpx:96203"
+      ]
+    },
+    {
+      "id": "geometry-edit:68",
+      "name": "12月28日晚抵达拉萨并去除市区折返",
+      "start": "2024-12-28T21:55:37+08:00",
+      "end": "2024-12-28T22:15:49+08:00",
+      "effect": "replace_interval_geometry",
+      "excluded_raw_source_ids": [
+        "gpx:96067",
+        "gpx:96068",
+        "gpx:96069",
+        "gpx:96070",
+        "gpx:96071",
+        "gpx:96072",
+        "gpx:96073",
+        "gpx:96074",
+        "gpx:96075",
+        "gpx:96076",
+        "gpx:96077",
+        "gpx:96078",
+        "gpx:96079",
+        "gpx:96080",
+        "gpx:96081",
+        "gpx:96082",
+        "gpx:96083",
+        "gpx:96084",
+        "gpx:96085",
+        "gpx:96086",
+        "gpx:96087",
+        "gpx:96088",
+        "gpx:96089",
+        "gpx:96090",
+        "gpx:96091",
+        "gpx:96092"
+      ]
+    }
+  ]
+}

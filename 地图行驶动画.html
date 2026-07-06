@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>西藏边境线 · 行驶轨迹动画</title>
+    <link
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="route_data/processed/route-data.js?v=20260706-d26-naicun-link"></script>
+    <script src="route_data/map-content.js?v=20260705-route-repairs"></script>
+    <link
+      href="assets/map-animation.css?v=20260706-tunnel-ranges"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="hud">
+      <b id="hud-date">12-20</b>
+      <div class="sub" id="hud-info"></div>
+    </div>
+    <div class="title">
+      <div class="t">西藏边境线</div>
+      <div class="s">拉萨 · 珠峰 · 吉隆 · 陈塘　2024.12</div>
+    </div>
+    <div class="panel">
+      <div>
+        <button class="play" id="btn-play">▶ 播放</button
+        ><button id="btn-replay">↻ 重播</button>
+      </div>
+      <div class="row">
+        速度<input type="range" id="spd" min="2" max="800" value="100" /><span
+          id="spd-v"
+          >1.00×</span
+        >　停靠点停顿<input
+          type="number"
+          id="paus"
+          min="0"
+          max="10"
+          step="0.5"
+          value="1"
+        />s
+      </div>
+      <div class="row">
+        俯仰<input type="range" id="pit" min="0" max="75" value="0" /><span
+          id="pit-v"
+          >0°</span
+        >缩放<input type="range" id="zm" min="55" max="165" value="92" /><span
+          id="zm-v"
+          >9.2</span
+        >
+      </div>
+      <div class="row">
+        <button id="btn-view">镜头:自动北向</button> 底图<select id="sel-style">
+          <option value="sat">卫星影像</option>
+          <option value="relief">地形晕渲</option>
+          <option value="topo">地形等高</option>
+          <option value="dark">暗色科技</option>
+          <option value="light">浅色简约</option>
+          <option value="street">街道</option>
+          <option value="paper">纸质(无底图)</option>
+        </select>
+        <button id="btn-peak">山峰:显</button
+        ><button id="btn-byday">按天变色:关</button
+        ><button id="btn-rec">🎬 录屏模式</button
+        ><button id="btn-coordinate-picker">📍 选点:关</button
+        ><button id="btn-story-editor" type="button">✦ 故事点</button
+        ><button id="btn-backpack" type="button">🎒 素材背包</button>
+      </div>
+      <div class="row progress-row">
+        进度<input type="range" id="seek" min="0" max="100000" value="0" />
+      </div>
+      <div class="row region-preview-row">
+        <label for="region-preview">区域</label>
+        <select id="region-preview" aria-label="选择预览区域"></select>
+        <button id="btn-region-preview" type="button">前往并播放</button>
+        <span id="region-preview-status" aria-live="polite"></span>
+      </div>
+      <div class="row debug-time-row">
+        <label for="debug-time">时间跳转</label>
+        <input id="debug-time" type="text" inputmode="text" placeholder="12-23 17:35" autocomplete="off" />
+        <button id="btn-debug-time" type="button">跳转</button>
+        <span id="debug-time-status" aria-live="polite"></span>
+      </div>
+      <div class="coordinate-row" id="coordinate-row" hidden>
+        <code id="picked-coordinate">尚未选点</code>
+        <button id="btn-copy-coordinate">复制 GPS</button>
+      </div>
+    </div>
+    <section class="story-timeline" id="story-timeline" aria-label="故事时间线">
+      <div class="story-timeline-heading">
+        <strong>旅途故事线</strong>
+        <span><i class="region-key"></i>区域　<i class="hero-key"></i>重点素材　<i class="memory-key"></i>普通记忆</span>
+        <time id="story-timeline-current">12-20 00:00</time>
+      </div>
+      <div class="story-timeline-track">
+        <div class="story-timeline-progress"></div>
+        <input id="story-timeline-seek" type="range" min="0" max="100000" value="0" aria-label="长故事进度条" />
+        <div class="story-timeline-tags" id="story-timeline-tags"></div>
+      </div>
+    </section>
+    <section class="story-focus-timeline" id="story-focus-timeline" aria-hidden="true" aria-label="当前区域故事时间线">
+      <div class="story-focus-heading">
+        <div><small>REGION STORY</small><strong id="story-focus-title">当前区域</strong></div>
+        <span id="story-focus-summary"></span>
+        <time id="story-focus-current"></time>
+      </div>
+      <div class="story-focus-track">
+        <div class="story-focus-progress"></div>
+        <input id="story-focus-seek" type="range" min="0" max="100000" value="0" aria-label="当前区域放大时间线" />
+        <div class="story-focus-tags" id="story-focus-tags"></div>
+      </div>
+    </section>
+    <div id="exitHint"></div>
+    <div class="sleep-card" id="sleep-card">
+      <div class="moon">🌙</div>
+      <div class="place" id="sleep-place">住宿</div>
+      <div class="night" id="sleep-time"></div>
+    </div>
+    <div class="location-card" id="location-card">
+      <div class="plate">
+        <div class="ornament">◇</div>
+        <div class="lead" id="location-lead">抵达</div>
+        <div class="name" id="location-name"></div>
+        <div class="meta" id="location-meta"></div>
+        <div class="description" id="location-description"></div>
+      </div>
+    </div>
+    <div class="supply-card" id="supply-card">
+      <div class="supply-plate">
+        <button class="supply-close" id="supply-close" aria-label="关闭">
+          ×
+        </button>
+        <div class="supply-kicker" id="supply-kicker">旅 途 补 给</div>
+        <div class="supply-title" id="supply-title">获得物资</div>
+        <div class="supply-subtitle" id="supply-subtitle"></div>
+        <div class="supply-items" id="supply-items"></div>
+        <div class="supply-media" id="supply-media" role="button" tabindex="0">
+          <img id="supply-image" alt="" />
+          <video id="supply-video" playsinline preload="metadata"></video>
+          <div class="supply-play">
+            <div class="play-rune">▶</div>
+            <span id="supply-video-label">查看获得过程</span>
+          </div>
+        </div>
+        <div class="memory-reel" id="memory-reel" aria-label="地点影像列表">
+          <button class="memory-reel-nav" id="memory-reel-prev" type="button" aria-label="上一段影像">‹</button>
+          <div class="memory-reel-meta">
+            <span id="memory-reel-count"></span>
+            <strong id="memory-reel-title"></strong>
+          </div>
+          <button class="memory-reel-nav" id="memory-reel-next" type="button" aria-label="下一段影像">›</button>
+        </div>
+        <div class="supply-hint" id="supply-hint">点击影像 · 查看道具获得过程</div>
+      </div>
+    </div>
+    <section class="material-backpack" id="material-backpack" aria-hidden="true" aria-label="旅行素材背包">
+      <div class="backpack-shell" role="dialog" aria-modal="true" aria-labelledby="backpack-title">
+        <header class="backpack-heading">
+          <div class="backpack-emblem" aria-hidden="true">🎒</div>
+          <div>
+            <p>TRAVEL ARCHIVE</p>
+            <h2 id="backpack-title">旅行素材背包</h2>
+            <small id="backpack-stats">正在读取轨迹素材…</small>
+          </div>
+          <button class="backpack-close" id="backpack-close" type="button" aria-label="关闭素材背包">×</button>
+        </header>
+        <div class="backpack-layout">
+          <nav class="backpack-clusters" id="backpack-clusters" aria-label="素材地点" role="tablist"></nav>
+          <main class="backpack-main">
+            <div class="backpack-toolbar" aria-label="素材筛选">
+              <input id="backpack-search" type="search" placeholder="搜索文件名" autocomplete="off" />
+              <select id="backpack-scope" aria-label="素材范围">
+                <option value="cluster">当前分组</option>
+                <option value="all">全部素材</option>
+              </select>
+              <select id="backpack-kind-filter" aria-label="素材类型">
+                <option value="all">全部类型</option>
+                <option value="image">照片</option>
+                <option value="video">视频</option>
+              </select>
+              <select id="backpack-review-filter" aria-label="审核状态">
+                <option value="all">全部状态</option>
+                <option value="unreviewed">未标记</option>
+                <option value="keep">保留</option>
+                <option value="bad">不好</option>
+              </select>
+            </div>
+            <div class="backpack-location">
+              <div>
+                <span id="backpack-cluster-kicker">轨 迹 地 点</span>
+                <h3 id="backpack-cluster-title">选择一个地点</h3>
+              </div>
+              <div class="backpack-location-actions">
+                <strong id="backpack-cluster-count"></strong>
+                <button id="backpack-locate-cluster" type="button">⌖ 前往此地点</button>
+              </div>
+            </div>
+            <div class="backpack-grid" id="backpack-grid"></div>
+          </main>
+        </div>
+        <footer class="backpack-selection" aria-live="polite">
+          <span>当前素材</span>
+          <code id="backpack-selected-file">点击素材卡查看文件名</code>
+          <button id="backpack-copy-file" type="button" disabled>复制文件名</button>
+          <button id="backpack-copy-bad" type="button">复制不好清单 (0)</button>
+          <button id="backpack-selection-cancel" type="button" hidden>取消选择</button>
+          <button id="backpack-selection-confirm" type="button" hidden>加入故事点 (0)</button>
+        </footer>
+      </div>
+      <div class="backpack-preview" id="backpack-preview" aria-hidden="true">
+        <button class="backpack-preview-close" id="backpack-preview-close" type="button" aria-label="关闭素材预览">×</button>
+        <div class="backpack-preview-stage">
+          <img id="backpack-preview-image" alt="" />
+          <video id="backpack-preview-video" controls playsinline preload="metadata"></video>
+          <div class="backpack-preview-fallback" id="backpack-preview-fallback">
+            <span>◇</span>
+            <p>该原始格式无法在浏览器中直接预览</p>
+          </div>
+        </div>
+        <div class="backpack-preview-meta">
+          <span id="backpack-preview-kind">旅行素材</span>
+          <strong id="backpack-preview-name"></strong>
+          <code id="backpack-preview-path"></code>
+          <div class="backpack-review-actions" aria-label="素材标记">
+            <button id="backpack-preview-copy" type="button">复制文件名</button>
+            <button id="backpack-mark-keep" type="button">✓ 保留</button>
+            <button id="backpack-mark-bad" type="button">✕ 不好</button>
+            <button id="backpack-mark-clear" type="button">清除标记</button>
+          </div>
+        </div>
+      </div>
+      <div class="backpack-toast" id="backpack-toast" role="status" aria-live="polite"></div>
+    </section>
+    <aside class="story-editor" id="story-editor" aria-hidden="true" aria-label="GPS 故事点编辑器">
+      <header class="story-editor-heading">
+        <div><small>MAP STORY AUTHORING</small><h2>GPS 故事点</h2></div>
+        <button id="story-editor-close" type="button" aria-label="关闭故事点编辑器">×</button>
+      </header>
+      <div class="story-editor-scroll">
+        <label class="story-editor-field"><span>已保存故事点</span><select id="story-editor-saved"><option value="">新建故事点</option></select></label>
+        <p class="story-editor-origin" id="story-editor-origin">新建故事点会使用当前播放状态</p>
+        <button class="story-editor-capture" id="story-editor-capture" type="button">＋ 使用当前时间、GPS 与镜头新建</button>
+        <div class="story-editor-pick">
+          <div><span>故事 GPS</span><code id="story-editor-coordinate">点击故事点自动读取</code></div>
+          <div><span>触发时间</span><code id="story-editor-route-time">--</code></div>
+        </div>
+        <label class="story-editor-field"><span>可编辑触发时间</span><input id="story-editor-time" type="datetime-local" step="1" /></label>
+        <button id="story-editor-pick" type="button">📍 重新在地图上选 GPS（轨迹偏离时使用）</button>
+        <div class="story-editor-grid two">
+          <label class="story-editor-field"><span>展示方式</span><select id="story-editor-type">
+            <option value="memory">右下角记忆</option><option value="hero">大图 Hero</option>
+            <option value="sequence">连续素材</option><option value="slideshow">快速幻灯片</option>
+            <option value="chapter">区域文字过场</option>
+          </select></label>
+          <label class="story-editor-field"><span>路线处理</span><select id="story-editor-pause"><option value="false">继续行驶</option><option value="true">暂停路线</option></select></label>
+        </div>
+        <label class="story-editor-field"><span>区域 / Kicker</span><input id="story-editor-kicker" type="text" placeholder="曲 登 尼 玛" /></label>
+        <label class="story-editor-field"><span>标题</span><input id="story-editor-title" type="text" placeholder="冰川在山谷尽头出现" /></label>
+        <label class="story-editor-field"><span>文字</span><textarea id="story-editor-subtitle" rows="2" placeholder="用一句话说明这里发生了什么"></textarea></label>
+        <label class="story-editor-field"><span>素材路径（每行一个）</span><textarea id="story-editor-assets" rows="4" placeholder="photo/DSC_0001.JPG&#10;video/example_web.mp4"></textarea></label>
+        <button id="story-editor-use-backpack" type="button">🎒 打开背包并选择素材</button>
+        <h3>地图镜头</h3>
+        <div class="story-editor-pick camera-center">
+          <div><span>镜头中心</span><code id="story-editor-camera-center">读取当前地图中心</code></div>
+          <div><span>故事位置</span><code id="story-editor-camera-offset">--</code></div>
+        </div>
+        <div class="story-editor-grid three">
+          <label class="story-editor-field"><span>缩放</span><input id="story-editor-zoom" type="number" min="5" max="19" step="0.1" value="14.5" /></label>
+          <label class="story-editor-field"><span>俯仰</span><input id="story-editor-pitch" type="number" min="0" max="75" step="1" value="48" /></label>
+          <label class="story-editor-field"><span>方位</span><input id="story-editor-bearing" type="number" min="-180" max="180" step="1" value="0" /></label>
+        </div>
+        <div class="story-editor-grid three">
+          <label class="story-editor-field"><span>播放速度</span><input id="story-editor-playback" type="number" min="0.05" max="2" step="0.05" value="0.45" /></label>
+          <label class="story-editor-field"><span>显示秒数</span><input id="story-editor-duration" type="number" min="1" max="60" step="0.5" value="5" /></label>
+          <label class="story-editor-field"><span>镜头前后秒</span><input id="story-editor-window" type="number" min="5" max="600" step="5" value="45" /></label>
+        </div>
+        <button id="story-editor-use-view" type="button">⊙ 使用当前地图视角</button>
+        <div class="story-editor-actions"><button id="story-editor-preview" type="button">▶ 预览</button><button class="primary" id="story-editor-save" type="button">保存并加入时间线</button><button class="danger" id="story-editor-delete" type="button">删除</button></div>
+        <div class="story-editor-actions export"><button id="story-editor-copy-json" type="button">复制 JSON</button><button id="story-editor-download-json" type="button">导出 JSON</button></div>
+        <p class="story-editor-status" id="story-editor-status" aria-live="polite"></p>
+      </div>
+    </aside>
+    <script src="assets/generated/media-backpack-data.js?v=20260706-time-calibrated"></script>
+    <script src="assets/generated/location-story-data.js?v=20260706-time-calibrated"></script>
+    <script src="assets/map-config.js?v=20260703-refactor"></script>
+    <script src="assets/modules/route-model.js?v=20260703-architecture"></script>
+    <script src="assets/modules/directive-engine.js?v=20260703-architecture"></script>
+    <script src="assets/modules/playback-engine.js?v=20260706-playback-core"></script>
+    <script src="assets/modules/timeline-runtime.js?v=20260706-timeline-core"></script>
+    <script src="assets/modules/playback-controls.js?v=20260706-ui-core"></script>
+    <script src="assets/modules/camera-policy.js?v=20260703-architecture"></script>
+    <script src="assets/modules/media-overlay.js?v=20260706-media-playback-factor"></script>
+    <script src="assets/modules/coordinate-picker.js?v=20260703-architecture"></script>
+    <script src="assets/modules/material-backpack.js?v=20260705-cluster-time-anchor"></script>
+    <script src="assets/modules/manual-story-editor.js?v=20260706-authoring"></script>
+    <script src="assets/modules/story-timeline.js?v=20260706-authoring"></script>
+    <script src="assets/map-animation.js?v=20260706-tunnel-ranges"></script>
+  </body>
+</html>

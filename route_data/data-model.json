@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "layers": [
+    {
+      "id": "raw",
+      "path": "source/raw-track.json",
+      "authoritative_source": "../2024.01.01-2024.12.31.gpx",
+      "mutable": false,
+      "description": "原始 GPX 点的规范化只读镜像"
+    },
+    {
+      "id": "editorial",
+      "paths": ["editorial/exclusions.json", "editorial/anchors.json"],
+      "authoritative_source": "route-overrides.json",
+      "mutable": true,
+      "description": "剔除规则、人工关键点和字幕/媒体触发点"
+    },
+    {
+      "id": "navigation",
+      "path": "navigation/matched-route.json",
+      "authoritative_sources": ["osm_cache/", "osrm_drive_cache/"],
+      "mutable": false,
+      "description": "OSM/OSRM 道路匹配后的中间路线"
+    },
+    {
+      "id": "rendered",
+      "paths": ["processed/route-data.json", "processed/route-data.js"],
+      "mutable": false,
+      "description": "加入人工几何修正、圆角和插值后的网页播放路线"
+    }
+  ]
+}

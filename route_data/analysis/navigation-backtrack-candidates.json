@@ -1,0 +1,883 @@
+{
+  "generated_at": "2026-07-04T02:33:33.257592+08:00",
+  "input": "/Users/jxin/Desktop/VLog/西藏边境线/route_data/navigation/matched-route.json",
+  "pattern": "A -> B -> A -> B",
+  "parameters": {
+    "return_radius_m": 120,
+    "revisit_radius_m": 150,
+    "min_leg_m": 200,
+    "min_cycle_minutes": 3,
+    "max_cycle_minutes": 180,
+    "max_follow_minutes": 120
+  },
+  "candidate_count": 32,
+  "candidates": [
+    {
+      "start": "2024-12-22T09:57:44+08:00",
+      "first_arrival": "2024-12-22T09:58:56+08:00",
+      "returned": "2024-12-22T10:01:05+08:00",
+      "second_arrival": "2024-12-22T10:03:35.333333+08:00",
+      "a": [
+        91.120227,
+        29.652753
+      ],
+      "b": [
+        91.119569,
+        29.655174
+      ],
+      "a_return_error_m": 10,
+      "b_revisit_error_m": 147,
+      "direct_leg_m": 277,
+      "travelled_legs_m": [
+        328,
+        265,
+        267
+      ],
+      "already_covered_by": [
+        "拉萨市区开场路口顺直化",
+        "拉萨市区十点前后直接北上"
+      ],
+      "status": "already_covered",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.19,
+      "score": 227.4
+    },
+    {
+      "start": "2024-12-22T12:25:57.780289+08:00",
+      "first_arrival": "2024-12-22T12:26:09+08:00",
+      "returned": "2024-12-22T12:31:01.123924+08:00",
+      "second_arrival": "2024-12-22T12:32:36.192731+08:00",
+      "a": [
+        90.499618,
+        29.263642
+      ],
+      "b": [
+        90.502239,
+        29.263777
+      ],
+      "a_return_error_m": 64,
+      "b_revisit_error_m": 127,
+      "direct_leg_m": 255,
+      "travelled_legs_m": [
+        255,
+        191,
+        192
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.0,
+      "score": 63.9
+    },
+    {
+      "start": "2024-12-22T15:03:23.239398+08:00",
+      "first_arrival": "2024-12-22T15:04:05+08:00",
+      "returned": "2024-12-22T15:06:23.371207+08:00",
+      "second_arrival": "2024-12-22T15:07:02.642491+08:00",
+      "a": [
+        90.812189,
+        29.028897
+      ],
+      "b": [
+        90.8243,
+        29.028666
+      ],
+      "a_return_error_m": 115,
+      "b_revisit_error_m": 145,
+      "direct_leg_m": 1178,
+      "travelled_legs_m": [
+        1964,
+        4225,
+        1485
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 3.59,
+      "score": 2141.8
+    },
+    {
+      "start": "2024-12-22T15:47:33.957862+08:00",
+      "first_arrival": "2024-12-22T15:50:42+08:00",
+      "returned": "2024-12-22T15:52:13.444459+08:00",
+      "second_arrival": "2024-12-22T15:52:44.081155+08:00",
+      "a": [
+        91.0441867,
+        28.9467366
+      ],
+      "b": [
+        91.0519873,
+        28.936115
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 0,
+      "direct_leg_m": 1404,
+      "travelled_legs_m": [
+        2428,
+        2850,
+        2428
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "high",
+      "max_path_to_direct_ratio": 2.03,
+      "score": 3831.6
+    },
+    {
+      "start": "2024-12-23T15:36:59.544997+08:00",
+      "first_arrival": "2024-12-23T15:39:35.787230+08:00",
+      "returned": "2024-12-23T15:41:00.513307+08:00",
+      "second_arrival": "2024-12-23T15:42:16.206053+08:00",
+      "a": [
+        90.686434,
+        28.374297
+      ],
+      "b": [
+        90.651806,
+        28.369456
+      ],
+      "a_return_error_m": 54,
+      "b_revisit_error_m": 114,
+      "direct_leg_m": 3430,
+      "travelled_legs_m": [
+        3739,
+        3719,
+        3805
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.11,
+      "score": 6813.4
+    },
+    {
+      "start": "2024-12-23T17:33:06.805970+08:00",
+      "first_arrival": "2024-12-23T17:34:29.840790+08:00",
+      "returned": "2024-12-23T17:43:48.847181+08:00",
+      "second_arrival": "2024-12-23T17:44:25.478949+08:00",
+      "a": [
+        90.5320818,
+        28.5689459
+      ],
+      "b": [
+        90.531451,
+        28.573078
+      ],
+      "a_return_error_m": 15,
+      "b_revisit_error_m": 0,
+      "direct_leg_m": 464,
+      "travelled_legs_m": [
+        468,
+        552,
+        456
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "high",
+      "max_path_to_direct_ratio": 1.19,
+      "score": 890.1
+    },
+    {
+      "start": "2024-12-24T11:20:05.500000+08:00",
+      "first_arrival": "2024-12-24T11:22:22+08:00",
+      "returned": "2024-12-24T11:29:33.333333+08:00",
+      "second_arrival": "2024-12-24T11:33:21.400000+08:00",
+      "a": [
+        89.6498708,
+        28.2344083
+      ],
+      "b": [
+        89.625756,
+        28.257887
+      ],
+      "a_return_error_m": 106,
+      "b_revisit_error_m": 106,
+      "direct_leg_m": 3521,
+      "travelled_legs_m": [
+        3521,
+        8875,
+        3638
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 2.52,
+      "score": 6617.7
+    },
+    {
+      "start": "2024-12-24T19:02:37.579434+08:00",
+      "first_arrival": "2024-12-24T19:05:23.931240+08:00",
+      "returned": "2024-12-24T19:09:22.787745+08:00",
+      "second_arrival": "2024-12-24T19:11:32.513514+08:00",
+      "a": [
+        87.745295,
+        28.179402
+      ],
+      "b": [
+        87.714006,
+        28.157282
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 143,
+      "direct_leg_m": 3932,
+      "travelled_legs_m": [
+        5000,
+        4226,
+        7019
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.79,
+      "score": 7871.3
+    },
+    {
+      "start": "2024-12-25T11:53:34.664541+08:00",
+      "first_arrival": "2024-12-25T11:55:14.755299+08:00",
+      "returned": "2024-12-25T11:56:51.712183+08:00",
+      "second_arrival": "2024-12-25T11:58:07.887466+08:00",
+      "a": [
+        87.41677,
+        28.296978
+      ],
+      "b": [
+        87.415795,
+        28.299219
+      ],
+      "a_return_error_m": 80,
+      "b_revisit_error_m": 136,
+      "direct_leg_m": 267,
+      "travelled_legs_m": [
+        277,
+        268,
+        210
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.04,
+      "score": 44.9
+    },
+    {
+      "start": "2024-12-25T12:01:39.190196+08:00",
+      "first_arrival": "2024-12-25T12:04:53.726998+08:00",
+      "returned": "2024-12-25T12:07:06.300226+08:00",
+      "second_arrival": "2024-12-25T12:08:41.064645+08:00",
+      "a": [
+        87.418412,
+        28.295162
+      ],
+      "b": [
+        87.416592,
+        28.291421
+      ],
+      "a_return_error_m": 97,
+      "b_revisit_error_m": 139,
+      "direct_leg_m": 453,
+      "travelled_legs_m": [
+        537,
+        366,
+        262
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.19,
+      "score": 242.7
+    },
+    {
+      "start": "2024-12-25T12:21:09.382450+08:00",
+      "first_arrival": "2024-12-25T12:22:59.729006+08:00",
+      "returned": "2024-12-25T12:24:40.323607+08:00",
+      "second_arrival": "2024-12-25T12:26:17.823350+08:00",
+      "a": [
+        87.410317,
+        28.288295
+      ],
+      "b": [
+        87.40911,
+        28.285961
+      ],
+      "a_return_error_m": 91,
+      "b_revisit_error_m": 120,
+      "direct_leg_m": 285,
+      "travelled_legs_m": [
+        305,
+        278,
+        269
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.07,
+      "score": 132.4
+    },
+    {
+      "start": "2024-12-25T12:24:59.511573+08:00",
+      "first_arrival": "2024-12-25T12:27:16.339129+08:00",
+      "returned": "2024-12-25T12:29:28.762414+08:00",
+      "second_arrival": "2024-12-25T12:31:50+08:00",
+      "a": [
+        87.409167,
+        28.288498
+      ],
+      "b": [
+        87.408073,
+        28.28541
+      ],
+      "a_return_error_m": 72,
+      "b_revisit_error_m": 137,
+      "direct_leg_m": 360,
+      "travelled_legs_m": [
+        378,
+        366,
+        390
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.08,
+      "score": 307.2
+    },
+    {
+      "start": "2024-12-26T12:21:57.441076+08:00",
+      "first_arrival": "2024-12-26T12:25:01.478069+08:00",
+      "returned": "2024-12-26T12:29:49.456869+08:00",
+      "second_arrival": "2024-12-26T12:33:44.304134+08:00",
+      "a": [
+        86.6136353,
+        28.584578
+      ],
+      "b": [
+        86.614592,
+        28.578139
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 64,
+      "direct_leg_m": 722,
+      "travelled_legs_m": [
+        2184,
+        1283,
+        3625
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "low",
+      "max_path_to_direct_ratio": 5.02,
+      "score": 1876.7
+    },
+    {
+      "start": "2024-12-26T12:39:52.091971+08:00",
+      "first_arrival": "2024-12-26T12:43:06.600056+08:00",
+      "returned": "2024-12-26T12:46:21.672582+08:00",
+      "second_arrival": "2024-12-26T12:54:29.745894+08:00",
+      "a": [
+        86.611085,
+        28.581275
+      ],
+      "b": [
+        86.611282,
+        28.584053
+      ],
+      "a_return_error_m": 69,
+      "b_revisit_error_m": 119,
+      "direct_leg_m": 309,
+      "travelled_legs_m": [
+        318,
+        319,
+        826
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 2.67,
+      "score": 252.0
+    },
+    {
+      "start": "2024-12-26T19:38:51.181408+08:00",
+      "first_arrival": "2024-12-26T19:41:55.652549+08:00",
+      "returned": "2024-12-26T19:42:26.784541+08:00",
+      "second_arrival": "2024-12-26T19:42:57.505510+08:00",
+      "a": [
+        85.335859,
+        28.399206
+      ],
+      "b": [
+        85.33493,
+        28.396706
+      ],
+      "a_return_error_m": 90,
+      "b_revisit_error_m": 55,
+      "direct_leg_m": 292,
+      "travelled_legs_m": [
+        665,
+        245,
+        241
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "high",
+      "max_path_to_direct_ratio": 2.27,
+      "score": 243.8
+    },
+    {
+      "start": "2024-12-27T09:15:22.807692+08:00",
+      "first_arrival": "2024-12-27T10:22:09+08:00",
+      "returned": "2024-12-27T10:38:13+08:00",
+      "second_arrival": "2024-12-27T11:17:26.605128+08:00",
+      "a": [
+        85.4056827,
+        28.3584568
+      ],
+      "b": [
+        85.404954,
+        28.356636
+      ],
+      "a_return_error_m": 118,
+      "b_revisit_error_m": 145,
+      "direct_leg_m": 215,
+      "travelled_legs_m": [
+        565,
+        147,
+        11400
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "low",
+      "max_path_to_direct_ratio": 53.11,
+      "score": -164.2
+    },
+    {
+      "start": "2024-12-27T11:15:37.698371+08:00",
+      "first_arrival": "2024-12-27T11:17:26.605128+08:00",
+      "returned": "2024-12-27T11:19:15.839376+08:00",
+      "second_arrival": "2024-12-27T11:24:58.639370+08:00",
+      "a": [
+        85.406839,
+        28.359768
+      ],
+      "b": [
+        85.404651,
+        28.357908
+      ],
+      "a_return_error_m": 101,
+      "b_revisit_error_m": 135,
+      "direct_leg_m": 298,
+      "travelled_legs_m": [
+        305,
+        306,
+        960
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 3.23,
+      "score": 131.1
+    },
+    {
+      "start": "2024-12-27T12:26:27.968985+08:00",
+      "first_arrival": "2024-12-27T12:28:54.418129+08:00",
+      "returned": "2024-12-27T12:29:28.365833+08:00",
+      "second_arrival": "2024-12-27T12:30:37.193177+08:00",
+      "a": [
+        85.368334,
+        28.405397
+      ],
+      "b": [
+        85.365897,
+        28.405729
+      ],
+      "a_return_error_m": 115,
+      "b_revisit_error_m": 148,
+      "direct_leg_m": 241,
+      "travelled_legs_m": [
+        806,
+        186,
+        376
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 3.34,
+      "score": -99.0
+    },
+    {
+      "start": "2024-12-27T12:37:20.249746+08:00",
+      "first_arrival": "2024-12-27T13:56:49.722409+08:00",
+      "returned": "2024-12-27T14:05:17.954997+08:00",
+      "second_arrival": "2024-12-27T14:16:19.282428+08:00",
+      "a": [
+        85.353223,
+        28.396808
+      ],
+      "b": [
+        85.327936,
+        28.395855
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 143,
+      "direct_leg_m": 2476,
+      "travelled_legs_m": [
+        3966,
+        3896,
+        4967
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 2.01,
+      "score": 6086.3
+    },
+    {
+      "start": "2024-12-28T09:16:19+08:00",
+      "first_arrival": "2024-12-28T09:34:17.468847+08:00",
+      "returned": "2024-12-28T10:07:12.064366+08:00",
+      "second_arrival": "2024-12-28T10:15:45.578010+08:00",
+      "a": [
+        86.610271,
+        28.584868
+      ],
+      "b": [
+        86.620741,
+        28.58394
+      ],
+      "a_return_error_m": 11,
+      "b_revisit_error_m": 150,
+      "direct_leg_m": 1028,
+      "travelled_legs_m": [
+        1028,
+        1184,
+        1765
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.72,
+      "score": 1733.5
+    },
+    {
+      "start": "2024-12-28T12:16:02.176375+08:00",
+      "first_arrival": "2024-12-28T12:18:41.694636+08:00",
+      "returned": "2024-12-28T12:21:25.270643+08:00",
+      "second_arrival": "2024-12-28T13:12:16.096745+08:00",
+      "a": [
+        86.29592,
+        28.037793
+      ],
+      "b": [
+        86.299622,
+        28.040651
+      ],
+      "a_return_error_m": 118,
+      "b_revisit_error_m": 100,
+      "direct_leg_m": 483,
+      "travelled_legs_m": [
+        1280,
+        1346,
+        12942
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "low",
+      "max_path_to_direct_ratio": 26.81,
+      "score": 1326.7
+    },
+    {
+      "start": "2024-12-28T13:12:24.660131+08:00",
+      "first_arrival": "2024-12-28T13:14:45.547972+08:00",
+      "returned": "2024-12-28T13:15:29.702295+08:00",
+      "second_arrival": "2024-12-28T13:16:08.641598+08:00",
+      "a": [
+        86.299112,
+        28.040745
+      ],
+      "b": [
+        86.29615,
+        28.038328
+      ],
+      "a_return_error_m": 87,
+      "b_revisit_error_m": 61,
+      "direct_leg_m": 396,
+      "travelled_legs_m": [
+        1258,
+        394,
+        348
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 3.18,
+      "score": 448.3
+    },
+    {
+      "start": "2024-12-29T09:38:50.410628+08:00",
+      "first_arrival": "2024-12-29T09:42:16.127494+08:00",
+      "returned": "2024-12-29T09:54:53.830515+08:00",
+      "second_arrival": "2024-12-29T10:07:55+08:00",
+      "a": [
+        91.137841,
+        29.654964
+      ],
+      "b": [
+        91.127256,
+        29.65535
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 126,
+      "direct_leg_m": 1024,
+      "travelled_legs_m": [
+        1232,
+        1178,
+        1106
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.2,
+      "score": 1877.9
+    },
+    {
+      "start": "2024-12-29T10:12:57.200000+08:00",
+      "first_arrival": "2024-12-29T10:43:05+08:00",
+      "returned": "2024-12-29T10:43:35.496874+08:00",
+      "second_arrival": "2024-12-29T10:55:25.138288+08:00",
+      "a": [
+        91.1222495,
+        29.6552476
+      ],
+      "b": [
+        91.113575,
+        29.659954
+      ],
+      "a_return_error_m": 21,
+      "b_revisit_error_m": 80,
+      "direct_leg_m": 988,
+      "travelled_legs_m": [
+        1695,
+        1552,
+        3950
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 4.0,
+      "score": 2338.3
+    },
+    {
+      "start": "2024-12-29T10:22:35.800000+08:00",
+      "first_arrival": "2024-12-29T10:44:22.788219+08:00",
+      "returned": "2024-12-29T11:09:20.911100+08:00",
+      "second_arrival": "2024-12-29T11:15:18.141097+08:00",
+      "a": [
+        91.1199859,
+        29.6551711
+      ],
+      "b": [
+        91.10931,
+        29.656177
+      ],
+      "a_return_error_m": 19,
+      "b_revisit_error_m": 102,
+      "direct_leg_m": 1038,
+      "travelled_legs_m": [
+        4056,
+        4430,
+        1068
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 4.27,
+      "score": 1864.6
+    },
+    {
+      "start": "2024-12-29T10:43:46.814933+08:00",
+      "first_arrival": "2024-12-29T11:02:24.072886+08:00",
+      "returned": "2024-12-29T11:54:51.181574+08:00",
+      "second_arrival": "2024-12-29T12:20:20.490213+08:00",
+      "a": [
+        91.116108,
+        29.655195
+      ],
+      "b": [
+        91.122195,
+        29.660996
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 96,
+      "direct_leg_m": 873,
+      "travelled_legs_m": [
+        4356,
+        3464,
+        2796
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 4.99,
+      "score": 3476.4
+    },
+    {
+      "start": "2024-12-29T11:03:37.757196+08:00",
+      "first_arrival": "2024-12-29T11:15:29.702769+08:00",
+      "returned": "2024-12-29T12:20:59.901313+08:00",
+      "second_arrival": "2024-12-29T13:02:45.746107+08:00",
+      "a": [
+        91.12212,
+        29.659444
+      ],
+      "b": [
+        91.10931,
+        29.656177
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 97,
+      "direct_leg_m": 1290,
+      "travelled_legs_m": [
+        1875,
+        4481,
+        5783
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 4.48,
+      "score": 2971.7
+    },
+    {
+      "start": "2024-12-29T14:33:05.427608+08:00",
+      "first_arrival": "2024-12-29T14:54:27.673539+08:00",
+      "returned": "2024-12-29T16:20:27.426249+08:00",
+      "second_arrival": "2024-12-29T16:49:45.736205+08:00",
+      "a": [
+        91.13213,
+        29.649477
+      ],
+      "b": [
+        91.138815,
+        29.655024
+      ],
+      "a_return_error_m": 9,
+      "b_revisit_error_m": 94,
+      "direct_leg_m": 893,
+      "travelled_legs_m": [
+        2367,
+        3593,
+        2262
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 4.02,
+      "score": 2947.6
+    },
+    {
+      "start": "2024-12-29T15:26:55.359801+08:00",
+      "first_arrival": "2024-12-29T16:14:36.107700+08:00",
+      "returned": "2024-12-29T16:29:42.130595+08:00",
+      "second_arrival": "2024-12-29T17:10:52.556024+08:00",
+      "a": [
+        91.129286,
+        29.655543
+      ],
+      "b": [
+        91.138227,
+        29.649395
+      ],
+      "a_return_error_m": 10,
+      "b_revisit_error_m": 84,
+      "direct_leg_m": 1102,
+      "travelled_legs_m": [
+        2078,
+        1880,
+        3821
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 3.47,
+      "score": 2793.8
+    },
+    {
+      "start": "2024-12-29T16:51:38.525294+08:00",
+      "first_arrival": "2024-12-29T17:05:07.283350+08:00",
+      "returned": "2024-12-29T17:14:26.523321+08:00",
+      "second_arrival": "2024-12-29T17:17:04.332208+08:00",
+      "a": [
+        91.138825,
+        29.654907
+      ],
+      "b": [
+        91.127202,
+        29.64963
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 72,
+      "direct_leg_m": 1267,
+      "travelled_legs_m": [
+        1772,
+        1703,
+        1653
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "high",
+      "max_path_to_direct_ratio": 1.4,
+      "score": 2775.3
+    },
+    {
+      "start": "2024-12-29T18:03:22.050838+08:00",
+      "first_arrival": "2024-12-29T18:05:04.910530+08:00",
+      "returned": "2024-12-29T18:06:38.735815+08:00",
+      "second_arrival": "2024-12-29T18:09:06.143465+08:00",
+      "a": [
+        90.896584,
+        29.289743
+      ],
+      "b": [
+        90.893941,
+        29.289987
+      ],
+      "a_return_error_m": 105,
+      "b_revisit_error_m": 146,
+      "direct_leg_m": 258,
+      "travelled_legs_m": [
+        647,
+        590,
+        618
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 2.51,
+      "score": 345.4
+    },
+    {
+      "start": "2024-12-29T18:05:41.565589+08:00",
+      "first_arrival": "2024-12-29T18:07:33.236107+08:00",
+      "returned": "2024-12-29T18:12:30.973383+08:00",
+      "second_arrival": "2024-12-29T18:19:45.916225+08:00",
+      "a": [
+        90.895271,
+        29.2886
+      ],
+      "b": [
+        90.896249,
+        29.292531
+      ],
+      "a_return_error_m": 0,
+      "b_revisit_error_m": 118,
+      "direct_leg_m": 447,
+      "travelled_legs_m": [
+        702,
+        673,
+        845
+      ],
+      "already_covered_by": [],
+      "status": "review",
+      "confidence": "medium",
+      "max_path_to_direct_ratio": 1.89,
+      "score": 883.5
+    }
+  ]
+}

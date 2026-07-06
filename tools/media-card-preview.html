@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <base href="../" />
+    <title>地图媒体卡预览</title>
+    <link href="assets/map-animation.css" rel="stylesheet" />
+    <script src="route_data/processed/route-data.js"></script>
+  </head>
+  <body style="background: radial-gradient(circle at 50% 30%, #24484c, #071316 70%);">
+    <div class="supply-card" id="supply-card">
+      <div class="supply-plate">
+        <button class="supply-close" id="supply-close" aria-label="关闭">×</button>
+        <div class="supply-kicker" id="supply-kicker"></div>
+        <div class="supply-title" id="supply-title"></div>
+        <div class="supply-subtitle" id="supply-subtitle"></div>
+        <div class="supply-items" id="supply-items"></div>
+        <div class="supply-media" id="supply-media" role="button" tabindex="0">
+          <video id="supply-video" playsinline preload="metadata"></video>
+          <div class="supply-play"><div class="play-rune">▶</div><span id="supply-video-label"></span></div>
+        </div>
+        <div class="memory-reel" id="memory-reel">
+          <button class="memory-reel-nav" id="memory-reel-prev" type="button">‹</button>
+          <div class="memory-reel-meta"><span id="memory-reel-count"></span><strong id="memory-reel-title"></strong></div>
+          <button class="memory-reel-nav" id="memory-reel-next" type="button">›</button>
+        </div>
+        <div class="supply-hint" id="supply-hint"></div>
+      </div>
+    </div>
+    <script src="assets/modules/media-overlay.js"></script>
+    <script>
+      const id = new URLSearchParams(location.search).get("media") || "yamdrok-winter-memory";
+      const event = [...(ROUTE_DATA.supply_events || []), ...(ROUTE_DATA.media_events || [])].find((item) => item.id === id);
+      const overlay = new RouteDemo.MediaOverlay({ isPlaying: () => false, pausePlayback() {}, resumePlayback() {} });
+      if (event) overlay.show(event);
+    </script>
+  </body>
+</html>

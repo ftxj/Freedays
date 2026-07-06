@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "description": "人工新增、字幕/媒体触发及必须经过的叙事锚点。",
+  "anchors": [
+    {
+      "id": "geometry-edit:0:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1264,
+        29.65305
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:0:via:1",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1263912,
+        29.652978
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:0:via:2",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1263648,
+        29.652922
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:0:via:3",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1263208,
+        29.652882
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:0:via:4",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1262592,
+        29.652858
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:0:via:5",
+      "role": "geometry_via",
+      "lonlat": [
+        91.12618,
+        29.65285
+      ],
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "label": "拉萨市区开场路口顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:2:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        91.158833,
+        29.649127
+      ],
+      "start": "2024-12-22T10:38:55+08:00",
+      "end": "2024-12-22T11:05:50+08:00",
+      "label": "保护晨哥车队中心物资点",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:4:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        90.736238,
+        28.288804
+      ],
+      "start": "2024-12-23T09:51:39+08:00",
+      "end": "2024-12-23T11:34:31+08:00",
+      "label": "库拉岗日徒步抵达用户确认点",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:13:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        88.238646,
+        28.009006
+      ],
+      "start": "2024-12-24T16:43:12+08:00",
+      "end": "2024-12-24T17:20:38+08:00",
+      "label": "曲登尼玛步行抵达用户确认点",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:26:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        90.499628,
+        29.263594
+      ],
+      "start": "2024-12-22T12:26:09+08:00",
+      "end": "2024-12-22T12:32:30+08:00",
+      "label": "12月22日12点26至12点32午餐停靠点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:26:via:1",
+      "role": "geometry_via",
+      "lonlat": [
+        90.499635,
+        29.263594
+      ],
+      "start": "2024-12-22T12:26:09+08:00",
+      "end": "2024-12-22T12:32:30+08:00",
+      "label": "12月22日12点26至12点32午餐停靠点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:48:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        86.830478,
+        28.190172
+      ],
+      "start": "2024-12-25T18:30:05+08:00",
+      "end": "2024-12-25T19:43:47+08:00",
+      "label": "珠峰大本营徒步轨迹顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:48:via:1",
+      "role": "geometry_via",
+      "lonlat": [
+        86.828523,
+        28.192247
+      ],
+      "start": "2024-12-25T18:30:05+08:00",
+      "end": "2024-12-25T19:43:47+08:00",
+      "label": "珠峰大本营徒步轨迹顺直化",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:0",
+      "role": "geometry_via",
+      "lonlat": [
+        91.11913,
+        29.660679
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:1",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1186,
+        29.6605
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:2",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1191,
+        29.6597
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:3",
+      "role": "geometry_via",
+      "lonlat": [
+        91.11945,
+        29.66018
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:4",
+      "role": "geometry_via",
+      "lonlat": [
+        91.119,
+        29.66078
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:5",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1183,
+        29.66115
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:6",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1175,
+        29.66128
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:7",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1165,
+        29.66135
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:8",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1175,
+        29.66128
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:9",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1185,
+        29.66122
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:10",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1195,
+        29.66115
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:11",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1205,
+        29.66108
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:12",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1212,
+        29.66102
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:13",
+      "role": "geometry_via",
+      "lonlat": [
+        91.1202,
+        29.66111
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "geometry-edit:67:via:14",
+      "role": "geometry_via",
+      "lonlat": [
+        91.119216,
+        29.661204
+      ],
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "label": "12月29日宗角禄康公园步行噪点去折返",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-life-day0-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T09:10:28+08:00",
+      "label": "拉萨生活 · Day 0",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-life-day0-dinner",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T09:10:40+08:00",
+      "label": "热情的拉萨饭店歌舞",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-life-day0-potala-night",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T09:14:00+08:00",
+      "label": "夜晚路过布达拉宫",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:28:40+08:00",
+      "label": "离开拉萨",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-start",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:29:20+08:00",
+      "label": "从拉萨出发",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-potala-distant",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:33:30+08:00",
+      "label": "远眺布达拉宫",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-potala-area",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:37:30+08:00",
+      "label": "布达拉宫区域",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-city-edge-1",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:42:00+08:00",
+      "label": "城市边缘",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "lhasa-departure-city-edge-2",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T10:46:30+08:00",
+      "label": "拉萨留在身后",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "barkhor-street-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-29T16:25:20+08:00",
+      "label": "八廓街",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "barkhor-prostration",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-29T16:33:54+08:00",
+      "label": "磕长头",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "leaving-lhasa-airplane",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-29T17:05:00+08:00",
+      "label": "飞机从头顶掠过",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "meet-driver-and-team",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        91.122739,
+        29.655144
+      ],
+      "label": "司机与队友",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "kulagangri-walk-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        90.736238,
+        28.288804
+      ],
+      "label": "库拉岗日观景点",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "mongda-gangri-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        90.582279,
+        28.416639
+      ],
+      "label": "蒙达岗日",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "qudengnima-walk-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-24T17:03:20+08:00",
+      "label": "曲登尼玛冰川",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "everest-boundary-marker",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        86.828523,
+        28.192247
+      ],
+      "label": "珠峰大本营界碑",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "everest-guandi-temple",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        86.615085,
+        28.578352
+      ],
+      "label": "珠穆朗玛关帝庙",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "naicun-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        85.338273,
+        28.411059
+      ],
+      "label": "乃村",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "asia-viewpoint-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        85.404633,
+        28.357927
+      ],
+      "label": "亚洲第一观景台",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "chumba-yumco-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        89.63374,
+        28.23091
+      ],
+      "label": "冲巴雍措",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "relong-high-pass",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        90.055789,
+        28.695366
+      ],
+      "label": "热龙乡高山垭口",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "dorje-zhanga",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        89.677554,
+        28.184877
+      ],
+      "label": "多吉展阿",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "duina-lake-cluster",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        89.378752,
+        27.967687
+      ],
+      "label": "卓木拉日与高原湖群",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "xuecun-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        88.515832,
+        28.275896
+      ],
+      "label": "雪村",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "changlong-north-village",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        88.350105,
+        28.230763
+      ],
+      "label": "昌龙乡北侧村落",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "changlong-town-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        88.318041,
+        28.200453
+      ],
+      "label": "昌龙乡",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "ama-drime-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        87.600686,
+        28.091848
+      ],
+      "label": "阿玛直米",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "kangkong-village-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "lonlat": [
+        87.453992,
+        28.324889
+      ],
+      "label": "康孔村",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "potala-palace-arrival",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-29T10:21:18+08:00",
+      "label": "布达拉宫",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "zongjiao-lukang-walk",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-29T12:23:09+08:00",
+      "label": "宗角禄康公园",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "pilot-yamdrok-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-22T14:01:20+08:00",
+      "label": "羊卓雍错",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "pilot-kulagangri-title",
+      "role": "story_trigger",
+      "collection": "story_events",
+      "time": "2024-12-23T09:41:20+08:00",
+      "label": "库拉岗日",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "supply-chengge-fleet-center",
+      "role": "story_trigger",
+      "collection": "supply_events",
+      "lonlat": [
+        91.158833,
+        29.649127
+      ],
+      "label": "获得水源",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-pass-summit-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:45:06+08:00",
+      "label": "加若拉山口",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-yamdrok-reveal",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:53:00+08:00",
+      "label": "逐渐看见羊湖",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-1",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:47:22+08:00",
+      "label": "羊湖还藏在山后",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-2",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:49:10+08:00",
+      "label": "山谷里出现一抹蓝",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-3",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:50:40+08:00",
+      "label": "湖岸轮廓渐渐清楚",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-5",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-22T13:56:08+08:00",
+      "label": "羊湖占满视野",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "zongjiao-lukang-live-photo",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-29T12:33:00+08:00",
+      "label": "宗角禄康公园散步",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "zongjiao-lukang-duck-burst",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-29T12:35:00+08:00",
+      "label": "成群的鸭子",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "everest-sunset-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        86.8290325,
+        28.1930532
+      ],
+      "label": "珠峰暮色",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "shishapangma-wilderness-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        85.7120618,
+        28.7273382
+      ],
+      "label": "驶向希夏邦马",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "enter-gyirong-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        85.23,
+        28.469
+      ],
+      "label": "驶入吉隆沟",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "asia-viewpoint-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        85.404633,
+        28.357927
+      ],
+      "label": "亚洲第一观景台",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "roadside-repair-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        85.329067,
+        28.395596
+      ],
+      "label": "荒原补胎",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "chentang-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "lonlat": [
+        86.2888,
+        28.0418
+      ],
+      "label": "抵达陈塘",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "return-lhasa-memory",
+      "role": "story_trigger",
+      "collection": "media_events",
+      "time": "2024-12-29T10:21:18+08:00",
+      "label": "回到拉萨",
+      "source": "editorial_anchor"
+    },
+    {
+      "id": "title_cards:0",
+      "role": "story_trigger",
+      "collection": "title_cards",
+      "time": "2024-12-22T13:20:00+08:00",
+      "label": "加若拉山口",
+      "source": "editorial_anchor"
+    }
+  ]
+}

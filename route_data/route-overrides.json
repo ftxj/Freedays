@@ -1,0 +1,2218 @@
+{
+  "$schema": "route-overrides.schema.json",
+  "notes": "人工剪辑意图优先于速度推断。时间为中国标准时间，区间包含起止时刻。",
+  "mode_ranges": [
+    {
+      "start": "2024-12-22T09:10:00+08:00",
+      "end": "2024-12-22T10:28:00+08:00",
+      "mode": "walk",
+      "label": "拉萨市区"
+    },
+    {
+      "start": "2024-12-22T10:28:26+08:00",
+      "end": "2024-12-22T11:36:09+08:00",
+      "mode": "drive_slow",
+      "label": "拉萨市区出城"
+    },
+    {
+      "start": "2024-12-22T13:18:30+08:00",
+      "end": "2024-12-22T17:20:00+08:00",
+      "mode": "drive_slow",
+      "label": "加若拉山口·羊湖·普莫雍错观景路"
+    },
+    {
+      "start": "2024-12-22T17:45:00+08:00",
+      "end": "2024-12-22T18:45:00+08:00",
+      "mode": "drive_slow",
+      "label": "措玉村前连续慢行"
+    },
+    {
+      "start": "2024-12-23T08:19:00+08:00",
+      "end": "2024-12-23T12:49:59+08:00",
+      "mode": "walk",
+      "label": "库拉岗日徒步"
+    },
+    {
+      "start": "2024-12-24T16:09:00+08:00",
+      "end": "2024-12-24T17:39:59+08:00",
+      "mode": "walk",
+      "label": "景点步行"
+    },
+    {
+      "start": "2024-12-25T18:30:05+08:00",
+      "end": "2024-12-25T19:43:47+08:00",
+      "mode": "walk",
+      "label": "珠峰大本营界碑步行"
+    },
+    {
+      "start": "2024-12-26T18:20:18+08:00",
+      "end": "2024-12-26T18:38:17+08:00",
+      "mode": "walk",
+      "label": "乃村步行"
+    },
+    {
+      "start": "2024-12-27T07:34:54+08:00",
+      "end": "2024-12-27T08:44:16+08:00",
+      "mode": "drive_slow",
+      "label": "前往亚洲第一观景台"
+    },
+    {
+      "start": "2024-12-27T08:44:16+08:00",
+      "end": "2024-12-27T10:38:59+08:00",
+      "mode": "walk",
+      "label": "亚洲第一观景台步行"
+    },
+    {
+      "start": "2024-12-28T12:15:00+08:00",
+      "end": "2024-12-28T12:24:59+08:00",
+      "mode": "drive_slow",
+      "label": "短途慢行"
+    },
+    {
+      "start": "2024-12-29T10:08:00+08:00",
+      "end": "2024-12-29T10:43:59+08:00",
+      "mode": "walk",
+      "label": "陈塘步行"
+    },
+    {
+      "start": "2024-12-29T12:23:00+08:00",
+      "end": "2024-12-29T12:57:59+08:00",
+      "mode": "walk",
+      "label": "村落步行"
+    }
+  ],
+  "road_corridors": [
+    {
+      "name": "lhasa_exit",
+      "start": "2024-12-22T10:28:26+08:00",
+      "end": "2024-12-22T11:48:48+08:00",
+      "cache": "drive_lhasa_exit_1222_1028_1148.ways.json",
+      "force_local": true,
+      "max_snap_m": 500,
+      "max_route_m": 6500,
+      "max_route_ratio": 3.5
+    },
+    {
+      "name": "lhasa_airport_east",
+      "start": "2024-12-22T11:48:48+08:00",
+      "end": "2024-12-22T12:08:16+08:00",
+      "cache": "drive_lhasa_airport_east_1222_1148_1208.ways.json",
+      "force_local": true,
+      "max_snap_m": 500,
+      "max_route_m": 6500,
+      "max_route_ratio": 3.8
+    },
+    {
+      "name": "airport_west",
+      "start": "2024-12-22T12:08:16+08:00",
+      "end": "2024-12-22T12:25:55+08:00",
+      "cache": "drive_airport_west_1222_1208_1225.ways.json",
+      "force_local": true,
+      "max_snap_m": 550,
+      "max_route_m": 7000,
+      "max_route_ratio": 4.0
+    },
+    {
+      "name": "airport_loop",
+      "start": "2024-12-22T12:25:55+08:00",
+      "end": "2024-12-22T12:41:33+08:00",
+      "cache": "drive_airport_loop_1222_1225_1241.ways.json",
+      "force_local": true,
+      "max_snap_m": 550,
+      "max_route_m": 7000,
+      "max_route_ratio": 4.0
+    },
+    {
+      "name": "yamdrok_east_approach",
+      "start": "2024-12-22T12:41:33+08:00",
+      "end": "2024-12-22T13:00:12+08:00",
+      "cache": "drive_yamdrok_east_1222_1241_1300.ways.json",
+      "force_local": true,
+      "max_snap_m": 600,
+      "max_route_m": 8000,
+      "max_route_ratio": 4.2
+    },
+    {
+      "name": "yamdrok_climb_approach",
+      "start": "2024-12-22T13:00:12+08:00",
+      "end": "2024-12-22T13:25:00+08:00",
+      "cache": "drive_yamdrok_climb_1222_1300_1325.ways.json",
+      "force_local": true,
+      "max_snap_m": 600,
+      "max_route_m": 9000,
+      "max_route_ratio": 4.5
+    },
+    {
+      "name": "yamdrok",
+      "start": "2024-12-22T13:15:00+08:00",
+      "end": "2024-12-22T17:25:00+08:00",
+      "cache": "drive_yamdrok_roads_1222_1315_1725.ways.json",
+      "max_snap_m": 600,
+      "max_route_ratio": 4.5
+    },
+    {
+      "name": "everest_basecamp_access",
+      "start": "2024-12-25T18:10:43+08:00",
+      "end": "2024-12-25T20:16:24+08:00",
+      "cache": "drive_everest_access_1225_1810_2016.ways.json",
+      "force_local": true,
+      "max_snap_m": 1200,
+      "max_route_m": 9000,
+      "max_route_ratio": 5.0
+    }
+  ],
+  "tunnel_ranges": [
+    {
+      "id": "d22-gala-tunnel-outbound",
+      "name": "嘎拉山隧道",
+      "start": "2024-12-22T12:54:20+08:00",
+      "end": "2024-12-22T12:57:15+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d26-kongtangla-tunnel-1",
+      "name": "孔塘拉隧道",
+      "start": "2024-12-26T16:04:35+08:00",
+      "end": "2024-12-26T16:04:50+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d26-kongtangla-tunnel-2",
+      "name": "孔塘拉隧道",
+      "start": "2024-12-26T16:09:25+08:00",
+      "end": "2024-12-26T16:09:45+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d26-kongtangla-tunnel-3",
+      "name": "孔塘拉隧道",
+      "start": "2024-12-26T16:12:35+08:00",
+      "end": "2024-12-26T16:12:58+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d28-shuangchen-tunnel-outbound",
+      "name": "双陈线隧道",
+      "start": "2024-12-28T12:07:38+08:00",
+      "end": "2024-12-28T12:10:10+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d28-shuangchen-tunnel-return",
+      "name": "双陈线隧道",
+      "start": "2024-12-28T13:22:05+08:00",
+      "end": "2024-12-28T13:24:27+08:00",
+      "source": "OSM tunnel=yes"
+    },
+    {
+      "id": "d29-gala-tunnel",
+      "name": "嘎拉山隧道",
+      "start": "2024-12-29T20:26:08+08:00",
+      "end": "2024-12-29T20:27:05+08:00",
+      "source": "OSM tunnel=yes"
+    }
+  ],
+  "route_connections": [
+    {
+      "id": "d24-d25-overnight",
+      "name": "12月24日住宿点至25日出发点",
+      "path_id": "d24_d25_overnight_connection",
+      "style": "overnight",
+      "reveal_at": "2024-12-25T09:15:39+08:00"
+    },
+    {
+      "id": "d28-d29-overnight",
+      "name": "12月28日住宿点至29日出发点",
+      "path_id": "d28_d29_overnight_connection",
+      "style": "overnight",
+      "reveal_at": "2024-12-29T09:38:40+08:00"
+    }
+  ],
+  "camera_ranges": [
+    {
+      "name": "宗角禄康公园散步",
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "preset": "fixed_bounds",
+      "max_zoom": 16.8,
+      "padding": 85
+    }
+  ],
+  "title_cards": [
+    {
+      "time": "2024-12-22T13:20:00+08:00",
+      "lead": "进 入 区 域",
+      "name": "加若拉山口",
+      "subtitle": "盘山而上 · 海拔 4700 米"
+    }
+  ],
+  "preview_regions": [
+    {
+      "id": "lhasa-life-day0",
+      "label": "拉萨生活 · Day 0",
+      "start": "2024-12-22T09:10:16+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "lhasa-departure",
+      "label": "从拉萨出发",
+      "start": "2024-12-22T10:28:26+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "supply-water",
+      "label": "获得水源",
+      "start": "2024-12-22T10:50:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "jiaruola-pass",
+      "label": "加若拉山口",
+      "start": "2024-12-22T13:18:30+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "jiaruola-yamdrok-descent",
+      "label": "加若拉山口下降 · 羊湖出现",
+      "start": "2024-12-22T13:46:30+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "potala-palace-return",
+      "label": "布达拉宫",
+      "start": "2024-12-29T10:08:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "zongjiao-lukang-park",
+      "label": "布达拉宫背后的公园散步",
+      "start": "2024-12-29T12:23:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "barkhor-street",
+      "label": "八廓街",
+      "start": "2024-12-29T16:25:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "yamdrok-lakeside",
+      "label": "羊卓雍错湖岸 · 第一批优化",
+      "start": "2024-12-22T14:01:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "kulagangri",
+      "label": "库拉岗日 · 第一批优化",
+      "start": "2024-12-23T09:41:00+08:00",
+      "autoplay": true
+    },
+    {
+      "id": "qudengnima-glacier",
+      "label": "曲登尼玛冰川 · 五段节奏",
+      "start": "2024-12-24T17:02:50+08:00",
+      "autoplay": true
+    }
+  ],
+  "camera_directives": [
+    {
+      "id": "jiaruola-scenic-stage",
+      "name": "加若拉山口固定景色镜头",
+      "start": "2024-12-22T13:18:30+08:00",
+      "end": "2024-12-22T14:50:00+08:00",
+      "mode": "fixed_region",
+      "center": [
+        90.771,
+        29.13
+      ],
+      "zoom": 13.4,
+      "pitch": 46,
+      "bearing": 198,
+      "follow_center": true,
+      "follow_factor": 0.025,
+      "playback_factor": 1.0
+    },
+    {
+      "id": "director-camera-pumoyumco-ice-15",
+      "name": "pumoyumco-ice 导演稳定镜头",
+      "start": "2024-12-23T17:32:15.189068+08:00",
+      "end": "2024-12-23T17:41:10.189068+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        90.5322,
+        28.56552
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-pumoyumco-ice-32",
+      "name": "pumoyumco-ice 导演稳定镜头",
+      "start": "2024-12-23T18:10:32.152671+08:00",
+      "end": "2024-12-23T18:19:27.152671+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        90.3217,
+        28.6177267
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-11",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T10:49:48.282669+08:00",
+      "end": "2024-12-24T10:57:48.282669+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        89.6249,
+        28.2628
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-35",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T13:30:19.035668+08:00",
+      "end": "2024-12-24T13:38:19.035668+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        89.2698,
+        27.9746
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-44",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T18:53:33.673064+08:00",
+      "end": "2024-12-24T19:01:33.673064+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        87.8372117,
+        28.1784283
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-71",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T10:29:54.098986+08:00",
+      "end": "2024-12-24T10:37:54.098986+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        89.5468283,
+        28.3271
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-73",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T11:25:18.577801+08:00",
+      "end": "2024-12-24T11:33:18.577801+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        89.6532,
+        28.2126
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-border-lakes-jomolhari-74",
+      "name": "border-lakes-jomolhari 导演稳定镜头",
+      "start": "2024-12-24T13:50:28.086827+08:00",
+      "end": "2024-12-24T13:58:28.086827+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        89.1455,
+        27.9331
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-everest-2",
+      "name": "everest 导演稳定镜头",
+      "start": "2024-12-25T18:26:10+08:00",
+      "end": "2024-12-25T18:36:00+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.8283133,
+        28.1920417
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-everest-7",
+      "name": "everest 导演稳定镜头",
+      "start": "2024-12-25T17:54:05.333242+08:00",
+      "end": "2024-12-25T18:02:05.333242+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.9523567,
+        28.337935
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-everest-18",
+      "name": "everest 导演稳定镜头",
+      "start": "2024-12-25T13:22:44.376037+08:00",
+      "end": "2024-12-25T13:30:44.376037+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.953395,
+        28.3791317
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-everest-31",
+      "name": "everest 导演稳定镜头",
+      "start": "2024-12-25T10:48:39.808625+08:00",
+      "end": "2024-12-25T10:56:39.808625+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        87.7000667,
+        28.4784917
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-gawula-peiku-6",
+      "name": "gawula-peiku 导演稳定镜头",
+      "start": "2024-12-26T12:44:57.483655+08:00",
+      "end": "2024-12-26T12:52:57.483655+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.60708,
+        28.5802733
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-gawula-peiku-29",
+      "name": "gawula-peiku 导演稳定镜头",
+      "start": "2024-12-26T15:03:46.186840+08:00",
+      "end": "2024-12-26T15:12:41.186840+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        85.6632383,
+        28.7554767
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-gawula-peiku-67",
+      "name": "gawula-peiku 导演稳定镜头",
+      "start": "2024-12-26T10:19:20.379619+08:00",
+      "end": "2024-12-26T10:29:10.379619+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        87.0437236,
+        28.4825917
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-jilong-valley-8",
+      "name": "jilong-valley 导演稳定镜头",
+      "start": "2024-12-26T17:39:51.974814+08:00",
+      "end": "2024-12-26T17:49:41.974814+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        85.21502,
+        28.4940633
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-jilong-valley-19",
+      "name": "jilong-valley 导演稳定镜头",
+      "start": "2024-12-26T17:21:39.900666+08:00",
+      "end": "2024-12-26T17:29:39.900666+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        85.26,
+        28.5929367
+      ],
+      "zoom": 14.2,
+      "pitch": 44,
+      "follow_factor": 0.02,
+      "playback_factor": 0.55
+    },
+    {
+      "id": "director-camera-naicun-viewpoint",
+      "name": "naicun-viewpoint 导演稳定镜头",
+      "start": "2024-12-27T10:01:35+08:00",
+      "end": "2024-12-27T10:12:40+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        85.4044858,
+        28.3570925
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "director-camera-gangga-evening-6",
+      "name": "gangga-evening 导演稳定镜头",
+      "start": "2024-12-27T19:18:35.500000+08:00",
+      "end": "2024-12-27T19:27:30.500000+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.60708,
+        28.5802733
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "director-camera-gangga-evening-24",
+      "name": "gangga-evening 导演稳定镜头",
+      "start": "2024-12-27T17:21:04.209910+08:00",
+      "end": "2024-12-27T17:29:04.209910+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        85.728,
+        28.7197683
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "director-camera-rongxia-chentang-4",
+      "name": "rongxia-chentang 导演稳定镜头",
+      "start": "2024-12-28T12:09:00.735433+08:00",
+      "end": "2024-12-28T12:17:55.735433+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.3020967,
+        28.0405133
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "director-camera-rongxia-chentang-10",
+      "name": "rongxia-chentang 导演稳定镜头",
+      "start": "2024-12-28T11:13:36.913674+08:00",
+      "end": "2024-12-28T11:22:31.913674+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.52237,
+        28.1923233
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "director-camera-rongxia-chentang-17",
+      "name": "rongxia-chentang 导演稳定镜头",
+      "start": "2024-12-28T11:38:35.918758+08:00",
+      "end": "2024-12-28T11:47:30.918758+08:00",
+      "mode": "soft_follow",
+      "look_at": [
+        86.4095567,
+        28.1313333
+      ],
+      "zoom": 15.0,
+      "pitch": 38,
+      "follow_factor": 0.025,
+      "playback_factor": 0.62
+    },
+    {
+      "id": "pilot-camera-yamdrok-lakeside",
+      "name": "羊卓雍错固定湖面方向",
+      "start": "2024-12-22T16:38:30+08:00",
+      "end": "2024-12-22T16:56:45+08:00",
+      "mode": "fixed_region",
+      "center": [
+        90.865,
+        28.883
+      ],
+      "zoom": 14.4,
+      "pitch": 48,
+      "bearing": 218,
+      "follow_center": false,
+      "follow_factor": 0,
+      "playback_factor": 0.52
+    },
+    {
+      "id": "pilot-camera-kulagangri",
+      "name": "库拉岗日固定群峰方向",
+      "start": "2024-12-23T09:40:00+08:00",
+      "end": "2024-12-23T11:44:06+08:00",
+      "mode": "fixed_region",
+      "center": [
+        90.7483,
+        28.2665917
+      ],
+      "zoom": 14.5,
+      "pitch": 48,
+      "bearing": 154,
+      "follow_center": false,
+      "follow_factor": 0,
+      "playback_factor": 0.45
+    },
+    {
+      "id": "pilot-camera-qudengnima",
+      "name": "曲登尼玛固定冰川方向",
+      "start": "2024-12-24T17:02:30+08:00",
+      "end": "2024-12-24T17:18:30+08:00",
+      "mode": "fixed_region",
+      "center": [
+        88.238646,
+        28.009006
+      ],
+      "zoom": 15.2,
+      "pitch": 50,
+      "bearing": 205,
+      "follow_center": false,
+      "follow_factor": 0,
+      "playback_factor": 0.35
+    }
+  ],
+  "story_events": [
+    {
+      "id": "lhasa-life-day0-title",
+      "presentation": "title",
+      "time": "2024-12-22T09:10:28+08:00",
+      "lead": "旅 行 序 章",
+      "title": "拉萨生活 · Day 0",
+      "subtitle": "正式出发之前，先记住这座城的夜晚",
+      "editorial_note": "Day 0 素材拍于 12 月 20–21 日，但当日没有轨迹；作为 12 月 22 日路线开场序章呈现。"
+    },
+    {
+      "id": "lhasa-life-day0-dinner",
+      "presentation": "media",
+      "time": "2024-12-22T09:10:40+08:00",
+      "kicker": "拉 萨 生 活",
+      "title": "热情的拉萨饭店歌舞",
+      "subtitle": "旅行开始前的热闹一晚",
+      "video": "photo/IMG_5973_web.mp4",
+      "poster": "photo/IMG_5973_poster.jpg",
+      "video_label": "播放饭店歌舞",
+      "priority": "chapter",
+      "pause": true,
+      "duration_ms": 6500,
+      "editorial_note": "原素材拍摄时间为 2024-12-20 20:40:30；Day 0 无轨迹，叙事吸附到路线开场。"
+    },
+    {
+      "id": "lhasa-life-day0-potala-night",
+      "presentation": "media",
+      "time": "2024-12-22T09:14:00+08:00",
+      "kicker": "夜 晚 的 拉 萨",
+      "title": "夜晚路过布达拉宫",
+      "subtitle": "灯光里的白墙与红宫",
+      "video": "photo/IMG_6004_web.mp4",
+      "poster": "photo/IMG_6004_poster.jpg",
+      "video_label": "播放布达拉宫 Live Photo",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 5000,
+      "editorial_note": "原素材拍摄时间为 2024-12-21 19:42:22；Day 0 无轨迹，叙事吸附到路线开场。"
+    },
+    {
+      "id": "lhasa-departure-title",
+      "presentation": "title",
+      "time": "2024-12-22T10:28:40+08:00",
+      "lead": "正 式 出 发",
+      "title": "离开拉萨",
+      "subtitle": "城市逐渐退到身后，边境旅行开始"
+    },
+    {
+      "id": "lhasa-departure-start",
+      "presentation": "media",
+      "time": "2024-12-22T10:29:20+08:00",
+      "kicker": "开 始 旅 行",
+      "title": "从拉萨出发",
+      "subtitle": "车轮转动，旅程终于开始",
+      "video": "photo/IMG_6016_web.mp4",
+      "poster": "photo/IMG_6016_poster.jpg",
+      "video_label": "播放出发 Live Photo",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 4200,
+      "editorial_note": "素材设备时间晚于路线时间，按用户确认内容放在出发段。"
+    },
+    {
+      "id": "lhasa-departure-potala-distant",
+      "presentation": "media",
+      "time": "2024-12-22T10:33:30+08:00",
+      "kicker": "回 望 拉 萨",
+      "title": "远眺布达拉宫",
+      "subtitle": "城市地标慢慢退到远处",
+      "image": "photo/DSC_8056.JPG",
+      "image_alt": "离开拉萨途中远眺布达拉宫",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3600,
+      "editorial_note": "按用户画面判断归入离开拉萨段，优先于旧自动主题标签。"
+    },
+    {
+      "id": "lhasa-departure-potala-area",
+      "presentation": "media",
+      "time": "2024-12-22T10:37:30+08:00",
+      "kicker": "拉 萨 城 区",
+      "title": "布达拉宫区域",
+      "subtitle": "穿过熟悉的城市景色",
+      "image": "photo/DSCF4080-852.jpg",
+      "image_alt": "布达拉宫区域照片",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3600,
+      "editorial_note": "素材相机日期为 12 月 29 日，按用户确认的叙事用途前置到出发段。"
+    },
+    {
+      "id": "lhasa-departure-city-edge-1",
+      "presentation": "media",
+      "time": "2024-12-22T10:42:00+08:00",
+      "kicker": "离 开 拉 萨",
+      "title": "城市边缘",
+      "subtitle": "道路开始伸向城外",
+      "image": "photo/DSC_8052.JPG",
+      "image_alt": "离开拉萨途中的道路",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3400,
+      "editorial_note": "按用户画面判断归入离开拉萨段，优先于旧自动主题标签。"
+    },
+    {
+      "id": "lhasa-departure-city-edge-2",
+      "presentation": "media",
+      "time": "2024-12-22T10:46:30+08:00",
+      "kicker": "驶 向 城 外",
+      "title": "拉萨留在身后",
+      "subtitle": "前方是山路与高原湖泊",
+      "image": "photo/DSC_8055.JPG",
+      "image_alt": "离开拉萨后的沿途景色",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3400,
+      "editorial_note": "按用户画面判断归入离开拉萨段，优先于旧自动主题标签。"
+    },
+    {
+      "id": "barkhor-street-title",
+      "presentation": "title",
+      "time": "2024-12-29T16:25:20+08:00",
+      "lead": "走 入",
+      "title": "八廓街",
+      "subtitle": "旅程结束前，再走进拉萨的人群"
+    },
+    {
+      "id": "barkhor-prostration",
+      "presentation": "media",
+      "time": "2024-12-29T16:33:54+08:00",
+      "kicker": "八 廓 街",
+      "title": "磕长头",
+      "subtitle": "日复一日，身体贴近石板路",
+      "video": "video/VID_20241229_163348.mp4",
+      "poster": "video/VID_20241229_163348_poster.jpg",
+      "video_label": "播放现场视频",
+      "priority": "chapter",
+      "pause": true,
+      "duration_ms": 7000
+    },
+    {
+      "id": "leaving-lhasa-airplane",
+      "presentation": "media",
+      "time": "2024-12-29T17:05:00+08:00",
+      "kicker": "旅 程 尾 声",
+      "title": "飞机从头顶掠过",
+      "subtitle": "看到它的时候，也知道自己该走了",
+      "clips": [
+        {
+          "image": "photo/DSC_8956.JPG",
+          "title": "飞机掠过",
+          "alt": "拉萨上空飞过的飞机"
+        },
+        {
+          "image": "photo/DSC_8955.JPG",
+          "title": "该走了",
+          "alt": "仰望拉萨天空"
+        }
+      ],
+      "auto_advance_ms": 1500,
+      "priority": "chapter",
+      "pause": false,
+      "media_layout": "landscape",
+      "duration_ms": 4300,
+      "editorial_note": "照片实际拍于 11:16；按用户给定故事顺序放在八廓街之后、离城途中。"
+    },
+    {
+      "id": "meet-driver-and-team",
+      "presentation": "title",
+      "lonlat": [
+        91.122739,
+        29.655144
+      ],
+      "lead": "会 合",
+      "title": "司机与队友",
+      "subtitle": "从这里开始，结伴出行"
+    },
+    {
+      "id": "kulagangri-walk-arrival",
+      "presentation": "title",
+      "lonlat": [
+        90.736238,
+        28.288804
+      ],
+      "lead": "徒 步 抵 达",
+      "title": "库拉岗日观景点",
+      "subtitle": "沿雪山方向继续深入"
+    },
+    {
+      "id": "mongda-gangri-title",
+      "presentation": "title",
+      "lonlat": [
+        90.582279,
+        28.416639
+      ],
+      "lead": "驶 近",
+      "title": "蒙达岗日",
+      "subtitle": "海拔约 6425 米"
+    },
+    {
+      "id": "qudengnima-walk-arrival",
+      "presentation": "title",
+      "lead": "抵 达",
+      "title": "曲登尼玛冰川",
+      "subtitle": "冰川舌与冰塔林在山谷尽头展开",
+      "region_id": "qudengnima-glacier",
+      "editorial_note": "地点与坐标由用户根据画面和地图确认。",
+      "time": "2024-12-24T17:03:20+08:00"
+    },
+    {
+      "id": "everest-boundary-marker",
+      "presentation": "title",
+      "lonlat": [
+        86.828523,
+        28.192247
+      ],
+      "lead": "抵 达",
+      "title": "珠峰大本营界碑",
+      "subtitle": "从这里步行靠近珠峰"
+    },
+    {
+      "id": "everest-guandi-temple",
+      "presentation": "title",
+      "lonlat": [
+        86.615085,
+        28.578352
+      ],
+      "lead": "抵 达",
+      "title": "珠穆朗玛关帝庙",
+      "subtitle": "岗嘎山顶 · 世界海拔最高的关帝庙"
+    },
+    {
+      "id": "naicun-arrival",
+      "presentation": "title",
+      "lonlat": [
+        85.338273,
+        28.411059
+      ],
+      "lead": "抵 达",
+      "title": "乃村",
+      "subtitle": "下车走进村落"
+    },
+    {
+      "id": "asia-viewpoint-arrival",
+      "presentation": "title",
+      "lonlat": [
+        85.404633,
+        28.357927
+      ],
+      "lead": "登 上",
+      "title": "亚洲第一观景台",
+      "subtitle": "眺望希夏邦马与喜马拉雅群峰"
+    },
+    {
+      "id": "chumba-yumco-arrival",
+      "presentation": "title",
+      "lonlat": [
+        89.63374,
+        28.23091
+      ],
+      "lead": "途 经",
+      "title": "冲巴雍措",
+      "subtitle": "G219 沿线的高原湖泊"
+    },
+    {
+      "id": "relong-high-pass",
+      "presentation": "title",
+      "lonlat": [
+        90.055789,
+        28.695366
+      ],
+      "lead": "翻 越",
+      "title": "热龙乡高山垭口",
+      "subtitle": "公开地图未标正式山口名 · 暂不误标"
+    },
+    {
+      "id": "dorje-zhanga",
+      "presentation": "title",
+      "lonlat": [
+        89.677554,
+        28.184877
+      ],
+      "lead": "驶 近",
+      "title": "多吉展阿",
+      "subtitle": "海拔约 5559 米"
+    },
+    {
+      "id": "duina-lake-cluster",
+      "presentation": "title",
+      "lonlat": [
+        89.378752,
+        27.967687
+      ],
+      "lead": "抵 达",
+      "title": "卓木拉日与高原湖群",
+      "subtitle": "堆纳乡 · 湖畔远眺雪山"
+    },
+    {
+      "id": "xuecun-arrival",
+      "presentation": "title",
+      "lonlat": [
+        88.515832,
+        28.275896
+      ],
+      "lead": "途 经",
+      "title": "雪村",
+      "subtitle": "岗巴县"
+    },
+    {
+      "id": "changlong-north-village",
+      "presentation": "title",
+      "lonlat": [
+        88.350105,
+        28.230763
+      ],
+      "lead": "途 经",
+      "title": "昌龙乡北侧村落",
+      "subtitle": "公开地图暂无独立村名"
+    },
+    {
+      "id": "changlong-town-arrival",
+      "presentation": "title",
+      "lonlat": [
+        88.318041,
+        28.200453
+      ],
+      "lead": "途 经",
+      "title": "昌龙乡",
+      "subtitle": "岗巴县"
+    },
+    {
+      "id": "ama-drime-arrival",
+      "presentation": "title",
+      "lonlat": [
+        87.600686,
+        28.091848
+      ],
+      "lead": "驶 近",
+      "title": "阿玛直米",
+      "subtitle": "主峰海拔约 6669 米"
+    },
+    {
+      "id": "kangkong-village-arrival",
+      "presentation": "title",
+      "lonlat": [
+        87.453992,
+        28.324889
+      ],
+      "lead": "途 经",
+      "title": "康孔村",
+      "subtitle": "曲当镇沿线"
+    },
+    {
+      "id": "potala-palace-arrival",
+      "presentation": "title",
+      "time": "2024-12-29T10:21:18+08:00",
+      "lead": "抵 达",
+      "title": "布达拉宫",
+      "subtitle": "旅程回到拉萨，也回到这座城的中心"
+    },
+    {
+      "id": "zongjiao-lukang-walk",
+      "presentation": "title",
+      "time": "2024-12-29T12:23:09+08:00",
+      "lead": "漫 步",
+      "title": "宗角禄康公园",
+      "subtitle": "从布达拉宫背后，沿冬日湖岸散步"
+    },
+    {
+      "id": "pilot-yamdrok-title",
+      "presentation": "title",
+      "time": "2024-12-22T14:01:20+08:00",
+      "lead": "驶 入",
+      "title": "羊卓雍错",
+      "subtitle": "越过山口，湖水沿着群山展开",
+      "region_id": "yamdrok-lakeside",
+      "editorial_note": "区域过场先于沿湖素材出现；标签结束后再播放媒体。"
+    },
+    {
+      "id": "pilot-kulagangri-title",
+      "presentation": "title",
+      "time": "2024-12-23T09:41:20+08:00",
+      "lead": "走 近",
+      "title": "库拉岗日",
+      "subtitle": "晨光越过山脊，我们开始走向群峰",
+      "region_id": "kulagangri"
+    }
+  ],
+  "city_walk_ranges": [
+    {
+      "start": "2024-12-22T09:10:00+08:00",
+      "end": "2024-12-22T10:28:00+08:00",
+      "name": "拉萨市区"
+    },
+    {
+      "start": "2024-12-29T10:08:00+08:00",
+      "end": "2024-12-29T10:44:00+08:00",
+      "name": "布达拉宫"
+    },
+    {
+      "start": "2024-12-29T12:23:00+08:00",
+      "end": "2024-12-29T12:58:00+08:00",
+      "name": "宗角禄康公园"
+    }
+  ],
+  "geometry_edits": [
+    {
+      "name": "拉萨市区开场路口顺直化",
+      "start": "2024-12-22T09:10:16+08:00",
+      "end": "2024-12-22T09:57:51+08:00",
+      "via": [
+        [
+          91.1264,
+          29.65305
+        ],
+        [
+          91.1263912,
+          29.652978
+        ],
+        [
+          91.1263648,
+          29.652922
+        ],
+        [
+          91.1263208,
+          29.652882
+        ],
+        [
+          91.1262592,
+          29.652858
+        ],
+        [
+          91.12618,
+          29.65285
+        ]
+      ],
+      "max_step_m": 7
+    },
+    {
+      "name": "拉萨市区十点前后直接北上",
+      "start": "2024-12-22T09:57:51+08:00",
+      "end": "2024-12-22T10:27:37+08:00",
+      "via": [],
+      "max_step_m": 7
+    },
+    {
+      "name": "保护晨哥车队中心物资点",
+      "start": "2024-12-22T10:38:55+08:00",
+      "end": "2024-12-22T11:05:50+08:00",
+      "via": [
+        [
+          91.158833,
+          29.649127
+        ]
+      ],
+      "max_step_m": 12
+    },
+    {
+      "name": "晨哥车队中心补给后局部折返移除",
+      "start": "2024-12-22T11:13:56+08:00",
+      "end": "2024-12-22T11:21:07+08:00",
+      "via": [],
+      "max_step_m": 12
+    },
+    {
+      "name": "库拉岗日徒步抵达用户确认点",
+      "start": "2024-12-23T09:51:39+08:00",
+      "end": "2024-12-23T11:34:31+08:00",
+      "via": [
+        [
+          90.736238,
+          28.288804
+        ]
+      ],
+      "max_step_m": 16
+    },
+    {
+      "name": "12月22日15点04折返移除",
+      "start": "2024-12-22T15:02:26+08:00",
+      "end": "2024-12-22T15:07:14+08:00",
+      "path_id": "d22_remove_fold_1504",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月22日15点多多次折返与离路重建",
+      "start": "2024-12-22T15:36:53+08:00",
+      "end": "2024-12-22T16:23:57+08:00",
+      "path_id": "d22_remove_folds_1541_1615",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月22日16点25至16点45道路重建",
+      "start": "2024-12-22T16:23:57+08:00",
+      "end": "2024-12-22T16:47:14+08:00",
+      "path_id": "d22_road_1625_1645",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月22日18点37道路重建",
+      "start": "2024-12-22T18:30:03+08:00",
+      "end": "2024-12-22T18:41:04+08:00",
+      "path_id": "d22_road_1837",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月23日15点52至16点10道路重建",
+      "start": "2024-12-23T15:50:31+08:00",
+      "end": "2024-12-23T16:11:30+08:00",
+      "path_id": "d23_road_1552_1610",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月23日17点09至17点12道路重建",
+      "start": "2024-12-23T17:06:57+08:00",
+      "end": "2024-12-23T17:12:04+08:00",
+      "path_id": "d23_road_1709_1712",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月24日11点21至11点25道路重建",
+      "start": "2024-12-24T11:19:20+08:00",
+      "end": "2024-12-24T11:28:40+08:00",
+      "path_id": "d24_road_1121_1125",
+      "via_source": "navigation:osrm",
+      "max_step_m": 20
+    },
+    {
+      "name": "12月24日12点50道路重建",
+      "start": "2024-12-24T12:44:17+08:00",
+      "end": "2024-12-24T13:00:17+08:00",
+      "path_id": "d24_road_1250",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "曲登尼玛步行抵达用户确认点",
+      "start": "2024-12-24T16:43:12+08:00",
+      "end": "2024-12-24T17:20:38+08:00",
+      "via": [
+        [
+          88.238646,
+          28.009006
+        ]
+      ],
+      "max_step_m": 12
+    },
+    {
+      "name": "12月24日18点04折返移除",
+      "start": "2024-12-24T17:48:39+08:00",
+      "end": "2024-12-24T18:10:09+08:00",
+      "path_id": "d24_remove_fold_1804",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月25日13点15折返移除",
+      "start": "2024-12-25T13:03:00+08:00",
+      "end": "2024-12-25T13:18:27+08:00",
+      "path_id": "d25_remove_fold_1315",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月25日17点50折返移除",
+      "start": "2024-12-25T17:50:50+08:00",
+      "end": "2024-12-25T17:58:44+08:00",
+      "path_id": "d25_remove_fold_1750",
+      "via_source": "navigation:osrm",
+      "max_step_m": 35
+    },
+    {
+      "name": "12月26日10点26道路重建",
+      "start": "2024-12-26T10:24:27+08:00",
+      "end": "2024-12-26T10:32:21+08:00",
+      "path_id": "d26_road_1026",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "佩枯措主路与希夏邦马南向越野支线重建",
+      "start": "2024-12-26T14:28:02+08:00",
+      "end": "2024-12-26T15:52:18+08:00",
+      "path_id": "d26_peiku_rebuild",
+      "via_source": "navigation:osrm",
+      "authoritative_path_start": true,
+      "max_step_m": 35
+    },
+    {
+      "name": "12月26日16点10道路重建",
+      "start": "2024-12-26T16:04:44+08:00",
+      "end": "2024-12-26T16:15:04+08:00",
+      "path_id": "d26_road_1610",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月27日前往亚洲第一观景台道路重建",
+      "start": "2024-12-27T07:34:54+08:00",
+      "end": "2024-12-27T08:44:16+08:00",
+      "path_id": "d27_viewpoint_outbound",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月22日15点36折返复核修正",
+      "start": "2024-12-22T15:31:58+08:00",
+      "end": "2024-12-22T15:42:00+08:00",
+      "path_id": "d22_fold_1536_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月22日17点33道路复核修正",
+      "start": "2024-12-22T17:27:59+08:00",
+      "end": "2024-12-22T17:39:58+08:00",
+      "path_id": "d22_road_1733_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月22日11点45至11点55道路吸附复核",
+      "start": "2024-12-22T11:43:44+08:00",
+      "end": "2024-12-22T12:00:02+08:00",
+      "path_id": "d22_road_1145_1155_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28,
+      "authoritative_path_end": true
+    },
+    {
+      "name": "12月22日12点03道路吸附复核",
+      "start": "2024-12-22T12:00:02+08:00",
+      "end": "2024-12-22T12:08:16+08:00",
+      "path_id": "d22_road_1203_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25,
+      "authoritative_path_start": true,
+      "authoritative_path_end": true
+    },
+    {
+      "name": "12月22日12点22机场方向道路吸附复核",
+      "start": "2024-12-22T12:08:16+08:00",
+      "end": "2024-12-22T12:26:09+08:00",
+      "path_id": "d22_airport_outbound_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28,
+      "authoritative_path_start": true,
+      "authoritative_path_end": true
+    },
+    {
+      "name": "12月22日12点26至12点32午餐停靠点去折返",
+      "start": "2024-12-22T12:26:09+08:00",
+      "end": "2024-12-22T12:32:30+08:00",
+      "via": [
+        [90.499628, 29.263594],
+        [90.499635, 29.263594]
+      ],
+      "via_source": "editorial_anchor",
+      "authoritative_path_start": true,
+      "authoritative_path_end": true,
+      "max_step_m": 3
+    },
+    {
+      "name": "12月22日12点32至12点44离开机场道路吸附复核",
+      "start": "2024-12-22T12:32:30+08:00",
+      "end": "2024-12-22T12:44:59+08:00",
+      "path_id": "d22_airport_return_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28,
+      "authoritative_path_start": true
+    },
+    {
+      "name": "12月23日15点40折返及15点48至16点10道路复核",
+      "start": "2024-12-23T15:37:45+08:00",
+      "end": "2024-12-23T16:11:59+08:00",
+      "path_id": "d23_road_1548_1610_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 22
+    },
+    {
+      "name": "12月23日17点16道路复核",
+      "start": "2024-12-23T17:11:59+08:00",
+      "end": "2024-12-23T17:21:56+08:00",
+      "path_id": "d23_road_1716_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 22
+    },
+    {
+      "name": "12月23日17点35离路及GPS稀疏区间道路重建",
+      "start": "2024-12-23T17:21:55+08:00",
+      "end": "2024-12-23T17:58:39+08:00",
+      "path_id": "d23_road_1735_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月23日18点02至18点15离路与GPS空档道路重建",
+      "start": "2024-12-23T17:59:05+08:00",
+      "end": "2024-12-23T18:15:58+08:00",
+      "path_id": "d23_road_1802_1815_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月23日18点37道路复核",
+      "start": "2024-12-23T18:29:55+08:00",
+      "end": "2024-12-23T18:45:01+08:00",
+      "path_id": "d23_road_1837_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月23日18点55道路复核",
+      "start": "2024-12-23T18:45:01+08:00",
+      "end": "2024-12-23T19:01:58+08:00",
+      "path_id": "d23_road_1855_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 30
+    },
+    {
+      "name": "12月23日19点15至19点30道路复核",
+      "start": "2024-12-23T19:11:59+08:00",
+      "end": "2024-12-23T19:31:59+08:00",
+      "path_id": "d23_road_1915_1930_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 55
+    },
+    {
+      "name": "12月24日10点20至10点35 G219 主路复核",
+      "start": "2024-12-24T10:15:59+08:00",
+      "end": "2024-12-24T10:35:00+08:00",
+      "path_id": "d24_road_1020_review",
+      "via_source": "navigation:osrm",
+      "authoritative_path_end": true,
+      "max_step_m": 28
+    },
+    {
+      "name": "12月24日10点39道路复核",
+      "start": "2024-12-24T10:35:00+08:00",
+      "end": "2024-12-24T10:43:49+08:00",
+      "path_id": "d24_road_1039_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月24日11点30至11点42道路复核",
+      "start": "2024-12-24T11:28:02+08:00",
+      "end": "2024-12-24T11:43:59+08:00",
+      "path_id": "d24_road_1130_1142_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28
+    },
+    {
+      "name": "12月24日12点16至12点31道路复核",
+      "start": "2024-12-24T12:11:58+08:00",
+      "end": "2024-12-24T12:34:02+08:00",
+      "path_id": "d24_road_1216_1231_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 55
+    },
+    {
+      "name": "12月24日堆纳乡湖群停留后离开",
+      "start": "2024-12-24T13:00:11+08:00",
+      "end": "2024-12-24T13:49:00+08:00",
+      "path_id": "d24_lake_visit_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 24
+    },
+    {
+      "name": "12月24日13点56道路复核",
+      "start": "2024-12-24T13:49:00+08:00",
+      "end": "2024-12-24T14:04:00+08:00",
+      "path_id": "d24_road_1356_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 50
+    },
+    {
+      "name": "12月24日14点18原始 GPS 跳点与离路修正",
+      "start": "2024-12-24T14:12:59+08:00",
+      "end": "2024-12-24T14:28:59+08:00",
+      "path_id": "d24_road_1418_review",
+      "via_source": "navigation:osrm",
+      "authoritative_path_start": true,
+      "authoritative_path_end": true,
+      "max_step_m": 30
+    },
+    {
+      "name": "12月24日16点05道路复核",
+      "start": "2024-12-24T15:56:01+08:00",
+      "end": "2024-12-24T16:07:59+08:00",
+      "path_id": "d24_road_1605_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 24
+    },
+    {
+      "name": "12月24日18点15至18点28道路复核",
+      "start": "2024-12-24T18:10:09+08:00",
+      "end": "2024-12-24T18:30:01+08:00",
+      "path_id": "d24_road_1815_1828_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 50
+    },
+    {
+      "name": "12月24日18点40异常点与道路修正",
+      "start": "2024-12-24T18:33:59+08:00",
+      "end": "2024-12-24T18:48:00+08:00",
+      "path_id": "d24_road_1840_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28
+    },
+    {
+      "name": "12月24日19点10道路复核",
+      "start": "2024-12-24T19:03:59+08:00",
+      "end": "2024-12-24T19:19:45+08:00",
+      "path_id": "d24_road_1910_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月25日13点道路复核",
+      "start": "2024-12-25T12:53:59+08:00",
+      "end": "2024-12-25T13:20:00+08:00",
+      "path_id": "d25_road_1300_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 55
+    },
+    {
+      "name": "12月25日17点50折返与道路复核",
+      "start": "2024-12-25T17:50:50+08:00",
+      "end": "2024-12-25T18:10:43+08:00",
+      "path_id": "d25_road_1750_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "珠峰大本营徒步轨迹顺直化",
+      "start": "2024-12-25T18:30:05+08:00",
+      "end": "2024-12-25T19:43:47+08:00",
+      "via": [
+        [
+          86.830478,
+          28.190172
+        ],
+        [
+          86.828523,
+          28.192247
+        ]
+      ],
+      "max_step_m": 10
+    },
+    {
+      "name": "12月25日19点59至20点13返程道路复核",
+      "start": "2024-12-25T19:56:03+08:00",
+      "end": "2024-12-25T20:16:24+08:00",
+      "path_id": "d25_road_1959_2013_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月26日10点03至10点32道路吸附",
+      "start": "2024-12-26T10:03:04+08:00",
+      "end": "2024-12-26T10:32:15+08:00",
+      "path_id": "d26_road_1003_1032_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月26日10点32至11点17盘山公路漂移修正",
+      "start": "2024-12-26T10:32:15+08:00",
+      "end": "2024-12-26T11:17:48+08:00",
+      "path_id": "d26_road_1032_1117_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月26日11点20至13点道路吸附",
+      "start": "2024-12-26T11:17:48+08:00",
+      "end": "2024-12-26T13:01:59+08:00",
+      "path_id": "d26_road_1120_1300_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 60
+    },
+    {
+      "name": "12月26日13点01至13点11道路吸附与时间锚点修正",
+      "start": "2024-12-26T13:01:59+08:00",
+      "end": "2024-12-26T13:10:59+08:00",
+      "path_id": "d26_road_1301_1311_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 40
+    },
+    {
+      "name": "12月26日13点11至佩枯错前道路吸附",
+      "start": "2024-12-26T13:10:59+08:00",
+      "end": "2024-12-26T14:28:02+08:00",
+      "path_id": "d26_road_1311_1428_review",
+      "via_source": "navigation:osrm",
+      "authoritative_path_end": true,
+      "max_step_m": 65
+    },
+    {
+      "name": "12月26日佩枯错后至16点04道路吸附",
+      "start": "2024-12-26T15:52:18+08:00",
+      "end": "2024-12-26T16:04:43+08:00",
+      "path_id": "d26_road_1552_1604_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月26日16点15至吉隆道路吸附",
+      "start": "2024-12-26T16:15:22+08:00",
+      "end": "2024-12-26T18:11:16+08:00",
+      "path_id": "d26_road_1615_1811_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 60
+    },
+    {
+      "name": "12月26日吉隆至乃村进村道路连接",
+      "start": "2024-12-26T18:11:16+08:00",
+      "end": "2024-12-26T18:20:18+08:00",
+      "path_id": "d26_gyirong_to_naicun_connection",
+      "via_source": "navigation:osrm",
+      "authoritative_path_start": true,
+      "authoritative_path_end": true,
+      "max_step_m": 18
+    },
+    {
+      "name": "12月26日吉隆镇晚间短途道路吸附",
+      "start": "2024-12-26T19:26:33+08:00",
+      "end": "2024-12-26T20:52:07+08:00",
+      "path_id": "d26_gyirong_evening_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 18
+    },
+    {
+      "name": "12月27日10点41至11点03道路吸附",
+      "start": "2024-12-27T10:41:16+08:00",
+      "end": "2024-12-27T11:03:04+08:00",
+      "path_id": "d27_road_1041_1103_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 22
+    },
+    {
+      "name": "12月27日前往亚洲第一观景台全段吸附复核",
+      "start": "2024-12-27T07:28:25+08:00",
+      "end": "2024-12-27T08:44:16+08:00",
+      "path_id": "d27_viewpoint_outbound_full_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月28日15点50短段道路吸附",
+      "start": "2024-12-28T15:50:11+08:00",
+      "end": "2024-12-28T15:56:17+08:00",
+      "path_id": "d28_road_1550_1556_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 28
+    },
+    {
+      "name": "12月28日20点18至20点35长距离重复折返移除",
+      "start": "2024-12-28T20:18:37+08:00",
+      "end": "2024-12-28T20:35:15+08:00",
+      "path_id": "d28_road_2018_2035_review",
+      "via_source": "navigation:osrm",
+      "authoritative_path_start": true,
+      "authoritative_path_end": true,
+      "max_step_m": 30
+    },
+    {
+      "name": "12月28日20点45至20点48局部双环折返移除",
+      "start": "2024-12-28T20:45:10+08:00",
+      "end": "2024-12-28T20:48:25+08:00",
+      "path_id": "d28_road_2045_2048_review",
+      "via_source": "editorial_anchor",
+      "authoritative_path_start": true,
+      "authoritative_path_end": true,
+      "max_step_m": 25
+    },
+    {
+      "name": "12月29日17点41至18点02道路吸附",
+      "start": "2024-12-29T17:41:52+08:00",
+      "end": "2024-12-29T18:02:50+08:00",
+      "path_id": "d29_road_1741_1802_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 60
+    },
+    {
+      "name": "12月29日20点22至20点35道路吸附",
+      "start": "2024-12-29T20:22:28+08:00",
+      "end": "2024-12-29T20:35:58+08:00",
+      "path_id": "d29_road_2022_2035_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 65
+    },
+    {
+      "name": "12月22日15点02折返完整窗口复核",
+      "start": "2024-12-22T14:56:57+08:00",
+      "end": "2024-12-22T15:09:54+08:00",
+      "path_id": "d22_fold_1502_full_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25
+    },
+    {
+      "name": "12月29日宗角禄康公园步行噪点去折返",
+      "start": "2024-12-29T12:23:09+08:00",
+      "end": "2024-12-29T12:59:25+08:00",
+      "via": [
+        [
+          91.11913,
+          29.660679
+        ],
+        [
+          91.1186,
+          29.6605
+        ],
+        [
+          91.1191,
+          29.6597
+        ],
+        [
+          91.11945,
+          29.66018
+        ],
+        [
+          91.119,
+          29.66078
+        ],
+        [
+          91.1183,
+          29.66115
+        ],
+        [
+          91.1175,
+          29.66128
+        ],
+        [
+          91.1165,
+          29.66135
+        ],
+        [
+          91.1175,
+          29.66128
+        ],
+        [
+          91.1185,
+          29.66122
+        ],
+        [
+          91.1195,
+          29.66115
+        ],
+        [
+          91.1205,
+          29.66108
+        ],
+        [
+          91.1212,
+          29.66102
+        ],
+        [
+          91.1202,
+          29.66111
+        ],
+        [
+          91.119216,
+          29.661204
+        ]
+      ],
+      "mode": "walk",
+      "max_step_m": 8,
+      "authoritative_path_start": true,
+      "authoritative_path_end": true
+    },
+    {
+      "name": "12月28日晚抵达拉萨并去除市区折返",
+      "start": "2024-12-28T21:55:37+08:00",
+      "end": "2024-12-28T22:15:49+08:00",
+      "path_id": "d28_lhasa_arrival_review",
+      "via_source": "navigation:osrm",
+      "max_step_m": 25,
+      "authoritative_path_start": true,
+      "authoritative_path_end": true
+    }
+  ],
+  "supply_events": [
+    {
+      "id": "supply-chengge-fleet-center",
+      "lonlat": [
+        91.158833,
+        29.649127
+      ],
+      "kicker": "旅 途 补 给",
+      "title": "获得水源",
+      "subtitle": "晨哥车队中心 · 为接下来的高原行程补水",
+      "editorial_note": "使用用户最终通过地图选点工具确认的晨哥车队中心坐标，不使用素材原始时间/GPS",
+      "video": "photo/IMG_6015_web.mp4",
+      "poster": "photo/IMG_6015_poster.jpg",
+      "video_label": "播放获得水源 Live Photo",
+      "items": [
+        {
+          "name": "矿泉水",
+          "icon": "💧",
+          "count": 6,
+          "tone": "blue"
+        }
+      ]
+    }
+  ],
+  "media_events": [
+    {
+      "id": "jiaruola-pass-summit-memory",
+      "time": "2024-12-22T13:45:06+08:00",
+      "kicker": "垭 口 最 高 点",
+      "title": "加若拉山口",
+      "subtitle": "海拔 4700 米 · 与山口碑合影",
+      "video": "photo/IMG_6021_web.mp4",
+      "poster": "photo/IMG_6021_poster.jpg",
+      "video_label": "播放 Live Photo 动态画面",
+      "autoplay": true,
+      "priority": "chapter",
+      "pause": true,
+      "duration_ms": 7000
+    },
+    {
+      "id": "jiaruola-yamdrok-reveal",
+      "time": "2024-12-22T13:53:00+08:00",
+      "kicker": "下 山 途 中",
+      "title": "逐渐看见羊湖",
+      "subtitle": "第四眼 · 湖面终于铺展开来",
+      "image": "photo/DSC_8060.JPG",
+      "image_alt": "从山坡公路远眺逐渐显露的羊卓雍错",
+      "media_layout": "landscape",
+      "priority": "chapter",
+      "pause": false,
+      "duration_ms": 3600
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-1",
+      "time": "2024-12-22T13:47:22+08:00",
+      "kicker": "越 过 山 口",
+      "title": "羊湖还藏在山后",
+      "subtitle": "第一眼 · 下山公路刚刚展开",
+      "image": "photo/DSC_8057.JPG",
+      "image_alt": "翻越加若拉山口后下山途中的远景",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3400
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-2",
+      "time": "2024-12-22T13:49:10+08:00",
+      "kicker": "继 续 下 降",
+      "title": "山谷里出现一抹蓝",
+      "subtitle": "第二眼 · 湖水从地形缝隙里露出来",
+      "image": "photo/DSC_8058.JPG",
+      "image_alt": "下山途中逐渐出现的高原湖泊",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3400
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-3",
+      "time": "2024-12-22T13:50:40+08:00",
+      "kicker": "转 过 山 弯",
+      "title": "湖岸轮廓渐渐清楚",
+      "subtitle": "第三眼 · 每走一段，湖就多出现一点",
+      "image": "photo/DSC_8059.JPG",
+      "image_alt": "盘山路转弯后逐渐清晰的羊湖",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 3400
+    },
+    {
+      "id": "jiaruola-yamdrok-glimpse-5",
+      "time": "2024-12-22T13:56:08+08:00",
+      "kicker": "驶 向 湖 边",
+      "title": "羊湖占满视野",
+      "subtitle": "第五眼 · 从山口远眺走向湖畔",
+      "image": "photo/DSC_8065.JPG",
+      "image_alt": "下山后更完整的羊湖景色",
+      "media_layout": "landscape",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 4000
+    },
+    {
+      "id": "zongjiao-lukang-live-photo",
+      "time": "2024-12-29T12:33:00+08:00",
+      "kicker": "布 宫 背 后",
+      "title": "宗角禄康公园散步",
+      "subtitle": "沿着冬日龙王潭慢慢走",
+      "video": "photo/IMG_6711_web.mp4",
+      "poster": "photo/IMG_6711_poster.jpg",
+      "video_label": "播放公园散步 Live Photo",
+      "priority": "memory",
+      "pause": false,
+      "duration_ms": 4500
+    },
+    {
+      "id": "zongjiao-lukang-duck-burst",
+      "time": "2024-12-29T12:35:00+08:00",
+      "kicker": "龙 王 潭",
+      "title": "成群的鸭子",
+      "subtitle": "十四张连拍快速切换，像一小段照片电影",
+      "clips": [
+        {
+          "image": "photo/DSC_8958.JPG",
+          "title": "鸭群 01"
+        },
+        {
+          "image": "photo/DSC_8959.JPG",
+          "title": "鸭群 02"
+        },
+        {
+          "image": "photo/DSC_8960.JPG",
+          "title": "鸭群 03"
+        },
+        {
+          "image": "photo/DSC_8961.JPG",
+          "title": "鸭群 04"
+        },
+        {
+          "image": "photo/DSC_8962.JPG",
+          "title": "鸭群 05"
+        },
+        {
+          "image": "photo/DSC_8963.JPG",
+          "title": "鸭群 06"
+        },
+        {
+          "image": "photo/DSC_8964.JPG",
+          "title": "鸭群 07"
+        },
+        {
+          "image": "photo/DSC_8965.JPG",
+          "title": "鸭群 08"
+        },
+        {
+          "image": "photo/DSC_8966.JPG",
+          "title": "鸭群 09"
+        },
+        {
+          "image": "photo/DSC_8967.JPG",
+          "title": "鸭群 10"
+        },
+        {
+          "image": "photo/DSC_8968.JPG",
+          "title": "鸭群 11"
+        },
+        {
+          "image": "photo/DSC_8969.JPG",
+          "title": "鸭群 12"
+        },
+        {
+          "image": "photo/DSC_8970.JPG",
+          "title": "鸭群 13"
+        },
+        {
+          "image": "photo/DSC_8971.JPG",
+          "title": "鸭群 14"
+        }
+      ],
+      "auto_advance_ms": 420,
+      "media_layout": "landscape",
+      "priority": "chapter",
+      "pause": false,
+      "duration_ms": 7000
+    },
+    {
+      "id": "everest-sunset-memory",
+      "lonlat": [
+        86.8290325,
+        28.1930532
+      ],
+      "kicker": "重 要 记 忆",
+      "title": "珠峰暮色",
+      "subtitle": "世界最高峰从金色变成粉色",
+      "clips": [
+        {
+          "video": "video/web/everest-clouds.mp4",
+          "poster": "video/web/everest-clouds.jpg",
+          "title": "云中珠峰",
+          "label": "播放珠峰远眺"
+        },
+        {
+          "video": "video/web/everest-afterglow.mp4",
+          "poster": "video/web/everest-afterglow.jpg",
+          "title": "粉色霞光",
+          "label": "播放珠峰暮色"
+        }
+      ],
+      "priority": "chapter",
+      "pause": true
+    },
+    {
+      "id": "shishapangma-wilderness-memory",
+      "lonlat": [
+        85.7120618,
+        28.7273382
+      ],
+      "kicker": "发 现 路 线",
+      "title": "驶向希夏邦马",
+      "subtitle": "离开大路，进入高原荒原",
+      "clips": [
+        {
+          "video": "video/web/shishapangma-river.mp4",
+          "poster": "video/web/shishapangma-river.jpg",
+          "title": "辫状河与干河床",
+          "label": "播放荒原航拍"
+        },
+        {
+          "video": "video/web/shishapangma-offroad.mp4",
+          "poster": "video/web/shishapangma-offroad.jpg",
+          "title": "越野车与群峰",
+          "label": "播放越野路段"
+        }
+      ],
+      "priority": "memory",
+      "pause": false
+    },
+    {
+      "id": "enter-gyirong-memory",
+      "lonlat": [
+        85.23,
+        28.469
+      ],
+      "kicker": "发 现 地 点",
+      "title": "驶入吉隆沟",
+      "subtitle": "从高原进入森林峡谷",
+      "video": "photo/IMG_6450_web.mp4",
+      "poster": "photo/IMG_6450_poster.jpg",
+      "video_label": "查看沿途动态画面",
+      "priority": "memory",
+      "pause": false
+    },
+    {
+      "id": "asia-viewpoint-memory",
+      "lonlat": [
+        85.404633,
+        28.357927
+      ],
+      "kicker": "重 要 记 忆",
+      "title": "亚洲第一观景台",
+      "subtitle": "沿着吉隆沟继续前行",
+      "clips": [
+        {
+          "video": "video/VID_20241227_084339_web.mp4",
+          "poster": "video/VID_20241227_084339_poster.jpg",
+          "title": "喜马拉雅群峰",
+          "label": "播放观景台全景"
+        },
+        {
+          "video": "video/web/gyirong-yaks.mp4",
+          "poster": "video/web/gyirong-yaks.jpg",
+          "title": "雪山下的牦牛",
+          "label": "播放牦牛牧场航拍"
+        },
+        {
+          "video": "video/web/asia-viewpoint-aerial.mp4",
+          "poster": "video/web/asia-viewpoint-aerial.jpg",
+          "title": "三人登上玛尼堆",
+          "label": "播放山顶航拍"
+        }
+      ],
+      "priority": "chapter",
+      "pause": true
+    },
+    {
+      "id": "roadside-repair-memory",
+      "lonlat": [
+        85.329067,
+        28.395596
+      ],
+      "kicker": "旅 途 插 曲",
+      "title": "荒原补胎",
+      "subtitle": "雪山还在远处，车先停了下来",
+      "clips": [
+        {
+          "video": "video/web/roadside-repair.mp4",
+          "poster": "video/web/roadside-repair.jpg",
+          "title": "越野车补胎",
+          "label": "播放补胎花絮"
+        }
+      ],
+      "priority": "memory",
+      "pause": false
+    },
+    {
+      "id": "chentang-memory",
+      "lonlat": [
+        86.2888,
+        28.0418
+      ],
+      "kicker": "发 现 地 点",
+      "title": "抵达陈塘",
+      "subtitle": "藏在喜马拉雅深处的村落",
+      "video": "photo/IMG_6677_web.mp4",
+      "poster": "photo/IMG_6677_poster.jpg",
+      "video_label": "查看村落动态画面",
+      "priority": "memory",
+      "pause": false
+    },
+    {
+      "id": "return-lhasa-memory",
+      "time": "2024-12-29T10:21:18+08:00",
+      "kicker": "旅 程 尾 声",
+      "title": "回到拉萨",
+      "subtitle": "布达拉宫再次出现在眼前",
+      "video": "photo/IMG_6708_web.mp4",
+      "poster": "photo/IMG_6708_poster.jpg",
+      "video_label": "查看归途动态画面",
+      "priority": "chapter",
+      "pause": true
+    }
+  ],
+  "stays": [
+    {
+      "date": "2024-12-22",
+      "name": "措玉村",
+      "lonlat": [
+        90.91951,
+        28.23623
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "name": "康马",
+      "lonlat": [
+        89.71003,
+        28.54851
+      ]
+    },
+    {
+      "date": "2024-12-24",
+      "name": "定结",
+      "lonlat": [
+        87.766923,
+        28.367286
+      ]
+    },
+    {
+      "date": "2024-12-25",
+      "name": "珠峰",
+      "lonlat": [
+        86.94622,
+        28.3432
+      ]
+    },
+    {
+      "date": "2024-12-26",
+      "name": "吉隆",
+      "lonlat": [
+        85.32905,
+        28.39474
+      ]
+    },
+    {
+      "date": "2024-12-27",
+      "name": "岗嘎",
+      "lonlat": [
+        86.60738,
+        28.58245
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "name": "拉萨",
+      "lonlat": [
+        91.136937,
+        29.655009
+      ]
+    }
+  ]
+}

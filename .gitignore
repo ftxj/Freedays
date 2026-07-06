@@ -1,0 +1,64 @@
+# macOS / editors
+.DS_Store
+*.swp
+*.swo
+
+# Python environments and caches
+venv*/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw media and editing outputs. Keep only the small web derivatives below.
+photo/*
+!photo/*_web.mp4
+!photo/*_poster.jpg
+
+video/*
+!video/web/
+!video/web/**
+!video/*_web.mp4
+!video/*_poster.jpg
+
+Peakvision/
+edit/
+blender/
+cache/
+node_modules/
+
+# Local resource libraries, AI exports, review logs, and rendered outputs
+3d_assert/
+ai/
+log/
+outputs/
+录屏/
+库拉岗日/
+
+# Large source/export files outside the web application
+*.gpx
+*_成片.mp4
+
+# Vlog research/editing documents outside this web repository
+make_video.py
+全程时间线.md
+剪辑脚本.md
+好素材精选.md
+文案.md
+新版文案+视频对照.md
+旁白文案.md
+照片元数据.csv
+照片总表.csv
+照片索引.md
+素材地图整合建议.md
+视频索引.md
+途经山峰清单.md
+
+# Regenerable route products and network caches
+route_data/processed/route-data.json
+route_data/osm_cache/
+route_data/osrm_drive_cache/
+route_data/analysis/screenshots/
+
+# Generated audit outputs
+route_data/analysis/ten-minute-road-audit.json

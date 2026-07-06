@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>库拉岗日 · 3D 发现镜头</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="assets/kulagangri-discovery.css" />
+  </head>
+  <body>
+    <main class="experience" aria-label="库拉岗日三维发现镜头样片">
+      <div id="map" aria-hidden="true"></div>
+      <div class="cinema-grade"></div>
+      <div class="terrain-shade" id="terrain-shade"></div>
+
+      <header class="film-hud">
+        <div>
+          <p class="eyebrow">DAY 03 · 2024.12.23</p>
+          <h1>白玛林措北侧山脊</h1>
+          <p class="hud-meta" id="hud-meta">步行 · 海拔 4756 m</p>
+        </div>
+        <div class="journey-mark">
+          <span>西藏边境线</span>
+          <small>3D DISCOVERY STUDY</small>
+        </div>
+      </header>
+
+      <section class="opening-copy" id="opening-copy" aria-live="polite">
+        <p>走近雪山</p>
+        <strong>库拉岗日徒步段</strong>
+        <span>真实轨迹 · 三维地形 · 发现镜头</span>
+      </section>
+
+      <div class="walker" id="walker" aria-label="三人徒步队伍">
+        <span class="walker-back">🧑🧑‍🦰</span>
+        <span class="walker-front">🧑‍🦱</span>
+        <i></i>
+      </div>
+
+      <div class="summit-beacon" id="summit-beacon">
+        <span class="beacon-ring"></span>
+        <span class="beacon-core"></span>
+        <b>库拉岗日</b>
+        <small>7,538 m</small>
+      </div>
+
+      <section class="discovery-card" id="discovery-card" aria-live="polite">
+        <div class="discovery-frame">
+          <span class="corner corner-a"></span>
+          <span class="corner corner-b"></span>
+          <p class="discovery-kicker">发 现 地 点</p>
+          <span class="discovery-rule"></span>
+          <h2>库拉岗日</h2>
+          <p class="latin">KULAGANGRI</p>
+          <div class="discovery-facts">
+            <span><b>7,538</b> m</span>
+            <i></i>
+            <span>喜马拉雅东段</span>
+          </div>
+          <p class="discovery-note">从白玛林措北侧山脊，望向雪山主脊。</p>
+        </div>
+      </section>
+
+      <section class="memory-dock" id="memory-dock" aria-label="库拉岗日影像">
+        <div class="dock-heading">
+          <p>地 点 影 像</p>
+          <strong>走近库拉岗日</strong>
+        </div>
+        <button class="memory-card featured" data-video="video/web/kulagangri-aerial.mp4">
+          <img src="video/web/kulagangri-aerial.jpg" alt="白玛林措与库拉岗日航拍" />
+          <span><b>白玛林措航拍</b><small>18 秒 · 播放影像</small></span>
+        </button>
+        <button class="memory-card" data-video="video/web/kulagangri-hiker.mp4">
+          <img src="video/web/kulagangri-hiker.jpg" alt="红衣徒步者与库拉岗日" />
+          <span><b>红衣徒步者</b><small>山脊徒步</small></span>
+        </button>
+        <button class="memory-card" data-video="video/web/kulagangri-ridge.mp4">
+          <img src="video/web/kulagangri-ridge.jpg" alt="山脊上的三人合影" />
+          <span><b>山脊上的我们</b><small>雪山合影</small></span>
+        </button>
+      </section>
+
+      <section class="video-stage" id="video-stage" aria-label="实拍影像播放器">
+        <button class="video-close" id="video-close" type="button" aria-label="关闭影像">×</button>
+        <video id="memory-video" playsinline controls></video>
+        <div class="video-caption">
+          <span>地点影像</span>
+          <b id="video-title">白玛林措航拍</b>
+        </div>
+      </section>
+
+      <div class="loading" id="loading">
+        <span></span>
+        <p>正在加载库拉岗日三维地形</p>
+      </div>
+
+      <div class="error-state" id="error-state" role="alert">
+        <b>三维地形未能加载</b>
+        <span>请检查网络后重试；页面仍可以平面模式播放。</span>
+      </div>
+
+      <footer class="transport">
+        <button class="primary" id="play-sequence" type="button">
+          <span>▶</span> 播放发现镜头
+        </button>
+        <button id="skip-discovery" type="button">直接查看发现</button>
+        <p id="sequence-status">等待地形加载</p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+    <script src="assets/kulagangri-discovery.js"></script>
+  </body>
+</html>

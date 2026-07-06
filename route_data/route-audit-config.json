@@ -1,0 +1,45 @@
+{
+  "window_minutes": 10,
+  "overlap_seconds": 60,
+  "accepted_windows": {
+    "20241226-1830": "乃村步行抵达关键点，卫星图已复核"
+  },
+  "profiles": {
+    "drive": {
+      "gps_p95_warn_m": 100,
+      "gps_p95_error_m": 250,
+      "raw_gap_warn_s": 300,
+      "sharp_turn_warn_deg": 100
+    },
+    "walk": {
+      "gps_p95_warn_m": 60,
+      "gps_p95_error_m": 150,
+      "raw_gap_warn_s": 180,
+      "sharp_turn_warn_deg": 120
+    },
+    "offroad": {
+      "gps_p95_warn_m": 180,
+      "gps_p95_error_m": 500,
+      "raw_gap_warn_s": 600,
+      "sharp_turn_warn_deg": 150
+    }
+  },
+  "offroad_zones": [
+    {
+      "id": "chomolhari-lake-offroad",
+      "name": "卓木拉日附近越野段",
+      "center": [89.378752, 27.967687],
+      "radius_m": 3500,
+      "start": "2024-12-24T12:45:00+08:00",
+      "end": "2024-12-24T14:00:00+08:00"
+    },
+    {
+      "id": "shishapangma-offroad-spur",
+      "name": "希夏邦马方向越野支线",
+      "center": [85.6502, 28.7465],
+      "radius_m": 1800,
+      "start": "2024-12-26T14:20:00+08:00",
+      "end": "2024-12-26T16:00:00+08:00"
+    }
+  ]
+}
