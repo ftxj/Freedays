@@ -1,12 +1,18 @@
 "use strict";
 
+// Central playback state. It owns route progress and pause semantics; map,
+// media and controls communicate through this object instead of shared flags.
 (function (app) {
   class PlaybackEngine {
     constructor(options = {}) {
       this.totalDistance = Math.max(0, Number(options.totalDistance) || 0);
       this.distance = 0;
       this.rate = Number.isFinite(options.initialRate) ? options.initialRate : 0.2;
+      // Named factors compose camera pacing, media pacing and user speed
+      // without allowing one subsystem to overwrite another subsystem's rate.
       this.factors = new Map();
+      // Pause reasons form a lock set. Playback resumes only after every owner
+      // (user, media, sleep, stop, ...) releases its own reason.
       this.pauseReasons = new Set(options.initiallyPlaying ? [] : ["user"]);
       this.completed = false;
       this.listeners = new Set();
@@ -70,6 +76,7 @@
     }
 
     resume(reason = "user") {
+      // Removing `media` must not cancel an independent `user` pause.
       this.pauseReasons.delete(reason);
       this.emit();
       return this.isPlaying();

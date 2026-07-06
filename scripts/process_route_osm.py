@@ -370,7 +370,11 @@ def remove_sleep_intervals(points: list[dict], events: list[dict]) -> list[dict]
 
 
 def apply_geometry_edits(points: list[dict], edits: list[dict]) -> list[dict]:
-    """Replace a noisy/backtracking interval with a user-approved simple path."""
+    """Replace reviewed windows while preserving timestamps and provenance.
+
+    The navigation layer is always the input, so repeated generation cannot
+    stack an edit on top of an already-rendered route.
+    """
     result = points
     for edit in edits:
         if len(result) < 2:
@@ -850,6 +854,11 @@ def match_drive_osrm(
 def bridge_movement_gaps(
     points: list[dict], allow_download: bool = True, threshold_m: float = 180
 ) -> list[dict]:
+    """Fill recording gaps without inventing a cross-terrain straight line.
+
+    Movement gaps first try navigation geometry. Very long gaps become explicit
+    segment breaks instead of pretending that a vehicle drove continuously.
+    """
     if len(points) < 2:
         return points
     result = [points[0]]
@@ -1226,6 +1235,7 @@ def build(
     include_regex: str | None = None,
     match_driving: bool = True,
 ) -> None:
+    """Compile the four route layers and write browser/runtime artifacts."""
     raw_points = parse_gpx()
     pts = filter_trip_points(raw_points)
     overrides = load_overrides()

@@ -1,5 +1,7 @@
 "use strict";
 
+// Resolves declarative camera directives into stable views. The animation loop
+// supplies the current position; this module decides framing, not playback.
 (function (app) {
   class CameraPolicy {
     constructor(routeModel, routeData, config) {
@@ -82,6 +84,8 @@
     }
 
     orientationFor(rule, currentPosition) {
+      // North-up remains the default. `look_at` is an explicit narrative
+      // exception and never follows vehicle heading implicitly.
       if (!rule) return { bearing: 0, pitch: null };
       let bearing = Number.isFinite(rule.bearing) ? rule.bearing : 0;
       if (Array.isArray(rule.look_at)) {

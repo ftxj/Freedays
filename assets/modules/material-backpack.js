@@ -1,5 +1,7 @@
 "use strict";
 
+// Search/review UI for media metadata. Heavy source files stay outside Git;
+// cards refer to paths and only load previews when they become visible.
 (function (app) {
   class MaterialBackpack {
     constructor(options) {
@@ -51,6 +53,8 @@
     }
 
     createThumbnailObserver() {
+      // Lazy thumbnails keep the large metadata catalog usable without
+      // requesting every local preview during page startup.
       if (!("IntersectionObserver" in window)) return null;
       return new IntersectionObserver(
         (entries) => {
@@ -174,6 +178,8 @@
     }
 
     loadReviewState() {
+      // Review decisions are local authoring state, not route or timeline
+      // authority; generated data can be rebuilt without losing these flags.
       try {
         return JSON.parse(localStorage.getItem("tibet-media-review-v1") || "{}") || {};
       } catch (_error) {
@@ -526,6 +532,8 @@
     }
 
     openSelection({ selectedPaths = [], onConfirm, clusterId } = {}) {
+      // Selection mode is shared with ManualStoryEditor but remains optional so
+      // the backpack can still be used as a standalone review browser.
       this.selectionMode = true;
       this.selectionPaths = new Set(selectedPaths);
       this.selectionCallback = typeof onConfirm === "function" ? onConfirm : null;

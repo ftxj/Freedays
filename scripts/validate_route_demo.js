@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// Fast structural contract test for the generated route and browser entrypoint.
+// Browser-only interaction behavior lives in the focused Playwright tests.
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -17,6 +19,8 @@ function read(relativePath) {
 }
 
 function loadBrowserData(relativePaths) {
+  // Generated JS assigns data onto window; a VM reads it without starting
+  // MapLibre or a browser.
   const context = { window: {} };
   vm.createContext(context);
   for (const relativePath of relativePaths) {

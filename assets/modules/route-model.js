@@ -1,5 +1,7 @@
 "use strict";
 
+// Pure route-domain helpers. This module knows coordinates, distance, time and
+// movement segments, but deliberately has no MapLibre or DOM dependencies.
 (function (app) {
   const EARTH_RADIUS_M = 6371000;
 
@@ -44,6 +46,7 @@
     return (Math.atan2(y, x) * 180) / Math.PI;
   }
 
+  /** Precomputes the indexes needed by playback, seeking and camera policies. */
   class RouteModel {
     constructor(data) {
       this.track = data.track;
@@ -63,6 +66,8 @@
     }
 
     locate(distance) {
+      // Binary search keeps per-frame distance lookup logarithmic even though
+      // the rendered route contains tens of thousands of interpolated points.
       const dv = Math.max(0, Math.min(this.totalDistance, distance));
       let lo = 0;
       let hi = this.length - 1;
@@ -104,6 +109,8 @@
     }
 
     roadTurn(k, lookAroundMeters = 280) {
+      // Compare bearings on both sides of the sample instead of adjacent
+      // points; tiny GPS noise would otherwise look like a sharp road corner.
       const segment = this.movementSegment(k);
       if (!segment) return 0;
       const center = this.cumulative[k];
@@ -152,6 +159,8 @@
     }
 
     distanceAtTime(value) {
+      // Real trip time and animation distance are separate axes. Interpolate
+      // between timestamped samples so debug seeks preserve the real clock.
       const target = timeValue(value);
       let k = 0;
       while (k + 1 < this.length && this.timeNumbers[k + 1] < target) k++;

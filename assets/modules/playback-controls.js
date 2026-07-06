@@ -1,5 +1,7 @@
 "use strict";
 
+// DOM adapter for transport controls. It sends intent to PlaybackEngine and
+// leaves route, camera and overlay rendering to their respective modules.
 (function (app) {
   class PlaybackControls {
     constructor(options) {
@@ -17,8 +19,10 @@
           return;
         }
         this.player.toggle("user");
-        if (this.player.isPlaying()) this.options.onPlay();
-        else this.options.onPause();
+        // Overall playback may still be held by `media`. UI intent is based on
+        // the user's lock, not on whether the route happens to be moving.
+        if (this.player.pauseReasons.has("user")) this.options.onPause();
+        else this.options.onPlay();
       };
       document.getElementById("btn-replay").onclick = () =>
         this.options.onReplay({ autoplay: false });
@@ -41,8 +45,10 @@
     }
 
     render(state) {
-      this.playButton.textContent = state.playing ? "⏸ 暂停" : "▶ 播放";
-      this.playButton.dataset.state = state.playing ? "playing" : "paused";
+      const userPaused = state.pauseReasons.includes("user") || state.completed;
+      this.playButton.textContent = userPaused ? "▶ 播放" : "⏸ 暂停";
+      this.playButton.dataset.state = userPaused ? "paused" : "playing";
+      this.playButton.dataset.routeState = state.playing ? "moving" : "held";
     }
   }
 

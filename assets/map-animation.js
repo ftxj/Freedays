@@ -1,5 +1,7 @@
 "use strict";
 
+// Browser composition root. Offline scripts have already resolved route
+// geometry; this file wires domain models, renderers, overlays and controls.
 // Runtime data is split between generated route geometry and hand-maintained map content.
 if (!window.ROUTE_DATA || !Array.isArray(window.ROUTE_DATA.points)) {
   throw new Error("route_data/processed/route-data.js is missing or invalid");
@@ -54,6 +56,8 @@ function withoutExcludedMedia(event) {
 }
 
 const DATA = {
+  // Convert generated records into parallel arrays once. Per-frame rendering
+  // then uses numeric indexes without repeatedly allocating point objects.
   track: ROUTE.points.map((point) => [point.lon, point.lat]),
   times: ROUTE.points.map((point) => point.time),
   alts: ROUTE.points.map((point) => point.alt),
@@ -300,6 +304,7 @@ const MIN_DETAIL_FRAMES = CONFIG.playback.minimumFrames.detail,
 mediaOverlay = new APP.MediaOverlay({
   isPlaying: () => playback.isPlaying(),
   pausePlayback: () => {
+    // Media owns only its named lock. User, sleep and stop locks remain intact.
     playback.pause("media");
   },
   resumePlayback: () => {
@@ -323,6 +328,8 @@ storyTimeline = new APP.StoryTimeline({
   },
   onSelect: (event, distance) => {
     seekToDistance(distance, { previewMedia: false });
+    resumeLocationPresentation();
+    mediaOverlay.resumePresentation();
     const context = { ...event, k: routeModel.distanceAtTime(event.time).k };
     if (event.presentation === "title") showLocationCard(context);
     else mediaOverlay.show(context);
@@ -330,6 +337,8 @@ storyTimeline = new APP.StoryTimeline({
 });
 storyTimeline.setEvents(DATA.storyEvents);
 function syncManualStoryEntries(entries) {
+  // Runtime drafts replace generated events non-destructively. Source JSON is
+  // untouched until the user explicitly exports and reviews the draft.
   const replacedEventIds = timelineRuntime.applyManual(
     entries,
     playback.distance,
@@ -357,6 +366,8 @@ function previewManualStoryEntry(entry) {
     bearing: entry.camera.bearing,
     duration: 700,
   });
+  resumeLocationPresentation();
+  mediaOverlay.resumePresentation();
   if (context.presentation === "title") showLocationCard(context);
   else mediaOverlay.show(context);
 }
@@ -824,6 +835,8 @@ map.on("load", () => {
 });
 // Playback state and camera updates.
 function setDist(dv) {
+  // This is the render boundary: update every visual consumer from one route
+  // distance so HUD, actor, trail, camera and story timeline cannot drift.
   const dist = playback.setDistance(dv);
   const L = locate(dist),
     pos = L.pos,
@@ -1162,10 +1175,13 @@ function previewSupplyAtDistance(dv) {
   const pick = timelineRuntime.nearest("media", dv, 2500);
   if (pick) {
     pick.fired = true;
+    mediaOverlay.resumePresentation();
     showSupplyCard(pick);
   }
 }
 function step() {
+  // Playback speed controls screen pacing; displayed km/h continues to come
+  // from real timestamps and route geometry.
   if (!playback.isPlaying()) return;
   const dist = playback.distance,
     cur = locate(dist),
@@ -1318,6 +1334,8 @@ document.getElementById("zm").oninput = (e) => {
 };
 
 function seekToDistance(nd, options = {}) {
+  // Seeking is deterministic: pause user playback, clear transient locks and
+  // reconstruct every fired marker/event from the destination distance.
   playback.pause("user");
   playback.resume("media");
   playback.resume("sleep");

@@ -1,5 +1,7 @@
 "use strict";
 
+// Compiles editorial triggers into the route-distance coordinate used by the
+// playback loop. Renderers consume compiled events and never search GPS data.
 (function (app) {
   class DirectiveEngine {
     constructor(routeModel) {
@@ -8,6 +10,8 @@
 
     compile(items, kind) {
       return (items || []).map((item) => {
+        // Coordinate triggers snap once during compilation. This is both more
+        // deterministic and cheaper than searching the route every frame.
         if (item.lonlat) {
           const k = this.route.nearestIndexToCoordinate(item.lonlat);
           return {
@@ -43,6 +47,8 @@
     }
 
     crossed(events, from, to) {
+      // `fired` is runtime state: seeking calls reset() to rebuild it from the
+      // destination distance and prevent duplicate or skipped presentations.
       return events.filter((event) => {
         if (event.fired || event.d <= from + 1e-6 || event.d > to) return false;
         event.fired = true;

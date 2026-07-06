@@ -1,5 +1,7 @@
 "use strict";
 
+// Renders the overview/focus timelines. It emits seek/select intent and does
+// not directly pause playback or open media overlays.
 (function (app) {
   class StoryTimeline {
     constructor(options) {
@@ -37,6 +39,8 @@
     }
 
     buildRegionStats() {
+      // Explicit region assignments win; unassigned events are adopted by the
+      // narrowest time region so generated and manual stories can coexist.
       this.regionStats.clear();
       this.regions.forEach((region) => {
         const start = Date.parse(region.start);
@@ -52,6 +56,8 @@
     }
 
     makeOverviewTag(event, laneEnds) {
+      // Greedy lanes avoid overlapping labels without introducing a layout
+      // dependency or moving the event away from its true route position.
       const button = document.createElement("button");
       button.type = "button";
       button.className = "story-timeline-tag";

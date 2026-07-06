@@ -1,5 +1,7 @@
 "use strict";
 
+// Browser-side authoring tool for story points. Saved entries are translated
+// into the same event/camera shapes consumed by TimelineRuntime and CameraPolicy.
 (function (app) {
   const STORAGE_KEY = "tibet-route-manual-story-points-v1";
 
@@ -56,6 +58,8 @@
     }
 
     readStorage() {
+      // Local storage is a draft workspace only. Exported JSON is the portable
+      // artifact that can later be reviewed and merged into project data.
       try {
         const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
         return Array.isArray(value) ? value : [];
@@ -204,6 +208,8 @@
     }
 
     readForm(requireTitle = true) {
+      // Normalize UI strings at the boundary so runtime code receives stable
+      // China-time timestamps, coordinates and numeric camera properties.
       if (!this.lonlat || !this.routeContext) {
         this.setStatus("请先在地图上选一个 GPS 位置", true);
         return null;
@@ -384,6 +390,8 @@
     }
 
     runtimeEntry(point) {
+      // Keep point, event and camera records separate: one authoring action may
+      // replace a timeline event, a camera directive, or both.
       const isChapter = point.type === "chapter";
       const event = {
         id: point.id,

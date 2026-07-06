@@ -1,5 +1,7 @@
 "use strict";
 
+// Presents chapter videos, photo sequences and lightweight memories. Route
+// pausing is coordinated through callbacks; this module owns presentation time.
 (function (app) {
   class MediaOverlay {
     constructor(options) {
@@ -14,7 +16,9 @@
       this.slideCallback = null;
       this.presentationPaused = false;
       this.videoResumeAfterPause = false;
-      this.resumePlayback = false;
+      // A visible blocking card owns the `media` playback lock even when it was
+      // opened from an already-paused timeline.
+      this.routePaused = false;
       this.card = document.getElementById("supply-card");
       this.video = document.getElementById("supply-video");
       this.image = document.getElementById("supply-image");
@@ -60,6 +64,8 @@
     }
 
     scheduleMain(callback, delay) {
+      // Store remaining time so a user pause freezes CSS/video and timers as a
+      // single presentation rather than letting the card expire invisibly.
       this.clearMainTimer();
       this.timerCallback = callback;
       this.timerRemaining = Math.max(0, delay);
@@ -138,9 +144,11 @@
       if (resumeVideo) this.play();
     }
 
-    resumeIfNeeded() {
-      if (!this.resumePlayback) return;
-      this.resumePlayback = false;
+    releaseRoutePause() {
+      // PlaybackEngine decides whether another lock (usually `user`) still
+      // prevents movement; closing media never force-resumes the route.
+      if (!this.routePaused) return;
+      this.routePaused = false;
       this.options.resumePlayback();
     }
 
@@ -171,8 +179,7 @@
         this.options.setPlaybackFactor(1);
       }
       void this.card.offsetWidth;
-      if (resume) this.resumeIfNeeded();
-      else this.resumePlayback = false;
+      this.releaseRoutePause();
     }
 
     applyMediaDimensions(width, height) {
@@ -320,16 +327,17 @@
 
     async show(event) {
       const pausesRoute = event.pause !== false;
-      const shouldResume = pausesRoute && this.options.isPlaying();
+      // Replacing a card first releases the previous card's media lock, then
+      // immediately acquires the new one when required.
       this.hide(false);
       const showToken = ++this.showToken;
-      this.resumePlayback = shouldResume;
+      this.routePaused = pausesRoute;
       if (typeof this.options.setPlaybackFactor === "function") {
         this.options.setPlaybackFactor(
           Number.isFinite(event.playback_factor) ? event.playback_factor : 1,
         );
       }
-      if (pausesRoute && this.options.isPlaying()) this.options.pausePlayback();
+      if (pausesRoute) this.options.pausePlayback();
 
       document.getElementById("supply-kicker").textContent =
         event.kicker || "旅 途 补 给";
@@ -386,6 +394,8 @@
       this.card.classList.toggle("chapter", event.priority !== "memory");
       this.defaultLayout = event.media_layout || null;
       if (this.clips.length) {
+        // Layout detection may load metadata asynchronously. Tokens prevent a
+        // stale result from repainting a card that has already been replaced.
         this.clips[0].detected_layout = await this.resolveClipLayout(
           this.clips[0],
           this.defaultLayout,

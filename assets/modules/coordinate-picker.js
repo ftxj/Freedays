@@ -1,5 +1,7 @@
 "use strict";
 
+// Small authoring UI for turning a visual map click into a reproducible
+// [longitude, latitude] editorial anchor.
 (function (app) {
   class CoordinatePicker {
     constructor(map) {

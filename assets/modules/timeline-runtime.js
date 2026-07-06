@@ -1,5 +1,7 @@
 "use strict";
 
+// Runtime event registry. `base` is generated project data; `active` is a
+// disposable view that may include browser-authored overrides and fired state.
 (function (app) {
   class TimelineRuntime {
     constructor(directiveEngine) {
@@ -24,6 +26,8 @@
     }
 
     applyManual(entries, distance) {
+      // Rebuild active arrays instead of mutating base events, so deleting a
+      // manual override reliably restores the generated project event.
       const replacedEventIds = new Set(
         (entries || [])
           .map((entry) => entry.point?.overrides_event_id)
