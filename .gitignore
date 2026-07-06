@@ -10,16 +10,10 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Raw media and editing outputs. Keep only the small web derivatives below.
-photo/*
-!photo/*_web.mp4
-!photo/*_poster.jpg
-
-video/*
-!video/web/
-!video/web/**
-!video/*_web.mp4
-!video/*_poster.jpg
+# Media and generated visual assets stay local; Git stores only code and data.
+photo/
+video/
+route_data/assets/
 
 Peakvision/
 edit/
