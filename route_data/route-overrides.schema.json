@@ -21,6 +21,19 @@
         "end": { "type": "string" }
       }
     },
+    "photoMotion": {
+      "enum": [
+        "none",
+        "pan-left-to-right",
+        "pan-right-to-left",
+        "pan-top-to-bottom",
+        "pan-bottom-to-top",
+        "zoom-in",
+        "zoom-out",
+        "drift-up-right",
+        "drift-down-left"
+      ]
+    },
     "storyEvent": {
       "type": "object",
       "required": ["id", "presentation", "title"],
@@ -36,6 +49,11 @@
         "poster": { "type": "string" },
         "image": { "type": "string" },
         "image_alt": { "type": "string" },
+        "photo_motion": { "$ref": "#/$defs/photoMotion" },
+        "photo_motion_duration_ms": { "type": "number", "minimum": 1000 },
+        "photo_motion_scale": { "type": "number", "minimum": 1, "maximum": 1.5 },
+        "photo_motion_easing": { "enum": ["linear", "ease", "ease-in", "ease-out", "ease-in-out"] },
+        "photo_window_aspect": { "type": "number", "exclusiveMinimum": 0 },
         "duration_ms": { "type": "number", "minimum": 1500 },
         "autoplay": { "type": "boolean" },
         "priority": { "enum": ["chapter", "memory"] },
@@ -51,7 +69,12 @@
         "image": { "type": "string" },
         "alt": { "type": "string" },
         "title": { "type": "string" },
-        "label": { "type": "string" }
+        "label": { "type": "string" },
+        "photo_motion": { "$ref": "#/$defs/photoMotion" },
+        "photo_motion_duration_ms": { "type": "number", "minimum": 1000 },
+        "photo_motion_scale": { "type": "number", "minimum": 1, "maximum": 1.5 },
+        "photo_motion_easing": { "enum": ["linear", "ease", "ease-in", "ease-out", "ease-in-out"] },
+        "photo_window_aspect": { "type": "number", "exclusiveMinimum": 0 }
       },
       "anyOf": [{ "required": ["video"] }, { "required": ["image"] }]
     },
@@ -221,6 +244,11 @@
           "poster": { "type": "string" },
           "image": { "type": "string" },
           "image_alt": { "type": "string" },
+          "photo_motion": { "$ref": "#/$defs/photoMotion" },
+          "photo_motion_duration_ms": { "type": "number", "minimum": 1000 },
+          "photo_motion_scale": { "type": "number", "minimum": 1, "maximum": 1.5 },
+          "photo_motion_easing": { "enum": ["linear", "ease", "ease-in", "ease-out", "ease-in-out"] },
+          "photo_window_aspect": { "type": "number", "exclusiveMinimum": 0 },
           "media_layout": { "enum": ["portrait", "landscape"] },
           "duration_ms": { "type": "number", "minimum": 1500 },
           "autoplay": { "type": "boolean" },

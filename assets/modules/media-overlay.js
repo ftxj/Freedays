@@ -3,6 +3,17 @@
 // Presents chapter videos, photo sequences and lightweight memories. Route
 // pausing is coordinated through callbacks; this module owns presentation time.
 (function (app) {
+  const PHOTO_MOTIONS = new Set([
+    "pan-left-to-right",
+    "pan-right-to-left",
+    "pan-top-to-bottom",
+    "pan-bottom-to-top",
+    "zoom-in",
+    "zoom-out",
+    "drift-up-right",
+    "drift-down-left",
+  ]);
+
   class MediaOverlay {
     constructor(options) {
       this.options = options;
@@ -29,6 +40,11 @@
       this.layoutToken = 0;
       this.showToken = 0;
       this.defaultLayout = null;
+      this.defaultPhotoMotion = "none";
+      this.defaultPhotoMotionDuration = 6000;
+      this.defaultPhotoMotionScale = 1.12;
+      this.defaultPhotoWindowAspect = null;
+      this.activePhotoWindowAspect = null;
       this.layoutCache = new Map();
       this.bindEvents();
     }
@@ -169,6 +185,8 @@
       this.image.alt = "";
       delete this.media.dataset.src;
       this.media.classList.remove("playing", "static-image");
+      this.clearPhotoMotion();
+      this.activePhotoWindowAspect = null;
       this.media.style.removeProperty("--media-aspect");
       this.media.style.removeProperty("aspect-ratio");
       this.card.classList.remove("show", "closing", "video-open", "landscape");
@@ -182,12 +200,53 @@
       this.releaseRoutePause();
     }
 
+    clearPhotoMotion() {
+      this.media.classList.remove("photo-motion");
+      delete this.media.dataset.photoMotion;
+      for (const property of [
+        "--photo-motion-duration",
+        "--photo-motion-scale",
+        "--photo-motion-easing",
+      ]) {
+        this.media.style.removeProperty(property);
+      }
+    }
+
+    applyPhotoMotion(clip) {
+      this.clearPhotoMotion();
+      const preset = clip.photo_motion || this.defaultPhotoMotion;
+      if (!PHOTO_MOTIONS.has(preset)) return;
+      const duration = Number.isFinite(clip.photo_motion_duration_ms)
+        ? clip.photo_motion_duration_ms
+        : this.defaultPhotoMotionDuration;
+      const scale = Number.isFinite(clip.photo_motion_scale)
+        ? clip.photo_motion_scale
+        : this.defaultPhotoMotionScale;
+      this.media.classList.add("photo-motion");
+      this.media.dataset.photoMotion = preset;
+      this.media.style.setProperty(
+        "--photo-motion-duration",
+        `${Math.max(1000, duration)}ms`,
+      );
+      this.media.style.setProperty(
+        "--photo-motion-scale",
+        String(Math.max(1, Math.min(1.5, scale))),
+      );
+      this.media.style.setProperty(
+        "--photo-motion-easing",
+        clip.photo_motion_easing || "ease-in-out",
+      );
+      // Reapplying a clip should restart its motion from the authored first
+      // frame instead of continuing a previous CSS animation timeline.
+      void this.image.offsetWidth;
+    }
+
     applyMediaDimensions(width, height) {
       if (!width || !height) return;
-      this.card.classList.toggle("landscape", width >= height);
-      const aspect = width / height;
+      const aspect = this.activePhotoWindowAspect || width / height;
+      this.card.classList.toggle("landscape", aspect >= 1);
       this.media.style.setProperty("--media-aspect", String(aspect));
-      this.media.style.aspectRatio = `${width} / ${height}`;
+      this.media.style.aspectRatio = String(aspect);
     }
 
     resolveClipLayout(clip, fallbackLayout = null) {
@@ -236,24 +295,33 @@
       this.clipIndex = (index + this.clips.length) % this.clips.length;
       const clip = this.clips[this.clipIndex];
       const layoutToken = ++this.layoutToken;
+      const isImage = Boolean(clip.image);
       const explicitLayout =
         clip.detected_layout || clip.media_layout || clip.layout || this.defaultLayout;
+      const requestedWindowAspect = Number(
+        clip.photo_window_aspect || this.defaultPhotoWindowAspect,
+      );
+      this.activePhotoWindowAspect =
+        isImage && Number.isFinite(requestedWindowAspect) && requestedWindowAspect > 0
+          ? requestedWindowAspect
+          : null;
+      const presentationAspect =
+        this.activePhotoWindowAspect ||
+        clip.detected_aspect ||
+        (explicitLayout === "landscape" ? 16 / 9 : 3 / 4);
       const applyDimensions = (width, height) => {
         if (layoutToken !== this.layoutToken || !width || !height) return;
         this.applyMediaDimensions(width, height);
       };
-      this.card.classList.toggle("landscape", explicitLayout === "landscape");
+      this.card.classList.toggle("landscape", presentationAspect >= 1);
       this.media.style.setProperty(
         "--media-aspect",
-        String(clip.detected_aspect || (explicitLayout === "landscape" ? 16 / 9 : 3 / 4)),
+        String(presentationAspect),
       );
-      this.media.style.aspectRatio = String(
-        clip.detected_aspect || (explicitLayout === "landscape" ? 16 / 9 : 3 / 4),
-      );
+      this.media.style.aspectRatio = String(presentationAspect);
       this.video.pause();
       this.video.removeAttribute("src");
       this.image.removeAttribute("src");
-      const isImage = Boolean(clip.image);
       this.media.classList.toggle("static-image", isImage);
       if (isImage) {
         this.video.removeAttribute("poster");
@@ -265,7 +333,9 @@
         };
         this.image.src = clip.image;
         this.image.alt = clip.alt || clip.title || "旅行照片";
+        this.applyPhotoMotion(clip);
       } else {
+        this.clearPhotoMotion();
         this.video.poster = clip.poster || "";
         this.media.dataset.src = clip.video;
         if (!explicitLayout && clip.poster) {
@@ -393,6 +463,22 @@
       this.card.classList.toggle("memory", event.priority === "memory");
       this.card.classList.toggle("chapter", event.priority !== "memory");
       this.defaultLayout = event.media_layout || null;
+      this.defaultPhotoMotion = event.photo_motion || "none";
+      this.defaultPhotoMotionDuration = Number.isFinite(
+        event.photo_motion_duration_ms,
+      )
+        ? event.photo_motion_duration_ms
+        : Number.isFinite(event.auto_advance_ms)
+          ? event.auto_advance_ms
+          : Number.isFinite(event.duration_ms)
+            ? event.duration_ms
+            : 6000;
+      this.defaultPhotoMotionScale = Number.isFinite(event.photo_motion_scale)
+        ? event.photo_motion_scale
+        : 1.12;
+      this.defaultPhotoWindowAspect = Number.isFinite(event.photo_window_aspect)
+        ? event.photo_window_aspect
+        : null;
       if (this.clips.length) {
         // Layout detection may load metadata asynchronously. Tokens prevent a
         // stale result from repainting a card that has already been replaced.

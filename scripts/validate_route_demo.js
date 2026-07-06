@@ -38,7 +38,13 @@ if (!html.includes('id="seek" min="0" max="100000"')) {
 for (const id of ["region-preview", "btn-region-preview", "supply-image"]) {
   if (!html.includes(`id="${id}"`)) fail(`Regional preview UI element is missing: ${id}`);
 }
-for (const id of ["btn-story-editor", "story-editor", "story-editor-save", "story-editor-assets", "story-editor-time", "story-timeline", "story-timeline-seek", "story-focus-timeline", "story-focus-seek", "backpack-selection-confirm"]) {
+for (const id of [
+  "btn-story-editor", "story-editor", "story-editor-save", "story-editor-assets",
+  "story-editor-time", "story-editor-photo-motion", "story-editor-photo-aspect",
+  "story-editor-photo-duration", "story-editor-photo-scale", "story-timeline",
+  "story-timeline-seek", "story-focus-timeline", "story-focus-seek",
+  "backpack-selection-confirm",
+]) {
   if (!html.includes(`id="${id}"`)) fail(`Manual story editor UI element is missing: ${id}`);
 }
 

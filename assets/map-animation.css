@@ -1619,6 +1619,38 @@ select:focus-visible {
   display: block;
   object-fit: contain;
 }
+.supply-media.photo-motion img {
+  object-fit: cover;
+  animation-duration: var(--photo-motion-duration, 6s);
+  animation-timing-function: var(--photo-motion-easing, ease-in-out);
+  animation-fill-mode: both;
+  will-change: transform, object-position;
+  transform-origin: center;
+}
+.supply-media[data-photo-motion="pan-left-to-right"] img {
+  animation-name: photoPanLeftToRight;
+}
+.supply-media[data-photo-motion="pan-right-to-left"] img {
+  animation-name: photoPanRightToLeft;
+}
+.supply-media[data-photo-motion="pan-top-to-bottom"] img {
+  animation-name: photoPanTopToBottom;
+}
+.supply-media[data-photo-motion="pan-bottom-to-top"] img {
+  animation-name: photoPanBottomToTop;
+}
+.supply-media[data-photo-motion="zoom-in"] img {
+  animation-name: photoZoomIn;
+}
+.supply-media[data-photo-motion="zoom-out"] img {
+  animation-name: photoZoomOut;
+}
+.supply-media[data-photo-motion="drift-up-right"] img {
+  animation-name: photoDriftUpRight;
+}
+.supply-media[data-photo-motion="drift-down-left"] img {
+  animation-name: photoDriftDownLeft;
+}
 .supply-media.static-image video,
 .supply-media.static-image .supply-play {
   display: none;
@@ -1797,6 +1829,49 @@ select:focus-visible {
   to {
     opacity: 0;
     transform: translateY(8px) scale(0.98);
+  }
+}
+
+/* Fixed-window photo moves. Object position changes the visible crop while
+   transform supplies enough overscan to avoid exposing the frame background. */
+@keyframes photoPanLeftToRight {
+  from { object-position: 8% 50%; transform: scale(var(--photo-motion-scale, 1.12)) translateX(4%); }
+  to { object-position: 92% 50%; transform: scale(var(--photo-motion-scale, 1.12)) translateX(-4%); }
+}
+@keyframes photoPanRightToLeft {
+  from { object-position: 92% 50%; transform: scale(var(--photo-motion-scale, 1.12)) translateX(-4%); }
+  to { object-position: 8% 50%; transform: scale(var(--photo-motion-scale, 1.12)) translateX(4%); }
+}
+@keyframes photoPanTopToBottom {
+  from { object-position: 50% 8%; transform: scale(var(--photo-motion-scale, 1.12)) translateY(4%); }
+  to { object-position: 50% 92%; transform: scale(var(--photo-motion-scale, 1.12)) translateY(-4%); }
+}
+@keyframes photoPanBottomToTop {
+  from { object-position: 50% 92%; transform: scale(var(--photo-motion-scale, 1.12)) translateY(-4%); }
+  to { object-position: 50% 8%; transform: scale(var(--photo-motion-scale, 1.12)) translateY(4%); }
+}
+@keyframes photoZoomIn {
+  from { object-position: 50% 50%; transform: scale(1); }
+  to { object-position: 50% 50%; transform: scale(var(--photo-motion-scale, 1.12)); }
+}
+@keyframes photoZoomOut {
+  from { object-position: 50% 50%; transform: scale(var(--photo-motion-scale, 1.12)); }
+  to { object-position: 50% 50%; transform: scale(1); }
+}
+@keyframes photoDriftUpRight {
+  from { object-position: 18% 82%; transform: scale(var(--photo-motion-scale, 1.12)) translate(-3%, 3%); }
+  to { object-position: 82% 18%; transform: scale(var(--photo-motion-scale, 1.12)) translate(3%, -3%); }
+}
+@keyframes photoDriftDownLeft {
+  from { object-position: 82% 18%; transform: scale(var(--photo-motion-scale, 1.12)) translate(3%, -3%); }
+  to { object-position: 18% 82%; transform: scale(var(--photo-motion-scale, 1.12)) translate(-3%, 3%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .supply-media.photo-motion img {
+    animation: none !important;
+    transform: none !important;
+    object-position: 50% 50% !important;
   }
 }
 

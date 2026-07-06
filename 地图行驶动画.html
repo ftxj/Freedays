@@ -12,7 +12,7 @@
     <script src="route_data/processed/route-data.js?v=20260706-d26-naicun-link"></script>
     <script src="route_data/map-content.js?v=20260705-route-repairs"></script>
     <link
-      href="assets/map-animation.css?v=20260706-tunnel-ranges"
+      href="assets/map-animation.css?v=20260706-photo-motion"
       rel="stylesheet"
     />
   </head>
@@ -263,6 +263,24 @@
         <label class="story-editor-field"><span>文字</span><textarea id="story-editor-subtitle" rows="2" placeholder="用一句话说明这里发生了什么"></textarea></label>
         <label class="story-editor-field"><span>素材路径（每行一个）</span><textarea id="story-editor-assets" rows="4" placeholder="photo/DSC_0001.JPG&#10;video/example_web.mp4"></textarea></label>
         <button id="story-editor-use-backpack" type="button">🎒 打开背包并选择素材</button>
+        <h3>静态照片动态化</h3>
+        <div class="story-editor-grid two">
+          <label class="story-editor-field"><span>照片运动</span><select id="story-editor-photo-motion">
+            <option value="none">静止</option><option value="pan-left-to-right">从左向右</option>
+            <option value="pan-right-to-left">从右向左</option><option value="pan-top-to-bottom">从上向下</option>
+            <option value="pan-bottom-to-top">从下向上</option><option value="zoom-in">缓慢推近</option>
+            <option value="zoom-out">缓慢拉远</option><option value="drift-up-right">向右上漂移</option>
+            <option value="drift-down-left">向左下漂移</option>
+          </select></label>
+          <label class="story-editor-field"><span>展示窗口</span><select id="story-editor-photo-aspect">
+            <option value="0">跟随原图</option><option value="1.7777778">16:9 电影</option>
+            <option value="1.3333333">4:3</option><option value="1">1:1</option><option value="0.8">4:5 竖图</option>
+          </select></label>
+        </div>
+        <div class="story-editor-grid two">
+          <label class="story-editor-field"><span>运动秒数</span><input id="story-editor-photo-duration" type="number" min="1" max="60" step="0.5" value="6" /></label>
+          <label class="story-editor-field"><span>运动缩放</span><input id="story-editor-photo-scale" type="number" min="1" max="1.5" step="0.01" value="1.12" /></label>
+        </div>
         <h3>地图镜头</h3>
         <div class="story-editor-pick camera-center">
           <div><span>镜头中心</span><code id="story-editor-camera-center">读取当前地图中心</code></div>
@@ -293,10 +311,10 @@
     <script src="assets/modules/timeline-runtime.js?v=20260706-timeline-core"></script>
     <script src="assets/modules/playback-controls.js?v=20260706-pause-reasons"></script>
     <script src="assets/modules/camera-policy.js?v=20260703-architecture"></script>
-    <script src="assets/modules/media-overlay.js?v=20260706-pause-reasons"></script>
+    <script src="assets/modules/media-overlay.js?v=20260706-photo-motion"></script>
     <script src="assets/modules/coordinate-picker.js?v=20260703-architecture"></script>
     <script src="assets/modules/material-backpack.js?v=20260705-cluster-time-anchor"></script>
-    <script src="assets/modules/manual-story-editor.js?v=20260706-authoring"></script>
+    <script src="assets/modules/manual-story-editor.js?v=20260706-photo-motion"></script>
     <script src="assets/modules/story-timeline.js?v=20260706-authoring"></script>
     <script src="assets/map-animation.js?v=20260706-pause-reasons"></script>
   </body>

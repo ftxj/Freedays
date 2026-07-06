@@ -201,6 +201,10 @@
       }
       document.getElementById("story-editor-type").value = "memory";
       document.getElementById("story-editor-pause").value = "false";
+      document.getElementById("story-editor-photo-motion").value = "none";
+      document.getElementById("story-editor-photo-aspect").value = "0";
+      document.getElementById("story-editor-photo-duration").value = "6";
+      document.getElementById("story-editor-photo-scale").value = "1.12";
       this.savedSelect.value = "";
       const origin = document.getElementById("story-editor-origin");
       origin.textContent = "新建故事点会使用当前播放状态";
@@ -248,6 +252,13 @@
         playback_factor: numberValue("story-editor-playback", 0.45),
         duration_seconds: numberValue("story-editor-duration", 5),
         camera_window_seconds: numberValue("story-editor-window", 45),
+        photo_motion: document.getElementById("story-editor-photo-motion").value,
+        photo_window_aspect: numberValue("story-editor-photo-aspect", 0),
+        photo_motion_duration_seconds: numberValue(
+          "story-editor-photo-duration",
+          6,
+        ),
+        photo_motion_scale: numberValue("story-editor-photo-scale", 1.12),
         updated_at: new Date().toISOString(),
       };
     }
@@ -348,6 +359,11 @@
         playback_factor: event.playback_factor ?? camera.playback_factor ?? 0.55,
         duration_seconds: (event.duration_ms || 5000) / 1000,
         camera_window_seconds: duration,
+        photo_motion: event.photo_motion || "none",
+        photo_window_aspect: event.photo_window_aspect || 0,
+        photo_motion_duration_seconds:
+          (event.photo_motion_duration_ms || event.duration_ms || 6000) / 1000,
+        photo_motion_scale: event.photo_motion_scale || 1.12,
       });
       const origin = document.getElementById("story-editor-origin");
       origin.textContent = `正在编辑现有效果：${event.id}。保存后将以本地覆盖取代原效果。`;
@@ -369,6 +385,10 @@
         subtitle: point.subtitle, assets: (point.assets || []).join("\n"), zoom: point.zoom,
         pitch: point.pitch, bearing: point.bearing, playback: point.playback_factor,
         duration: point.duration_seconds, window: point.camera_window_seconds,
+        "photo-motion": point.photo_motion || "none",
+        "photo-aspect": point.photo_window_aspect || 0,
+        "photo-duration": point.photo_motion_duration_seconds || 6,
+        "photo-scale": point.photo_motion_scale || 1.12,
       })) document.getElementById(`story-editor-${idSuffix}`).value = value;
       this.renderCameraCenter();
     }
@@ -410,6 +430,16 @@
         playback_factor: point.playback_factor,
       };
       if (!isChapter) {
+        if (point.photo_motion && point.photo_motion !== "none") {
+          event.photo_motion = point.photo_motion;
+          event.photo_motion_duration_ms = Math.round(
+            point.photo_motion_duration_seconds * 1000,
+          );
+          event.photo_motion_scale = point.photo_motion_scale;
+          if (point.photo_window_aspect > 0) {
+            event.photo_window_aspect = point.photo_window_aspect;
+          }
+        }
         const clips = point.assets.map((path) => assetKind(path) === "video"
           ? { video: path, poster: posterFor(path), title: point.title }
           : { image: path, title: point.title, alt: point.subtitle || point.title });
